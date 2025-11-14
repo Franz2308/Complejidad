@@ -1,0 +1,86 @@
+/* mi_app/static/mi_app/style.css */
+
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del formulario */
+form {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilos de etiquetas */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Estilos de inputs */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Estilos del botón */
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Cambiar color del botón al pasar el mouse */
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.bar-container {
+    width: 100%;         /* ocupa todo el ancho de la celda */
+    height: 100%;        /* ocupa toda la altura de la celda */
+    background-color: #eee; /* color de fondo de la barra */
+    position: relative;
+}
+
+.fill {
+    height: 100%;        /* ahora ocupa toda la altura de la celda */
+    width: var(--w);     /* ancho según score */
+    text-align: center;
+    line-height: normal; /* para que el texto se centre verticalmente */
+    color: black;        /* letra negra */
+}
+
+/* Colores según compatibilidad */
+.verde {
+    background-color: #4CAF50;
+    color: black;
+}
+
+.amarillo {
+    background-color: #FFC107;
+    color: black; /* para que se vea sobre amarillo */
+}
+
+.rojo {
+    background-color: #F44336;
+    color: black;
+}

@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados de compatibilidad</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'RoomFrom/style.css' %}">
+</head>
+<body>
+<h2>Resultados de compatibilidad</h2>
+
+{% if tu_estudiante %}
+    <p>Mostrando compatibilidad para: {{ tu_estudiante.name }}</p>
+
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Universidad</th>
+            <th>Distrito</th>
+            <th>Compatibilidad</th>
+        </tr>
+        {% for estudiante, score, color_class in resultados %}
+        <tr>
+            <td>{{ estudiante.name }}</td>
+            <td>{{ estudiante.age }}</td>
+            <td>{{ estudiante.university }}</td>
+            <td>{{ estudiante.district }}</td>
+            <td>
+                <div class="bar-container">
+                    <div class="fill {{ color_class }}" style="--w: {{ score|floatformat:0 }}%;">
+                        {{ score|floatformat:0 }}%
+                    </div>
+                </div>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <form method="post">
+        {% csrf_token %}
+        <label for="student_id">Selecciona tu perfil:</label>
+        <select name="student_id">
+            {% for estudiante in estudiantes %}
+            <option value="{{ estudiante.student_id }}">{{ estudiante.name }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Buscar roomies</button>
+    </form>
+{% endif %}

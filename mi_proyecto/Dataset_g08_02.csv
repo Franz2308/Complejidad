@@ -1,0 +1,1501 @@
+﻿id,name,age,gender,university,faculty,year,rent_total,expected_rent,district,latitude,longitude,has_pets,smoker,max_commute_min
+S0001,Antonio Herrera,19,M,UNI,Psicología,5,1282,641,San Miguel,-12.065716,-77.089938,True,True,29
+S0002,María Rojas,21,F,UTP,Diseño,3,1047,524,Surco,-12.158905,-76.985917,False,True,46
+S0003,Ricardo Sánchez,19,M,UAP,Arte,2,880,440,San Miguel,-12.05901,-77.081629,False,False,46
+S0004,Pablo Molina,20,M,UPC,Derecho,1,1072,536,Magdalena,-12.081084,-77.072705,False,False,54
+S0005,Diana Huamán,25,F,UCS,Arte,4,813,406,Los Olivos,-11.979111,-77.064226,False,False,41
+S0006,Tatiana Villegas,20,F,UCS,Economía,4,1203,602,Miraflores,-12.115001,-77.033003,False,True,44
+S0007,Miranda Zamora,25,F,UTP,Medicina,4,1171,586,Miraflores,-12.125232,-77.035054,True,False,25
+S0008,Claudia Romero,20,F,USIL,Medicina,3,1445,722,Miraflores,-12.130031,-77.027981,True,False,23
+S0009,Gabriel Huamán,22,M,UL,Administración,3,1587,794,Comas,-11.996729,-77.062811,True,False,35
+S0010,Gustavo Fernández,21,M,UNMSM,Medicina,1,820,410,Surco,-12.15868,-76.991028,False,True,47
+S0011,Sheltty Herrera,22,F,UTP,Administración,1,1186,593,San Isidro,-12.08875,-77.028802,True,True,57
+S0012,Manuel Díaz,22,M,USIL,Ciencias,1,1244,622,San Miguel,-12.056698,-77.095575,True,False,47
+S0013,Miguel Zamora,20,M,UNMSM,Informática,5,1346,673,San Miguel,-12.058245,-77.086102,False,True,27
+S0014,Héctor Reyes,19,M,USIL,Administración,5,1194,597,La Molina,-12.061272,-76.931981,True,False,39
+S0015,Valeria León,19,F,PUCP,Medicina,3,1294,647,Surco,-12.151252,-76.991107,True,False,45
+S0016,Ana Gutiérrez,20,F,UAP,Administración,4,1166,583,San Isidro,-12.089557,-77.02769,True,False,31
+S0017,Carmen Rojas,19,F,UNMSM,Ingeniería,2,1429,714,San Isidro,-12.103112,-77.034099,False,True,25
+S0018,Tania Luna,21,F,UPC,Informática,1,1456,728,San Miguel,-12.064114,-77.083308,False,True,24
+S0019,Sheltty Carrasco,22,F,UCS,Arquitectura,2,1260,630,Los Olivos,-11.975282,-77.078695,True,True,47
+S0020,Patricia Morales,19,F,UCS,Ciencias,1,1404,702,San Isidro,-12.091481,-77.04138,False,True,37
+S0021,Alberto Delgado,19,M,UNMSM,Ciencias,1,1106,553,La Molina,-12.073404,-76.918793,False,False,22
+S0022,Patricia Mejía,19,F,UCS,Derecho,1,1254,627,San Isidro,-12.098461,-77.04461,True,True,41
+S0023,Nicolás Campos,23,M,UNI,Ingeniería,2,1335,668,San Miguel,-12.054072,-77.095863,False,True,23
+S0024,Nicolás Vargas,24,M,UTP,Derecho,4,1478,739,San Miguel,-12.062078,-77.07919,True,True,28
+S0025,Eduardo Lozano,25,M,UTP,Ciencias,3,1178,589,Magdalena,-12.084013,-77.075033,True,False,34
+S0026,Alberto Fernández,21,M,UTP,Diseño,3,1496,748,San Miguel,-12.063015,-77.079158,True,False,44
+S0027,Pedro Ramírez,22,M,PUCP,Arte,1,997,498,La Molina,-12.056558,-76.92803,False,True,59
+S0028,Renato Campos,24,M,USIL,Informática,5,1023,512,San Isidro,-12.101116,-77.030721,True,True,24
+S0029,Antonio García,25,M,UAP,Medicina,1,1511,756,Los Olivos,-11.971548,-77.062772,True,False,55
+S0030,Adriana Rojas,21,F,PUCP,Arquitectura,2,1001,500,San Isidro,-12.101427,-77.031728,False,True,20
+S0031,Sheltty Peña,22,F,UTP,Arquitectura,2,1585,792,Magdalena,-12.08911,-77.067193,False,True,23
+S0032,Isabel Suárez,18,F,UPC,Ingeniería,4,865,432,Surco,-12.148359,-76.981752,False,True,60
+S0033,Rafael Ruiz,25,M,UL,Informática,1,1265,632,Los Olivos,-11.968659,-77.060065,False,False,41
+S0034,Rosa Silva,21,F,UCS,Informática,1,1484,742,San Isidro,-12.086957,-77.04283,True,False,42
+S0035,Esteban Quispe,24,M,UNMSM,Economía,2,855,428,La Molina,-12.07256,-76.93269,False,True,38
+S0036,Natalia Flores,20,F,UCS,Medicina,5,1310,655,Comas,-11.998561,-77.067196,True,True,37
+S0037,Tania Aguilar,19,F,UNMSM,Diseño,1,837,418,San Isidro,-12.098495,-77.04051,True,True,53
+S0038,Marisol Lozano,20,F,UL,Economía,1,1477,738,Magdalena,-12.090268,-77.06345,False,True,21
+S0039,Luz Vargas,24,F,UTP,Arquitectura,2,943,472,La Molina,-12.070986,-76.929542,True,True,29
+S0040,Rodrigo Huamán,19,M,UAP,Arquitectura,1,948,474,San Isidro,-12.096173,-77.039035,False,True,37
+S0041,Marisol Díaz,25,F,UCS,Psicología,2,1024,512,San Miguel,-12.049924,-77.093518,False,True,52
+S0042,Araceli Salazar,22,F,UTP,Informática,1,851,426,La Molina,-12.071363,-76.934244,False,True,54
+S0043,Manuel Zamora,18,M,UNI,Ciencias,4,1399,700,San Isidro,-12.10273,-77.036362,True,True,36
+S0044,Héctor Montoya,23,M,UTP,Derecho,4,1449,724,Miraflores,-12.119763,-77.022314,True,True,32
+S0045,Jorge Aguilar,21,M,PUCP,Diseño,5,1105,552,San Isidro,-12.092573,-77.038712,False,True,41
+S0046,Carla Vargas,18,F,UNMSM,Medicina,1,1420,710,San Isidro,-12.08992,-77.034846,True,True,46
+S0047,Valeria Molina,21,F,UCS,Derecho,4,1255,628,San Miguel,-12.059879,-77.092816,False,True,44
+S0048,Pablo García,24,M,USIL,Derecho,3,904,452,San Isidro,-12.102662,-77.044477,True,True,34
+S0049,Víctor Peña,24,M,UNI,Administración,1,1497,748,La Molina,-12.068408,-76.923529,False,True,49
+S0050,Sheltty Ortega,24,F,UAP,Psicología,4,1200,600,Surco,-12.153135,-76.986208,True,False,41
+S0051,Pedro Peña,18,M,UPC,Arte,1,1350,675,Miraflores,-12.114047,-77.03087,False,False,37
+S0052,Pablo Gómez,21,M,PUCP,Arte,1,1449,724,La Molina,-12.073076,-76.929656,False,False,23
+S0053,Ana Díaz,24,F,UAP,Medicina,4,1466,733,La Molina,-12.055352,-76.93218,False,False,57
+S0054,Pablo Salazar,18,M,UCS,Ingeniería,4,1528,764,Los Olivos,-11.968003,-77.0791,False,False,42
+S0055,Vanessa Paredes,20,F,USIL,Ingeniería,3,1046,523,La Molina,-12.055951,-76.916775,False,False,32
+S0056,Sofía Gómez,18,F,PUCP,Ciencias,5,1033,516,Surco,-12.143822,-76.997587,True,True,56
+S0057,Sebastián Vargas,25,M,UNI,Derecho,5,981,490,Comas,-12.008654,-77.066334,False,False,32
+S0058,Rafael Delgado,23,M,UNI,Psicología,5,1013,506,Los Olivos,-11.970886,-77.069449,False,True,52
+S0059,Pablo Molina,19,M,PUCP,Ingeniería,4,1371,686,La Molina,-12.067916,-76.935458,False,False,47
+S0060,Andrés Cabrera,19,M,UL,Medicina,5,993,496,Magdalena,-12.083013,-77.077089,False,True,56
+S0061,Vanessa Ramírez,20,F,UCS,Ciencias,5,1199,600,La Molina,-12.067857,-76.932723,True,True,43
+S0062,Alejandro Mejía,20,M,UL,Economía,4,1457,728,San Isidro,-12.099885,-77.038556,False,True,58
+S0063,Andrés Alvarado,25,M,UTP,Ciencias,3,1421,710,La Molina,-12.063444,-76.92255,False,False,39
+S0064,Marisol Espinoza,19,F,UPC,Arquitectura,3,1207,604,Magdalena,-12.092723,-77.067087,True,False,23
+S0065,Sheltty Zamora,23,F,UCS,Economía,5,1376,688,San Miguel,-12.052975,-77.082791,True,False,27
+S0066,Verónica Ramos,18,F,USIL,Medicina,1,1137,568,San Miguel,-12.059344,-77.091187,False,False,48
+S0067,Sergio Luna,19,M,USIL,Ciencias,4,1049,524,Magdalena,-12.083435,-77.069629,True,True,32
+S0068,Martín Quispe,18,M,PUCP,Medicina,2,1587,794,Surco,-12.148903,-76.995012,True,True,30
+S0069,José Ortega,18,M,UNMSM,Derecho,3,1472,736,San Isidro,-12.091861,-77.040066,True,False,56
+S0070,Oscar Alvarado,24,M,UCS,Diseño,3,1141,570,Comas,-11.994002,-77.074676,False,True,32
+S0071,Renato Herrera,20,M,PUCP,Informática,4,1547,774,San Isidro,-12.091962,-77.032217,False,True,48
+S0072,Carlos Huamán,25,M,PUCP,Derecho,5,1377,688,San Miguel,-12.063534,-77.090214,True,True,21
+S0073,Natalia Carrasco,20,F,PUCP,Diseño,5,977,488,Miraflores,-12.111716,-77.029899,True,True,48
+S0074,Andrea Yáñez,19,F,USIL,Medicina,4,855,428,San Miguel,-12.060954,-77.090486,True,False,44
+S0075,María Huamán,25,F,UCS,Arte,4,868,434,San Miguel,-12.056992,-77.078819,True,False,53
+S0076,Valeria Salazar,18,F,UTP,Psicología,3,917,458,Magdalena,-12.097889,-77.061966,False,False,22
+S0077,Héctor Rojas,18,M,UNMSM,Derecho,3,1463,732,San Miguel,-12.064805,-77.092898,False,False,49
+S0078,Andrea Vargas,20,F,UNMSM,Psicología,4,1111,556,San Isidro,-12.086497,-77.04008,True,True,34
+S0079,Valeria Cruz,25,F,UTP,Medicina,1,867,434,Surco,-12.157297,-76.999177,True,True,45
+S0080,Ana Ramírez,22,F,UNMSM,Medicina,1,1106,553,San Miguel,-12.054112,-77.093069,False,True,60
+S0081,Alejandro Peña,25,M,PUCP,Ingeniería,3,995,498,Surco,-12.156724,-76.99819,True,False,58
+S0082,Víctor Bravo,24,M,UNMSM,Arquitectura,3,912,456,Comas,-11.999712,-77.074679,True,True,27
+S0083,Carlos Quispe,18,M,UPC,Informática,1,1083,542,Miraflores,-12.11452,-77.023867,True,True,42
+S0084,Renato Quispe,23,M,UTP,Ciencias,4,944,472,Magdalena,-12.091197,-77.061798,False,False,27
+S0085,Juliana Valdez,21,F,UPC,Derecho,4,1314,657,Los Olivos,-11.967674,-77.073997,True,False,41
+S0086,Pablo León,22,M,UTP,Ciencias,3,1361,680,San Miguel,-12.047286,-77.093457,False,False,59
+S0087,Renato Fernández,18,M,PUCP,Ingeniería,2,1417,708,San Miguel,-12.047563,-77.094408,True,True,25
+S0088,Sofía Chávez,19,F,UPC,Administración,2,1237,618,Los Olivos,-11.979611,-77.077884,True,True,32
+S0089,Manuel Reyes,22,M,UNMSM,Informática,3,1304,652,La Molina,-12.054932,-76.928591,False,True,47
+S0090,Lorena Peña,22,F,UCS,Arquitectura,5,1189,594,Comas,-12.004587,-77.070339,False,True,36
+S0091,Ricardo Delgado,20,M,UNI,Medicina,4,1437,718,Comas,-12.005603,-77.076472,True,False,60
+S0092,Nicolás Gómez,19,M,UCS,Derecho,1,1261,630,Magdalena,-12.090844,-77.075252,False,True,56
+S0093,Juan Molina,20,M,UTP,Derecho,2,977,488,La Molina,-12.067319,-76.925286,True,True,27
+S0094,Lucía Mendoza,21,F,UTP,Informática,1,1186,593,Surco,-12.147556,-76.993618,True,False,48
+S0095,Jessica Zamora,21,F,UPC,Administración,1,1206,603,La Molina,-12.06083,-76.933069,False,True,29
+S0096,Víctor Sánchez,22,M,USIL,Informática,1,1101,550,Surco,-12.141428,-76.981437,False,False,32
+S0097,Víctor García,19,M,UNI,Arte,3,1500,750,San Isidro,-12.088343,-77.032404,True,True,28
+S0098,Brenda Campos,21,F,UL,Arquitectura,5,1165,582,Surco,-12.1427,-76.988559,True,True,28
+S0099,Pablo Valdez,23,M,UAP,Informática,4,1449,724,Los Olivos,-11.963764,-77.064202,False,True,35
+S0100,Sebastián Quispe,22,M,UTP,Ingeniería,1,978,489,Comas,-11.989918,-77.077554,False,True,52
+S0101,Tania Castillo,23,F,USIL,Derecho,2,1560,780,Surco,-12.142494,-76.994031,True,True,53
+S0102,Luz Castillo,21,F,UAP,Ciencias,1,1537,768,Surco,-12.150468,-76.981284,True,True,31
+S0103,Diana Aguilar,21,F,UL,Derecho,2,1166,583,Los Olivos,-11.974364,-77.06326,True,False,56
+S0104,Lorena Silva,18,F,PUCP,Derecho,1,1598,799,Miraflores,-12.131004,-77.035222,True,False,42
+S0105,Diana Silva,19,F,UNMSM,Ingeniería,5,1316,658,La Molina,-12.067824,-76.923894,False,False,47
+S0106,Vanessa Aguilar,18,F,UAP,Diseño,5,1519,760,Magdalena,-12.097584,-77.067217,False,True,34
+S0107,Sheltty Huamán,20,F,UTP,Diseño,5,986,493,Magdalena,-12.081079,-77.06257,True,True,57
+S0108,Jimena Rojas,20,F,UPC,Ciencias,1,1466,733,La Molina,-12.056686,-76.919954,True,False,33
+S0109,Fernando Peña,22,M,UNI,Arquitectura,4,982,491,San Isidro,-12.105834,-77.041807,False,False,30
+S0110,Aler Palomino,24,M,USIL,Arte,5,1015,508,La Molina,-12.061899,-76.925305,True,True,30
+S0111,María Vargas,25,F,UCS,Ciencias,2,1564,782,Comas,-11.992867,-77.062246,True,False,55
+S0112,Carlos Villegas,20,M,UL,Economía,4,1510,755,San Miguel,-12.061061,-77.088584,True,False,25
+S0113,Elías Cabrera,22,M,UPC,Arquitectura,5,1287,644,Magdalena,-12.081245,-77.067827,True,False,56
+S0114,Elena Tello,22,F,UNI,Derecho,1,1245,622,Los Olivos,-11.965842,-77.062751,True,True,47
+S0115,Miguel Aguilar,20,M,UTP,Administración,4,942,471,Comas,-11.990818,-77.07183,False,True,47
+S0116,Eduardo Palomino,20,M,PUCP,Ciencias,4,854,427,San Isidro,-12.10205,-77.039076,True,True,39
+S0117,Patricia Silva,18,F,UTP,Ciencias,3,1234,617,Los Olivos,-11.97372,-77.07187,False,True,44
+S0118,Manuel Suárez,22,M,PUCP,Psicología,5,952,476,La Molina,-12.06824,-76.918979,False,False,22
+S0119,Carla Carrasco,22,F,UAP,Economía,1,1492,746,San Miguel,-12.05269,-77.079244,False,True,44
+S0120,Ricardo Yáñez,18,M,UNMSM,Arte,3,1514,757,Miraflores,-12.12453,-77.026171,False,True,22
+S0121,Jorge Fernández,22,M,UTP,Derecho,5,1451,726,San Miguel,-12.049913,-77.07899,True,False,26
+S0122,Alejandro Ortega,19,M,UL,Ingeniería,2,972,486,San Miguel,-12.064038,-77.087126,True,True,55
+S0123,Miranda Delgado,20,F,USIL,Medicina,3,971,486,San Isidro,-12.086481,-77.039455,False,False,32
+S0124,Eduardo Campos,19,M,USIL,Derecho,3,1553,776,La Molina,-12.065043,-76.924313,True,False,21
+S0125,Renato Campos,25,M,UNMSM,Informática,1,911,456,Miraflores,-12.121506,-77.021543,True,True,21
+S0126,Tatiana Luna,20,F,USIL,Medicina,1,1074,537,Miraflores,-12.128676,-77.02994,False,True,29
+S0127,Sebastián Herrera,18,M,UAP,Economía,2,1146,573,Surco,-12.155302,-76.988343,True,False,22
+S0128,Daniel Huamán,22,M,USIL,Ingeniería,1,1313,656,La Molina,-12.05885,-76.92751,False,True,50
+S0129,Elías Valdez,24,M,UAP,Arte,4,1077,538,Surco,-12.150018,-76.993713,False,True,57
+S0130,Camila Ruiz,18,F,PUCP,Psicología,4,1366,683,La Molina,-12.066803,-76.921481,False,True,38
+S0131,Pedro Mejía,18,M,UTP,Derecho,5,938,469,Miraflores,-12.127998,-77.033735,True,False,54
+S0132,Julio Herrera,22,M,UAP,Arte,2,1448,724,Magdalena,-12.089398,-77.071661,False,True,56
+S0133,Rosa Ramírez,20,F,UL,Ingeniería,2,1240,620,Surco,-12.14854,-76.993986,True,False,21
+S0134,Noelia Delgado,19,F,UTP,Ciencias,1,1383,692,San Isidro,-12.095261,-77.035089,True,False,23
+S0135,Marco Herrera,20,M,UCS,Medicina,5,1029,514,Los Olivos,-11.96643,-77.071151,False,True,58
+S0136,Gabriel Carrasco,22,M,UNI,Diseño,4,1067,534,Los Olivos,-11.967174,-77.073689,True,True,37
+S0137,Jimena Valdez,25,F,UL,Arte,3,1600,800,Surco,-12.150981,-76.985241,False,False,26
+S0138,Tania Flores,20,F,UNMSM,Informática,2,1074,537,San Miguel,-12.05702,-77.08513,False,False,34
+S0139,Oscar Flores,18,M,UAP,Medicina,2,888,444,San Isidro,-12.104289,-77.028917,True,True,41
+S0140,Diana Vargas,19,F,UNI,Economía,4,1262,631,Comas,-11.994976,-77.064914,True,True,51
+S0141,Carlos Campos,18,M,UL,Ingeniería,3,801,400,Comas,-11.991159,-77.063531,False,True,52
+S0142,Oscar Fernández,23,M,UPC,Ciencias,1,889,444,Miraflores,-12.12906,-77.034413,False,False,46
+S0143,Claudia Paredes,21,F,UCS,Arte,1,1051,526,Miraflores,-12.126586,-77.032931,False,False,30
+S0144,Juliana Herrera,21,F,UTP,Ingeniería,5,1389,694,Magdalena,-12.082584,-77.072643,False,True,27
+S0145,Enrique Díaz,21,M,UNMSM,Ciencias,2,1567,784,Magdalena,-12.092433,-77.07781,False,False,47
+S0146,Mario Ruiz,25,M,UAP,Economía,5,1289,644,La Molina,-12.067341,-76.922161,True,False,32
+S0147,Pedro Cabrera,21,M,UCS,Ciencias,4,984,492,Magdalena,-12.083572,-77.074308,True,False,37
+S0148,Diego Carrasco,20,M,USIL,Arte,5,1484,742,Comas,-11.997056,-77.063793,True,True,35
+S0149,Jorge Valdez,18,M,UCS,Arquitectura,5,1087,544,San Miguel,-12.058626,-77.095015,True,True,60
+S0150,Valeria Montoya,19,F,UNMSM,Ingeniería,1,857,428,San Isidro,-12.099034,-77.031564,False,True,60
+S0151,Aler Tello,19,M,UTP,Ciencias,5,1020,510,La Molina,-12.057158,-76.929375,False,True,23
+S0152,Sergio Ibarra,18,M,USIL,Arquitectura,1,1133,566,Surco,-12.142924,-76.988364,False,False,37
+S0153,Raúl Valdez,23,M,UNI,Arquitectura,5,1359,680,San Miguel,-12.047039,-77.077483,False,True,44
+S0154,Juliana Zamora,20,F,UNI,Ingeniería,2,828,414,San Miguel,-12.065446,-77.079836,False,True,44
+S0155,Pablo García,21,M,UTP,Economía,3,1122,561,La Molina,-12.057833,-76.928866,False,True,55
+S0156,Cristian Gutiérrez,18,M,UCS,Medicina,2,898,449,San Miguel,-12.057452,-77.076653,False,True,33
+S0157,Marco Cabrera,25,M,USIL,Medicina,5,1090,545,San Isidro,-12.08961,-77.036227,True,True,32
+S0158,Rafael Molina,20,M,UTP,Economía,2,1339,670,San Miguel,-12.058508,-77.07891,True,False,30
+S0159,María Aguilar,19,F,UTP,Ingeniería,2,1190,595,Magdalena,-12.090917,-77.072445,True,False,33
+S0160,Mario Mendoza,20,M,UPC,Informática,2,1422,711,Magdalena,-12.096637,-77.066758,False,False,57
+S0161,Rocío Ortega,21,F,USIL,Psicología,4,1538,769,La Molina,-12.055472,-76.932173,True,True,44
+S0162,Rosa Mendoza,18,F,UNI,Medicina,2,943,472,San Miguel,-12.062774,-77.093545,False,True,55
+S0163,Rodrigo Ortega,22,M,UNMSM,Ciencias,2,1267,634,Miraflores,-12.12495,-77.017797,False,False,48
+S0164,Fernando Ibarra,22,M,UL,Medicina,4,977,488,San Miguel,-12.0585,-77.096096,False,True,39
+S0165,Lorena Chávez,22,F,UTP,Informática,5,1281,640,Comas,-11.994785,-77.062358,False,True,27
+S0166,Isabel Luna,23,F,UCS,Psicología,2,1060,530,Surco,-12.15076,-76.989758,True,False,54
+S0167,Miguel Huamán,18,M,UNMSM,Arte,3,920,460,San Miguel,-12.062055,-77.092339,True,True,41
+S0168,Julio García,24,M,UNMSM,Psicología,1,1155,578,Miraflores,-12.125939,-77.027619,False,False,38
+S0169,Araceli Carrasco,22,F,UCS,Arte,2,946,473,San Miguel,-12.066658,-77.084091,True,False,54
+S0170,Luz Alvarado,20,F,PUCP,Arte,1,1444,722,La Molina,-12.05588,-76.928597,True,False,25
+S0171,Tatiana Ruiz,20,F,UTP,Arte,1,1404,702,Magdalena,-12.084047,-77.07413,False,False,21
+S0172,Gabriel Cruz,21,M,UAP,Derecho,3,914,457,San Isidro,-12.098095,-77.042505,False,False,37
+S0173,Bruno Ramírez,19,M,UAP,Ciencias,5,1189,594,San Isidro,-12.091138,-77.034626,False,True,24
+S0174,Fernando Gómez,25,M,UL,Derecho,4,1357,678,Magdalena,-12.080536,-77.070664,False,False,58
+S0175,Paola Zamora,22,F,USIL,Ingeniería,5,1190,595,La Molina,-12.057144,-76.930781,True,True,27
+S0176,Rafael Vargas,22,M,PUCP,Ingeniería,5,1464,732,La Molina,-12.056678,-76.91739,False,True,24
+S0177,Adrián Espinoza,20,M,UTP,Diseño,4,1274,637,Magdalena,-12.083184,-77.060033,True,True,32
+S0178,Jorge Cruz,21,M,UTP,Derecho,5,1045,522,Magdalena,-12.09643,-77.075175,True,False,59
+S0179,Sebastián Mejía,18,M,UPC,Psicología,1,1488,744,Surco,-12.158459,-76.995634,False,False,55
+S0180,Luis Yáñez,19,M,UNMSM,Administración,3,1536,768,La Molina,-12.066407,-76.932669,True,True,40
+S0181,Eduardo Luna,25,M,UNMSM,Ingeniería,5,813,406,Surco,-12.156567,-76.993597,False,False,26
+S0182,Camila Rojas,22,F,UTP,Ciencias,1,1387,694,La Molina,-12.057935,-76.922707,False,False,25
+S0183,Eduardo Valdez,19,M,UNI,Arte,2,957,478,San Miguel,-12.066226,-77.086934,True,True,34
+S0184,Ana Palomino,22,F,PUCP,Diseño,3,1297,648,Comas,-11.991004,-77.061298,True,False,58
+S0185,Gustavo Paredes,21,M,UNI,Psicología,4,962,481,San Isidro,-12.098663,-77.040558,False,False,52
+S0186,Pablo Tello,21,M,UNI,Psicología,5,1554,777,Magdalena,-12.087374,-77.074227,False,False,48
+S0187,Gabriel Romero,22,M,UCS,Administración,3,1488,744,Magdalena,-12.099736,-77.074535,True,True,42
+S0188,Adrián Gutiérrez,22,M,UL,Arte,4,1529,764,Los Olivos,-11.969752,-77.067704,True,True,27
+S0189,Ana Gómez,21,F,UPC,Arte,3,1458,729,Los Olivos,-11.964075,-77.072686,False,True,28
+S0190,Rocío Molina,25,F,UL,Ingeniería,2,1395,698,Los Olivos,-11.968404,-77.061892,True,True,57
+S0191,Adriana Ramírez,19,F,UCS,Diseño,2,1130,565,Los Olivos,-11.963894,-77.074922,True,False,48
+S0192,Jorge Castillo,25,M,UPC,Administración,2,905,452,La Molina,-12.056329,-76.936369,True,True,30
+S0193,Carlos Gutiérrez,18,M,UCS,Ingeniería,4,1387,694,La Molina,-12.057613,-76.927084,False,True,21
+S0194,Flor Cabrera,21,F,UPC,Psicología,4,1435,718,La Molina,-12.056797,-76.923773,False,True,42
+S0195,Esteban Romero,24,M,UL,Psicología,5,1482,741,Surco,-12.159404,-76.996388,True,False,54
+S0196,Daniela Rojas,22,F,UCS,Economía,4,1226,613,Los Olivos,-11.961187,-77.06683,False,True,56
+S0197,Luz Molina,18,F,UNI,Administración,2,1584,792,Los Olivos,-11.978307,-77.071116,True,False,38
+S0198,Daniel Bravo,21,M,UTP,Arte,2,1103,552,La Molina,-12.063306,-76.919913,False,False,29
+S0199,Adrián Rojas,24,M,UTP,Diseño,4,1178,589,Los Olivos,-11.974511,-77.073421,False,False,32
+S0200,Marisol Silva,25,F,UNI,Derecho,3,1254,627,San Isidro,-12.092532,-77.040728,False,False,47
+S0201,Ana Montoya,21,F,UAP,Diseño,3,926,463,San Isidro,-12.103787,-77.032715,False,True,46
+S0202,Martín Mendoza,18,M,UNI,Ingeniería,4,1522,761,La Molina,-12.056521,-76.931786,False,False,34
+S0203,Jessica Morales,21,F,UTP,Ingeniería,4,1396,698,San Miguel,-12.061795,-77.077982,False,False,23
+S0204,Esteban Campos,24,M,UTP,Derecho,5,800,400,San Isidro,-12.105324,-77.026823,True,True,60
+S0205,Bruno Reyes,22,M,UTP,Ingeniería,2,980,490,Comas,-12.002068,-77.07333,False,False,58
+S0206,Diego Palomino,18,M,UCS,Economía,3,1535,768,Magdalena,-12.089375,-77.074799,True,True,42
+S0207,Brenda Molina,22,F,PUCP,Economía,4,1002,501,Miraflores,-12.12099,-77.026121,False,True,55
+S0208,Verónica Fernández,25,F,UNI,Psicología,4,1018,509,Miraflores,-12.11801,-77.019931,False,False,45
+S0209,Melissa Romero,20,F,UNMSM,Arte,1,990,495,Los Olivos,-11.968014,-77.068466,True,True,50
+S0210,Brenda Fernández,25,F,UPC,Administración,5,1176,588,Magdalena,-12.097942,-77.079839,True,False,33
+S0211,Daniel Carrasco,23,M,PUCP,Arte,3,902,451,Comas,-11.990982,-77.060764,False,False,28
+S0212,Oscar Ramírez,21,M,UPC,Administración,5,1527,764,Magdalena,-12.090438,-77.072371,True,False,21
+S0213,Adriana Aguilar,21,F,UCS,Informática,1,1179,590,San Miguel,-12.052725,-77.088167,True,False,35
+S0214,Patricia Rojas,19,F,UAP,Ciencias,2,841,420,Magdalena,-12.082656,-77.060889,False,True,45
+S0215,Mario Delgado,24,M,UPC,Diseño,2,1596,798,Los Olivos,-11.967698,-77.065065,True,True,52
+S0216,Paola Montoya,20,F,USIL,Ingeniería,3,1421,710,San Miguel,-12.054658,-77.086552,True,False,28
+S0217,Julio Quispe,24,M,USIL,Diseño,1,1309,654,San Miguel,-12.056941,-77.081666,True,False,46
+S0218,Alberto Cabrera,23,M,UL,Derecho,3,1374,687,Comas,-12.008435,-77.065327,False,True,38
+S0219,Oscar Cruz,20,M,PUCP,Medicina,2,1206,603,Los Olivos,-11.963018,-77.06734,False,False,28
+S0220,Jorge Ramírez,18,M,UAP,Administración,2,1437,718,Miraflores,-12.115369,-77.025008,True,True,54
+S0221,Gabriela Molina,22,F,UCS,Ingeniería,3,1114,557,San Miguel,-12.053593,-77.091769,True,False,36
+S0222,Julio Castillo,19,M,UTP,Ingeniería,2,1133,566,San Isidro,-12.087497,-77.027021,False,True,56
+S0223,Tania Molina,20,F,UTP,Ingeniería,5,1021,510,La Molina,-12.068736,-76.933911,False,False,26
+S0224,Carlos Quispe,25,M,UL,Arquitectura,1,960,480,Magdalena,-12.08952,-77.063205,True,True,36
+S0225,Elías Carrasco,23,M,USIL,Economía,2,845,422,Los Olivos,-11.97724,-77.07679,False,False,57
+S0226,Verónica Suárez,24,F,UTP,Administración,2,953,476,La Molina,-12.066657,-76.931336,True,True,36
+S0227,Natalia Aguilar,18,F,UAP,Arquitectura,3,1446,723,Los Olivos,-11.960019,-77.060674,True,False,47
+S0228,Pablo Peña,19,M,UL,Diseño,1,1536,768,San Miguel,-12.049445,-77.08778,False,True,53
+S0229,Pedro Zamora,19,M,UCS,Administración,2,1260,630,Surco,-12.14257,-76.999421,False,True,29
+S0230,Pedro Silva,18,M,PUCP,Psicología,3,1194,597,Miraflores,-12.118701,-77.02152,False,True,32
+S0231,José Valdez,24,M,UPC,Economía,4,1167,584,La Molina,-12.0698,-76.923454,False,False,46
+S0232,Elena Yáñez,23,F,PUCP,Ingeniería,2,1168,584,Comas,-12.000335,-77.066773,False,False,41
+S0233,Gustavo Silva,19,M,UL,Derecho,2,1098,549,San Isidro,-12.088501,-77.030711,False,True,33
+S0234,Renato Bravo,22,M,UTP,Ciencias,2,1042,521,Surco,-12.155175,-76.982985,True,True,56
+S0235,Enrique Ramírez,20,M,UTP,Arte,4,1446,723,San Isidro,-12.094832,-77.042647,False,False,39
+S0236,Alejandro Chávez,18,M,UCS,Diseño,2,982,491,Miraflores,-12.122681,-77.033809,False,False,57
+S0237,Carlos Bravo,25,M,UL,Arte,2,1560,780,San Miguel,-12.059715,-77.094686,False,True,31
+S0238,Gustavo Gutiérrez,25,M,UNMSM,Medicina,2,1235,618,Miraflores,-12.12727,-77.019618,False,False,27
+S0239,Patricia Rojas,18,F,UCS,Medicina,5,1598,799,San Miguel,-12.04725,-77.077326,True,True,53
+S0240,Pablo Vargas,21,M,USIL,Derecho,2,1093,546,Comas,-11.991611,-77.066286,False,False,50
+S0241,Mónica Sánchez,25,F,UAP,Medicina,3,1583,792,La Molina,-12.069359,-76.930873,False,False,34
+S0242,Marisol Díaz,24,F,UPC,Medicina,1,1365,682,Surco,-12.155761,-76.989546,False,True,57
+S0243,Jorge Arroyo,23,M,UTP,Arquitectura,4,846,423,Magdalena,-12.09136,-77.070352,False,False,56
+S0244,Pedro Pérez,24,M,USIL,Diseño,4,1394,697,La Molina,-12.072236,-76.923028,True,False,28
+S0245,Rodrigo Ruiz,22,M,UTP,Administración,3,1107,554,Surco,-12.156995,-76.997579,False,False,48
+S0246,Fernando Tello,19,M,UTP,Informática,1,1400,700,Comas,-12.002323,-77.075996,True,True,39
+S0247,Pedro Castillo,24,M,UTP,Medicina,5,1058,529,Surco,-12.158783,-76.995183,True,True,42
+S0248,Mario Ruiz,20,M,UNI,Ciencias,2,1272,636,San Isidro,-12.091769,-77.04496,True,True,24
+S0249,Claudia Ruiz,22,F,UTP,Derecho,1,1579,790,La Molina,-12.071021,-76.929746,False,True,28
+S0250,Isabel Ortega,19,F,UAP,Economía,4,867,434,Comas,-11.99698,-77.07163,False,True,25
+S0251,Verónica García,19,F,UTP,Economía,1,1193,596,La Molina,-12.057832,-76.926723,False,True,36
+S0252,Lucía Morales,23,F,UNI,Derecho,2,1288,644,Comas,-11.997794,-77.071869,True,False,29
+S0253,Juliana Ortega,18,F,UNMSM,Derecho,5,1009,504,San Isidro,-12.105578,-77.035247,True,False,44
+S0254,Valeria Torres,25,F,USIL,Informática,4,1597,798,Miraflores,-12.112228,-77.033175,True,False,27
+S0255,Jimena Luna,18,F,UNMSM,Derecho,2,892,446,San Isidro,-12.099098,-77.043147,True,True,45
+S0256,Mónica Peña,23,F,UL,Diseño,3,1532,766,Miraflores,-12.119859,-77.021445,True,True,49
+S0257,Tatiana Ibarra,24,F,UL,Arquitectura,4,1143,572,San Isidro,-12.089259,-77.029694,True,True,42
+S0258,Lorena Alvarado,23,F,PUCP,Arquitectura,1,978,489,Comas,-12.004985,-77.07901,True,False,28
+S0259,Pamela Reyes,22,F,UNMSM,Diseño,4,988,494,Miraflores,-12.126918,-77.023784,True,True,24
+S0260,Flor Carrasco,25,F,UCS,Arte,2,1581,790,La Molina,-12.058723,-76.924891,True,False,44
+S0261,Víctor Cruz,21,M,UNMSM,Arte,3,1136,568,Los Olivos,-11.962933,-77.065424,False,True,53
+S0262,Diego Pérez,19,M,UCS,Derecho,4,858,429,Comas,-11.997331,-77.073811,True,False,51
+S0263,Adrián Díaz,21,M,UAP,Derecho,3,840,420,San Isidro,-12.086856,-77.042776,True,False,34
+S0264,Mónica Gómez,18,F,UAP,Arquitectura,4,1108,554,Miraflores,-12.123481,-77.032288,True,True,35
+S0265,Rosa Carrasco,21,F,UPC,Administración,1,1527,764,Comas,-12.003631,-77.075294,False,True,38
+S0266,Gustavo Ibarra,24,M,USIL,Economía,4,1476,738,Surco,-12.140005,-76.98774,True,True,60
+S0267,Esteban Tello,22,M,PUCP,Ingeniería,3,1092,546,Surco,-12.143512,-76.985847,False,True,49
+S0268,Luis Ruiz,20,M,UCS,Economía,5,1017,508,Magdalena,-12.084064,-77.065973,True,False,41
+S0269,Sebastián Quispe,23,M,USIL,Diseño,1,1432,716,Surco,-12.154602,-76.996444,False,True,29
+S0270,Natalia Mejía,18,F,USIL,Derecho,5,1494,747,Magdalena,-12.094625,-77.07838,False,False,32
+S0271,Héctor Yáñez,18,M,USIL,Informática,3,838,419,Magdalena,-12.085713,-77.0746,True,False,49
+S0272,Víctor Vargas,24,M,UTP,Medicina,2,1447,724,Miraflores,-12.11197,-77.03361,True,False,55
+S0273,Pablo Díaz,20,M,UNI,Psicología,4,803,402,Miraflores,-12.126398,-77.027414,True,True,43
+S0274,Mónica Mendoza,23,F,UL,Economía,3,947,474,San Isidro,-12.086737,-77.038197,False,True,44
+S0275,Rosa Alvarado,20,F,UCS,Economía,3,892,446,Magdalena,-12.082423,-77.073177,False,True,54
+S0276,Ana Cabrera,25,F,UL,Medicina,5,1203,602,San Miguel,-12.065719,-77.083637,True,False,23
+S0277,Rafael Cruz,19,M,UAP,Economía,3,1374,687,Surco,-12.156213,-76.996034,False,False,23
+S0278,José Ortega,18,M,UPC,Ingeniería,2,990,495,San Isidro,-12.102468,-77.033838,False,False,44
+S0279,Elena León,23,F,UPC,Diseño,2,1194,597,Magdalena,-12.098502,-77.079072,True,False,59
+S0280,Oscar Vargas,19,M,PUCP,Psicología,3,1226,613,Comas,-12.006974,-77.065791,True,False,28
+S0281,Luz Rojas,18,F,UPC,Economía,4,1170,585,La Molina,-12.064687,-76.921928,True,False,39
+S0282,Luis Fernández,19,M,UL,Diseño,2,1018,509,San Isidro,-12.103533,-77.035724,False,False,39
+S0283,Andrés Herrera,18,M,UTP,Arte,3,1395,698,Magdalena,-12.083375,-77.060812,True,False,48
+S0284,José Fernández,21,M,UL,Arte,4,1099,550,San Isidro,-12.092292,-77.042008,True,True,47
+S0285,Elena Yáñez,19,F,UNI,Ciencias,1,1002,501,San Isidro,-12.099034,-77.04075,False,True,27
+S0286,Mario Romero,22,M,UAP,Informática,2,871,436,La Molina,-12.056384,-76.917022,True,False,38
+S0287,Brenda Carrasco,22,F,UTP,Psicología,5,986,493,San Miguel,-12.05923,-77.093001,True,False,57
+S0288,Mario León,21,M,UPC,Medicina,5,1154,577,Los Olivos,-11.979648,-77.061195,True,True,51
+S0289,Esteban Bravo,18,M,UPC,Derecho,2,829,414,Los Olivos,-11.972288,-77.07261,False,False,48
+S0290,Adrián Gómez,21,M,PUCP,Economía,1,1478,739,Magdalena,-12.096136,-77.064468,True,True,37
+S0291,Diana Gómez,24,F,PUCP,Economía,3,965,482,Comas,-11.990409,-77.069924,False,False,28
+S0292,Manuel Herrera,23,M,USIL,Derecho,2,1209,604,Los Olivos,-11.960153,-77.077109,False,False,46
+S0293,Pedro Salazar,24,M,UTP,Ingeniería,2,842,421,Comas,-12.007926,-77.075197,False,False,32
+S0294,Mónica Ramos,21,F,UL,Administración,3,1232,616,San Miguel,-12.052216,-77.080525,False,False,35
+S0295,Jorge Romero,20,M,UPC,Psicología,4,1405,702,Magdalena,-12.083041,-77.064497,False,False,60
+S0296,Antonio Cabrera,19,M,UAP,Ingeniería,5,1553,776,Magdalena,-12.085757,-77.077361,False,True,24
+S0297,Sheltty Ibarra,25,F,UNI,Ingeniería,1,1425,712,La Molina,-12.059101,-76.923541,True,True,54
+S0298,Natalia Lozano,21,F,UAP,Administración,1,1524,762,Los Olivos,-11.968663,-77.078481,True,False,35
+S0299,Andrés Luna,23,M,UNMSM,Ingeniería,4,1055,528,Surco,-12.143329,-76.997937,True,True,50
+S0300,Marisol Peña,22,F,UTP,Derecho,1,1015,508,San Isidro,-12.102685,-77.044769,False,True,24
+S0301,Fernando Rojas,18,M,USIL,Ingeniería,2,1358,679,Magdalena,-12.086689,-77.070752,False,False,36
+S0302,Noelia Quispe,20,F,USIL,Economía,4,1366,683,La Molina,-12.059953,-76.93095,False,False,27
+S0303,Miguel Tello,19,M,UCS,Psicología,3,1227,614,Miraflores,-12.11614,-77.021764,False,True,57
+S0304,Rodrigo Castillo,24,M,UCS,Ciencias,1,996,498,Miraflores,-12.121186,-77.033117,False,False,45
+S0305,Adrián Torres,24,M,UNMSM,Arte,1,1013,506,Surco,-12.153824,-76.986533,False,False,33
+S0306,Rosa Vargas,20,F,UL,Derecho,3,1227,614,Miraflores,-12.11783,-77.025175,False,False,58
+S0307,Julio Silva,20,M,PUCP,Administración,3,1287,644,La Molina,-12.070215,-76.933015,False,False,54
+S0308,Miranda Yáñez,22,F,UNMSM,Diseño,5,1454,727,La Molina,-12.072209,-76.93268,False,True,29
+S0309,Andrés Mejía,23,M,UPC,Ingeniería,1,1124,562,Magdalena,-12.091707,-77.078953,True,False,48
+S0310,Brenda Molina,25,F,UAP,Arquitectura,5,823,412,Los Olivos,-11.964247,-77.074233,True,True,59
+S0311,Noelia Morales,25,F,UL,Economía,1,941,470,Los Olivos,-11.961992,-77.064236,True,True,35
+S0312,Ana Silva,21,F,UCS,Medicina,5,1407,704,Magdalena,-12.0815,-77.064257,True,False,52
+S0313,Lucía Campos,25,F,UNI,Ingeniería,5,1438,719,San Isidro,-12.095605,-77.034348,True,True,47
+S0314,Ana Fernández,22,F,UL,Arte,1,967,484,Comas,-11.996899,-77.065692,False,False,24
+S0315,Tatiana Tello,22,F,UCS,Arte,2,1094,547,Miraflores,-12.114458,-77.024451,True,True,59
+S0316,Andrea Peña,25,F,PUCP,Ciencias,2,1045,522,Surco,-12.150784,-76.999108,False,True,40
+S0317,Aler Díaz,21,M,UNI,Ingeniería,2,1416,708,Los Olivos,-11.961663,-77.066965,True,True,51
+S0318,Jessica Molina,21,F,UL,Medicina,2,1508,754,Surco,-12.146881,-76.986281,True,True,23
+S0319,Carmen Lozano,24,F,UAP,Informática,3,966,483,La Molina,-12.072448,-76.934055,True,False,41
+S0320,Antonio Paredes,22,M,USIL,Ingeniería,4,882,441,Magdalena,-12.099578,-77.061812,False,True,34
+S0321,Carla Fernández,21,F,UNI,Psicología,3,1197,598,San Miguel,-12.050107,-77.081511,True,False,45
+S0322,Gabriela Luna,22,F,UL,Derecho,5,1526,763,Comas,-12.002569,-77.067745,False,True,48
+S0323,Rodrigo Aguilar,24,M,UPC,Ingeniería,4,1026,513,Miraflores,-12.119074,-77.034136,False,True,30
+S0324,Jimena Salazar,19,F,UNI,Medicina,1,1430,715,San Isidro,-12.089714,-77.039703,False,True,53
+S0325,Marco Ramos,18,M,UAP,Arte,2,882,441,San Isidro,-12.094606,-77.040286,False,True,20
+S0326,Lucía Romero,20,F,UL,Derecho,5,916,458,San Isidro,-12.101365,-77.035057,False,True,53
+S0327,Sergio Quispe,24,M,PUCP,Economía,3,1403,702,Comas,-12.008385,-77.077251,False,True,40
+S0328,Marisol Morales,24,F,UTP,Economía,3,1345,672,Miraflores,-12.121286,-77.034193,True,True,51
+S0329,Eduardo Delgado,20,M,UNI,Arte,3,1457,728,San Miguel,-12.066202,-77.094294,True,False,49
+S0330,Pedro Gómez,24,M,PUCP,Administración,3,1258,629,Surco,-12.150266,-76.986194,True,False,30
+S0331,Paola Sánchez,25,F,UNMSM,Diseño,1,1491,746,San Miguel,-12.062803,-77.092794,True,False,51
+S0332,Natalia García,23,F,UTP,Arquitectura,2,916,458,San Isidro,-12.089418,-77.032796,False,False,42
+S0333,Elena Mejía,18,F,UCS,Psicología,4,1460,730,San Isidro,-12.093956,-77.036809,False,False,40
+S0334,Flor Mendoza,21,F,UNI,Psicología,5,1061,530,La Molina,-12.069677,-76.930612,True,False,58
+S0335,Lucero Paredes,21,F,UNI,Arquitectura,2,1332,666,Surco,-12.14717,-76.987479,False,True,58
+S0336,Jorge Rojas,18,M,PUCP,Arte,1,950,475,San Isidro,-12.103071,-77.042044,False,True,43
+S0337,Lorena Yáñez,21,F,UNI,Psicología,5,1431,716,Los Olivos,-11.967431,-77.067768,False,False,22
+S0338,Alejandro Lozano,19,M,UL,Derecho,2,1226,613,San Isidro,-12.102312,-77.028857,False,True,31
+S0339,Lorena Gómez,24,F,UCS,Economía,5,884,442,San Isidro,-12.09007,-77.029718,False,True,25
+S0340,Aler Delgado,23,M,USIL,Diseño,3,1005,502,Los Olivos,-11.965151,-77.075192,True,False,41
+S0341,Tatiana Valdez,20,F,USIL,Diseño,2,1496,748,Magdalena,-12.092237,-77.077489,True,True,42
+S0342,Claudia Gómez,20,F,UTP,Arte,4,906,453,San Isidro,-12.105396,-77.029235,True,False,42
+S0343,Ana Yáñez,21,F,UAP,Diseño,3,966,483,Los Olivos,-11.975608,-77.069361,False,True,27
+S0344,Aler Herrera,24,M,UNI,Psicología,5,801,400,Surco,-12.151591,-76.99377,False,False,60
+S0345,Jorge Romero,18,M,UNMSM,Psicología,2,1491,746,Magdalena,-12.082247,-77.077887,True,False,37
+S0346,Daniela Romero,21,F,UPC,Diseño,2,940,470,La Molina,-12.067854,-76.935019,True,False,30
+S0347,Fernando Silva,19,M,UL,Psicología,5,1441,720,San Miguel,-12.047958,-77.081331,True,False,54
+S0348,Natalia Fernández,20,F,UTP,Economía,3,1347,674,Miraflores,-12.124676,-77.017372,False,False,20
+S0349,Juliana Paredes,19,F,UL,Psicología,3,1331,666,Los Olivos,-11.965516,-77.076135,False,True,43
+S0350,Patricia Torres,18,F,UL,Arquitectura,5,1137,568,San Isidro,-12.095265,-77.033237,False,True,49
+S0351,Gabriel Peña,18,M,UAP,Informática,3,1380,690,Los Olivos,-11.974609,-77.06588,True,True,31
+S0352,Pedro Espinoza,22,M,UAP,Psicología,3,1487,744,San Miguel,-12.058286,-77.088517,True,True,35
+S0353,Sofía Reyes,24,F,UNMSM,Derecho,5,1421,710,San Miguel,-12.057374,-77.086722,False,True,35
+S0354,Carla Huamán,24,F,UAP,Diseño,4,1575,788,Magdalena,-12.091599,-77.061024,False,False,52
+S0355,Araceli Campos,22,F,UAP,Derecho,2,1177,588,Los Olivos,-11.972022,-77.067336,False,False,49
+S0356,Gabriel Campos,21,M,PUCP,Informática,1,1270,635,San Isidro,-12.102859,-77.036839,False,True,37
+S0357,Pamela Campos,19,F,UL,Informática,3,1260,630,San Miguel,-12.060979,-77.090424,True,False,25
+S0358,Héctor Díaz,23,M,UAP,Medicina,3,1405,702,San Isidro,-12.087482,-77.045642,False,True,58
+S0359,Julio León,22,M,UPC,Ingeniería,5,917,458,Magdalena,-12.084493,-77.076492,True,False,42
+S0360,Sebastián Valdez,22,M,UL,Ciencias,4,1321,660,Comas,-12.005573,-77.061855,False,False,23
+S0361,Rafael Ortega,24,M,UL,Arquitectura,4,1027,514,Los Olivos,-11.968753,-77.060239,True,True,30
+S0362,Jessica Gómez,21,F,UPC,Informática,4,1358,679,Surco,-12.145352,-76.990989,False,True,22
+S0363,Carla Campos,18,F,UNI,Ciencias,3,1250,625,San Isidro,-12.093619,-77.038299,False,True,47
+S0364,Hernán Díaz,23,M,USIL,Ciencias,5,1160,580,Los Olivos,-11.97653,-77.062469,False,False,27
+S0365,Jimena Suárez,18,F,UPC,Informática,1,891,446,San Miguel,-12.059726,-77.095672,True,True,45
+S0366,Juliana Mendoza,21,F,USIL,Diseño,2,1517,758,Los Olivos,-11.969546,-77.066247,True,False,31
+S0367,Sebastián León,20,M,PUCP,Economía,2,1577,788,San Miguel,-12.047755,-77.084063,True,False,54
+S0368,Tatiana Delgado,23,F,UNMSM,Informática,3,1535,768,Surco,-12.152903,-76.989099,False,True,43
+S0369,Isabel Quispe,24,F,UNMSM,Diseño,1,860,430,Surco,-12.145324,-76.981852,True,True,47
+S0370,José Lozano,23,M,UTP,Ciencias,4,1228,614,San Miguel,-12.053635,-77.090641,False,False,38
+S0371,Lucero Aguilar,22,F,UAP,Ciencias,3,1478,739,Surco,-12.154309,-76.980788,True,True,49
+S0372,Adriana León,21,F,UCS,Economía,4,1035,518,Comas,-11.998356,-77.072381,False,False,31
+S0373,Miranda Flores,20,F,UTP,Arquitectura,4,1586,793,Miraflores,-12.117253,-77.034972,False,False,40
+S0374,Luis Montoya,19,M,UCS,Arquitectura,2,1561,780,Surco,-12.159832,-76.992081,True,True,58
+S0375,Mario Rojas,22,M,UNMSM,Arquitectura,5,934,467,Magdalena,-12.099793,-77.079493,True,True,21
+S0376,Natalia Vargas,22,F,UAP,Derecho,5,1012,506,Miraflores,-12.12793,-77.036664,True,True,50
+S0377,Luis Díaz,23,M,USIL,Diseño,5,1336,668,Miraflores,-12.125862,-77.027945,True,True,29
+S0378,Martín Ramírez,25,M,UNI,Medicina,5,1193,596,Comas,-12.002217,-77.066506,True,False,38
+S0379,Miguel Chávez,18,M,UNI,Administración,1,849,424,Magdalena,-12.08741,-77.072338,False,True,55
+S0380,Sheltty Tello,21,F,UNI,Medicina,1,1047,524,San Isidro,-12.100709,-77.042001,False,False,25
+S0381,Tania Ortega,19,F,UNI,Arquitectura,3,811,406,Los Olivos,-11.978456,-77.074544,False,False,35
+S0382,Paola Zamora,21,F,UAP,Informática,2,818,409,Los Olivos,-11.96267,-77.065051,True,False,38
+S0383,Marco Palomino,19,M,PUCP,Derecho,5,1399,700,La Molina,-12.064796,-76.933657,False,False,48
+S0384,Rosa Huamán,23,F,UAP,Ingeniería,2,970,485,La Molina,-12.068255,-76.927487,True,False,55
+S0385,Jessica Luna,20,F,UPC,Economía,3,995,498,Miraflores,-12.122988,-77.024752,False,False,30
+S0386,Noelia Ruiz,20,F,UTP,Arte,1,936,468,Miraflores,-12.121291,-77.027417,True,True,35
+S0387,Aler Silva,20,M,UAP,Arquitectura,1,853,426,Miraflores,-12.114885,-77.027318,False,False,55
+S0388,Sebastián Rojas,20,M,PUCP,Arquitectura,5,1409,704,San Miguel,-12.060183,-77.078471,True,False,47
+S0389,Luz Gutiérrez,21,F,UNMSM,Psicología,4,1245,622,Magdalena,-12.093388,-77.078118,True,False,44
+S0390,Camila Espinoza,18,F,UPC,Medicina,2,1315,658,La Molina,-12.073086,-76.917326,True,False,35
+S0391,Mónica Morales,23,F,UL,Ingeniería,4,870,435,Comas,-11.993542,-77.067187,True,True,47
+S0392,Víctor Villegas,22,M,PUCP,Ciencias,3,929,464,San Miguel,-12.066293,-77.082494,False,True,51
+S0393,Gustavo Chávez,23,M,UPC,Informática,2,917,458,Los Olivos,-11.969408,-77.079956,True,True,32
+S0394,Miranda Aguilar,22,F,UL,Ciencias,4,872,436,La Molina,-12.072254,-76.935907,True,False,20
+S0395,Tania Rojas,25,F,USIL,Arte,2,1069,534,Magdalena,-12.094045,-77.071272,False,False,30
+S0396,Araceli Palomino,19,F,UNMSM,Psicología,3,1383,692,Comas,-11.98949,-77.071421,True,True,53
+S0397,José Flores,19,M,UPC,Ingeniería,5,1558,779,San Isidro,-12.100293,-77.031887,False,True,42
+S0398,Carmen Paredes,18,F,UTP,Informática,4,1497,748,San Isidro,-12.094334,-77.030315,True,True,37
+S0399,Camila Ramírez,18,F,UPC,Ciencias,3,1115,558,Comas,-11.998882,-77.070771,True,True,21
+S0400,Rafael Molina,20,M,UAP,Psicología,3,975,488,Los Olivos,-11.975215,-77.079448,True,False,50
+S0401,Miguel Espinoza,20,M,UPC,Medicina,4,1474,737,Surco,-12.143863,-76.989756,False,True,30
+S0402,Jorge Ramírez,20,M,UAP,Administración,1,1243,622,Miraflores,-12.128882,-77.02094,False,False,60
+S0403,Martín Castillo,23,M,UNI,Administración,1,1228,614,Magdalena,-12.081715,-77.077245,False,False,50
+S0404,Claudia Flores,23,F,UAP,Informática,4,1043,522,Miraflores,-12.123493,-77.031792,False,False,45
+S0405,Jorge Herrera,24,M,UPC,Economía,4,1305,652,La Molina,-12.05547,-76.924509,True,False,40
+S0406,Diana Campos,24,F,UAP,Diseño,3,819,410,Surco,-12.158625,-76.990283,True,False,24
+S0407,Carmen Ramírez,20,F,UL,Administración,3,1084,542,Comas,-11.998627,-77.076144,False,True,34
+S0408,Patricia Gómez,24,F,UAP,Informática,1,1161,580,San Miguel,-12.052402,-77.096385,True,True,31
+S0409,Sebastián Molina,22,M,UTP,Ciencias,5,1288,644,Magdalena,-12.083326,-77.069686,True,True,34
+S0410,Miranda Peña,19,F,USIL,Ciencias,4,1405,702,Comas,-11.991296,-77.066941,False,True,26
+S0411,Gustavo Rojas,20,M,UPC,Arte,5,1013,506,Comas,-11.992679,-77.062521,False,False,28
+S0412,Héctor Chávez,20,M,USIL,Economía,3,949,474,San Miguel,-12.052378,-77.077256,True,False,48
+S0413,Elena Valdez,23,F,USIL,Ciencias,3,835,418,San Isidro,-12.100795,-77.04218,True,False,45
+S0414,Valeria León,23,F,PUCP,Economía,4,1493,746,Miraflores,-12.121609,-77.034457,True,True,28
+S0415,Lorena Fernández,18,F,UL,Administración,3,896,448,Miraflores,-12.115575,-77.02153,True,False,30
+S0416,Gabriel Cabrera,20,M,UPC,Arquitectura,3,1565,782,San Isidro,-12.101309,-77.030842,False,True,38
+S0417,Natalia Aguilar,19,F,UCS,Arte,3,1064,532,La Molina,-12.064111,-76.917376,False,False,38
+S0418,Vanessa Romero,23,F,UNI,Ingeniería,4,828,414,Comas,-11.993586,-77.067621,True,True,33
+S0419,Araceli Romero,22,F,UL,Administración,1,1021,510,Magdalena,-12.091738,-77.079559,True,True,37
+S0420,Enrique García,23,M,UCS,Ingeniería,5,1422,711,Los Olivos,-11.970598,-77.072315,False,False,59
+S0421,Pedro Ortega,18,M,UTP,Informática,2,1478,739,Miraflores,-12.125629,-77.028572,False,True,21
+S0422,Sheltty Luna,21,F,UTP,Derecho,5,884,442,Comas,-12.004307,-77.071924,False,False,23
+S0423,Claudia Ortega,18,F,USIL,Arte,5,1020,510,Magdalena,-12.096797,-77.078124,True,False,48
+S0424,Sofía Gutiérrez,18,F,UL,Medicina,4,867,434,San Miguel,-12.04831,-77.085972,False,False,36
+S0425,Cristian Bravo,18,M,PUCP,Economía,2,1497,748,Miraflores,-12.113606,-77.027703,True,False,34
+S0426,Tatiana Salazar,21,F,UAP,Diseño,4,892,446,Miraflores,-12.128887,-77.021126,True,False,33
+S0427,Paola Luna,23,F,UTP,Arte,2,1350,675,Magdalena,-12.091097,-77.075147,False,True,40
+S0428,Víctor Suárez,22,M,UL,Informática,4,1489,744,La Molina,-12.071538,-76.922532,True,False,22
+S0429,Camila Gutiérrez,24,F,PUCP,Arte,3,1313,656,San Isidro,-12.095369,-77.029252,True,True,25
+S0430,Antonio Peña,19,M,UNMSM,Diseño,5,1081,540,San Miguel,-12.052327,-77.093169,False,False,43
+S0431,Alejandro Castillo,18,M,USIL,Derecho,5,1297,648,Los Olivos,-11.963887,-77.064726,True,True,54
+S0432,Rafael Flores,18,M,UL,Medicina,2,1041,520,Magdalena,-12.095709,-77.07131,False,False,34
+S0433,Andrés Díaz,24,M,UL,Ciencias,2,1564,782,Los Olivos,-11.963857,-77.071815,True,False,60
+S0434,Martín Molina,19,M,UNMSM,Ingeniería,4,1421,710,San Isidro,-12.102899,-77.04344,False,False,33
+S0435,Martín Montoya,19,M,UPC,Economía,5,1029,514,Los Olivos,-11.960588,-77.069357,False,False,47
+S0436,Elena Suárez,25,F,USIL,Ciencias,4,878,439,Comas,-11.998976,-77.071114,False,False,39
+S0437,Miranda Villegas,18,F,USIL,Ciencias,3,1271,636,Surco,-12.149532,-76.994174,False,True,55
+S0438,Esteban Mejía,18,M,UTP,Diseño,2,1391,696,La Molina,-12.071297,-76.936269,False,False,56
+S0439,Renato Molina,18,M,USIL,Ciencias,3,1029,514,Miraflores,-12.126137,-77.023533,False,False,52
+S0440,Juan Morales,24,M,UCS,Derecho,2,1277,638,San Isidro,-12.091939,-77.040406,True,False,50
+S0441,Patricia Peña,25,F,UNMSM,Administración,5,908,454,San Miguel,-12.050952,-77.092725,False,True,45
+S0442,Juan Chávez,25,M,UPC,Arte,1,940,470,Los Olivos,-11.960791,-77.061332,True,False,47
+S0443,Mónica Aguilar,23,F,UPC,Derecho,5,1409,704,La Molina,-12.058715,-76.935093,True,True,28
+S0444,Andrés Pérez,23,M,UCS,Economía,2,1016,508,Magdalena,-12.085062,-77.072861,False,True,50
+S0445,Alberto Cruz,18,M,USIL,Informática,2,1092,546,Los Olivos,-11.97211,-77.069668,False,False,47
+S0446,Nicolás Cruz,22,M,USIL,Arte,5,1348,674,Magdalena,-12.091039,-77.077771,False,False,47
+S0447,Vanessa León,22,F,UPC,Administración,1,1586,793,Los Olivos,-11.976312,-77.060193,True,False,34
+S0448,Diana Lozano,23,F,UCS,Derecho,5,1284,642,San Isidro,-12.099574,-77.036599,False,True,32
+S0449,Natalia Flores,24,F,USIL,Psicología,3,1550,775,Surco,-12.15245,-76.994552,False,True,23
+S0450,Adrián Delgado,21,M,PUCP,Economía,5,874,437,Surco,-12.143802,-76.988379,True,True,30
+S0451,Jorge Yáñez,23,M,UTP,Medicina,1,1144,572,San Miguel,-12.062883,-77.092719,False,False,22
+S0452,Sheltty Cruz,23,F,UCS,Ciencias,2,1085,542,Comas,-11.994149,-77.060403,False,True,55
+S0453,Miguel Mendoza,18,M,UL,Informática,1,1518,759,Surco,-12.148963,-76.986047,True,True,57
+S0454,Miranda Chávez,25,F,UNI,Economía,1,1004,502,Comas,-12.003369,-77.066328,True,False,37
+S0455,Claudia Mendoza,23,F,UTP,Arquitectura,4,826,413,San Isidro,-12.102277,-77.034521,True,True,22
+S0456,Daniela Carrasco,21,F,UTP,Ciencias,4,1239,620,Los Olivos,-11.978496,-77.076353,False,False,52
+S0457,Valeria Sánchez,21,F,UL,Ciencias,3,1494,747,Miraflores,-12.115713,-77.031332,False,False,36
+S0458,Verónica Romero,23,F,USIL,Derecho,4,1068,534,San Isidro,-12.096073,-77.028419,False,True,35
+S0459,Natalia Luna,18,F,PUCP,Medicina,4,1083,542,San Miguel,-12.04775,-77.082754,True,True,28
+S0460,Bruno Morales,19,M,UPC,Administración,4,833,416,Los Olivos,-11.961156,-77.06371,True,True,24
+S0461,Sofía Suárez,22,F,UNI,Ingeniería,4,966,483,Surco,-12.147392,-76.99718,False,False,46
+S0462,Cristian Flores,24,M,UL,Administración,1,857,428,La Molina,-12.064248,-76.928341,False,False,34
+S0463,María León,21,F,UPC,Economía,3,938,469,Magdalena,-12.09985,-77.062569,False,True,58
+S0464,Enrique Ibarra,20,M,USIL,Medicina,2,984,492,La Molina,-12.057171,-76.92126,True,True,42
+S0465,Julio Fernández,19,M,UNI,Medicina,2,871,436,Surco,-12.150388,-76.987675,True,False,48
+S0466,Daniela Díaz,24,F,UPC,Economía,5,851,426,Miraflores,-12.115212,-77.025371,False,False,45
+S0467,Sergio Valdez,25,M,UL,Administración,2,1533,766,San Isidro,-12.091477,-77.03802,False,True,42
+S0468,Sebastián Salazar,20,M,UPC,Psicología,2,1034,517,La Molina,-12.054716,-76.918763,False,False,57
+S0469,Raúl Alvarado,22,M,UNMSM,Ingeniería,2,1324,662,San Miguel,-12.065605,-77.094727,False,True,36
+S0470,Juliana Torres,22,F,UNI,Ingeniería,3,1363,682,Miraflores,-12.120773,-77.028956,False,True,55
+S0471,Héctor García,21,M,UPC,Derecho,1,1265,632,San Isidro,-12.088973,-77.028186,True,False,26
+S0472,Daniela Herrera,22,F,UCS,Ingeniería,1,1423,712,La Molina,-12.063535,-76.935511,True,True,45
+S0473,Gabriel Luna,23,M,UPC,Medicina,1,989,494,Miraflores,-12.118463,-77.024512,True,False,60
+S0474,Flor Romero,21,F,PUCP,Arquitectura,1,1125,562,San Miguel,-12.052904,-77.09588,False,True,60
+S0475,Luis Torres,25,M,USIL,Ingeniería,2,1267,634,San Miguel,-12.061359,-77.091743,True,False,28
+S0476,Lucero Salazar,22,F,UAP,Economía,2,1098,549,Surco,-12.14604,-76.992422,False,False,43
+S0477,Renato Molina,23,M,UL,Informática,5,872,436,Comas,-11.99776,-77.064431,False,True,24
+S0478,Rocío Romero,18,F,UNMSM,Derecho,1,909,454,Los Olivos,-11.961146,-77.062661,False,False,51
+S0479,Pablo Vargas,18,M,UNI,Diseño,5,1403,702,Miraflores,-12.115619,-77.02655,True,False,22
+S0480,Diego Gutiérrez,24,M,UNMSM,Diseño,5,1073,536,Comas,-11.993238,-77.064014,True,True,42
+S0481,Ricardo Molina,25,M,UAP,Ingeniería,2,867,434,Magdalena,-12.087457,-77.062186,True,False,57
+S0482,Patricia Aguilar,22,F,UCS,Informática,5,1180,590,Comas,-11.995864,-77.065562,False,False,60
+S0483,Marisol Morales,21,F,UNI,Derecho,1,1575,788,Magdalena,-12.091614,-77.068249,False,True,33
+S0484,Hernán Delgado,25,M,UL,Medicina,1,1440,720,La Molina,-12.055782,-76.920649,True,True,53
+S0485,Alejandro Villegas,25,M,UNI,Administración,2,937,468,Comas,-11.989424,-77.067584,True,True,33
+S0486,Paola Paredes,25,F,PUCP,Diseño,4,1333,666,San Isidro,-12.086411,-77.039551,True,True,34
+S0487,Luis Rojas,22,M,UCS,Medicina,3,1592,796,Los Olivos,-11.979035,-77.072815,True,False,40
+S0488,Luis Espinoza,19,M,PUCP,Administración,1,1409,704,Los Olivos,-11.964373,-77.063777,False,True,29
+S0489,Verónica Rojas,18,F,UAP,Arte,2,1381,690,San Isidro,-12.089113,-77.044428,False,False,57
+S0490,Carla Cabrera,20,F,UPC,Ciencias,4,1583,792,Comas,-11.992791,-77.074662,True,True,47
+S0491,Camila Suárez,22,F,UL,Ingeniería,5,1265,632,La Molina,-12.066592,-76.934447,False,True,55
+S0492,Pedro Molina,24,M,UTP,Arquitectura,5,1401,700,La Molina,-12.056573,-76.928507,True,False,57
+S0493,Esteban Torres,25,M,UTP,Economía,2,1571,786,Miraflores,-12.121865,-77.017713,True,False,50
+S0494,Natalia Mejía,20,F,USIL,Administración,3,1411,706,La Molina,-12.059982,-76.916921,False,False,49
+S0495,Gustavo Luna,24,M,UL,Administración,1,943,472,Comas,-12.004898,-77.076448,False,True,35
+S0496,Miranda Villegas,23,F,UNMSM,Administración,5,1122,561,Comas,-12.000013,-77.070149,False,False,41
+S0497,Andrea Fernández,18,F,UL,Medicina,3,979,490,Surco,-12.154242,-76.980723,True,False,30
+S0498,Rafael Villegas,22,M,USIL,Ingeniería,2,1070,535,Surco,-12.143781,-76.984127,True,False,34
+S0499,Adriana Suárez,21,F,UAP,Diseño,4,1240,620,Comas,-11.997745,-77.068161,True,False,29
+S0500,Héctor Suárez,23,M,UTP,Arquitectura,5,949,474,Magdalena,-12.084009,-77.061778,False,True,48
+S0501,Tatiana Villegas,19,F,UAP,Medicina,2,1202,601,Magdalena,-12.093241,-77.067338,True,False,41
+S0502,Sergio Castillo,21,M,UCS,Informática,2,1111,556,San Isidro,-12.099606,-77.02976,True,True,22
+S0503,Sofía Zamora,23,F,UNMSM,Ingeniería,1,1051,526,Surco,-12.155,-76.98047,True,True,54
+S0504,Aler Sánchez,18,M,UCS,Ingeniería,3,1428,714,La Molina,-12.057141,-76.922999,False,True,44
+S0505,Esteban Ramírez,19,M,UL,Ingeniería,1,830,415,Los Olivos,-11.972008,-77.078589,False,False,51
+S0506,Jorge Palomino,21,M,UTP,Ingeniería,3,868,434,San Miguel,-12.059738,-77.083706,True,True,52
+S0507,Rocío Tello,24,F,UAP,Psicología,5,1286,643,Miraflores,-12.119091,-77.033851,True,True,25
+S0508,Carla Cruz,23,F,UNMSM,Economía,5,1050,525,San Isidro,-12.098602,-77.045816,False,False,54
+S0509,Sofía Palomino,20,F,UCS,Informática,2,1506,753,Los Olivos,-11.968355,-77.076083,False,False,27
+S0510,Elías Silva,20,M,UCS,Ingeniería,2,844,422,Miraflores,-12.130966,-77.022629,True,True,50
+S0511,Diego Campos,19,M,UPC,Derecho,1,1210,605,Magdalena,-12.084826,-77.069355,True,False,32
+S0512,Alberto Vargas,19,M,UL,Arte,1,898,449,Los Olivos,-11.976749,-77.064984,True,True,22
+S0513,Bruno Palomino,18,M,UTP,Derecho,2,1175,588,San Miguel,-12.056846,-77.079803,True,False,26
+S0514,Rafael Reyes,25,M,UL,Derecho,1,873,436,Surco,-12.140516,-76.997486,False,False,48
+S0515,Camila Carrasco,21,F,UNI,Diseño,3,1240,620,Comas,-11.989081,-77.064687,False,False,23
+S0516,Sheltty Alvarado,18,F,UCS,Medicina,1,959,480,Los Olivos,-11.969505,-77.072021,False,True,50
+S0517,Héctor Suárez,23,M,UTP,Medicina,5,1404,702,Surco,-12.159227,-76.992167,False,True,45
+S0518,Jessica Alvarado,22,F,UL,Diseño,3,1343,672,San Isidro,-12.100673,-77.028865,True,True,47
+S0519,Camila Alvarado,18,F,UCS,Administración,5,824,412,Surco,-12.144697,-76.987432,True,True,37
+S0520,Antonio Ortega,18,M,USIL,Derecho,4,1089,544,San Isidro,-12.096355,-77.029761,False,False,41
+S0521,Tania Bravo,25,F,UAP,Arte,3,1287,644,Los Olivos,-11.975018,-77.068799,False,True,46
+S0522,Elsa Bravo,24,F,USIL,Arquitectura,1,916,458,Miraflores,-12.117872,-77.019398,True,False,28
+S0523,Carlos Fernández,24,M,PUCP,Medicina,5,942,471,Miraflores,-12.122191,-77.035255,True,False,26
+S0524,Sofía Molina,19,F,UNMSM,Informática,1,809,404,Los Olivos,-11.968688,-77.067305,False,True,27
+S0525,Gabriel Ramos,18,M,UTP,Arquitectura,5,1305,652,San Isidro,-12.095046,-77.044256,False,True,35
+S0526,Verónica León,23,F,UNMSM,Ingeniería,3,998,499,San Isidro,-12.101462,-77.035477,False,False,34
+S0527,Hernán Ortega,18,M,UPC,Ciencias,2,1376,688,La Molina,-12.066638,-76.93212,False,False,22
+S0528,Pedro Silva,18,M,UL,Ciencias,3,1205,602,Surco,-12.141798,-76.984321,False,True,23
+S0529,Marco Sánchez,18,M,USIL,Arte,1,1281,640,San Miguel,-12.050239,-77.079434,True,False,34
+S0530,Elena Ruiz,22,F,UCS,Economía,4,1384,692,La Molina,-12.067698,-76.917231,False,False,57
+S0531,Raúl Valdez,19,M,UCS,Psicología,2,1473,736,Comas,-12.007399,-77.075827,False,True,30
+S0532,Ana Aguilar,22,F,UPC,Economía,1,948,474,Miraflores,-12.113078,-77.022573,True,False,46
+S0533,Mónica Paredes,25,F,USIL,Diseño,4,1324,662,Comas,-12.006445,-77.072565,True,True,54
+S0534,Patricia Arroyo,23,F,UAP,Economía,5,1176,588,San Miguel,-12.059785,-77.078249,True,True,34
+S0535,Hernán Aguilar,23,M,UNI,Ingeniería,3,1488,744,Surco,-12.150147,-76.991875,False,True,60
+S0536,Sheltty Tello,21,F,UNI,Psicología,2,1511,756,Surco,-12.146356,-76.996156,True,True,32
+S0537,Rosa Tello,24,F,UCS,Diseño,3,988,494,Los Olivos,-11.961237,-77.070016,False,False,34
+S0538,Gustavo Delgado,19,M,UPC,Medicina,4,1368,684,San Isidro,-12.088003,-77.044315,False,False,33
+S0539,Diana Zamora,21,F,UCS,Administración,2,1014,507,San Miguel,-12.058438,-77.087827,False,True,44
+S0540,Lucero Espinoza,25,F,UNI,Ciencias,4,1425,712,Surco,-12.15915,-76.997926,False,False,22
+S0541,Aler Bravo,20,M,UL,Administración,4,1547,774,Comas,-11.989783,-77.074985,False,True,42
+S0542,Antonio Chávez,22,M,UTP,Economía,5,1193,596,Magdalena,-12.089398,-77.065992,True,True,38
+S0543,Flor Reyes,24,F,UNMSM,Arte,3,1251,626,San Isidro,-12.089263,-77.044996,False,False,60
+S0544,Sofía Lozano,20,F,UNI,Derecho,3,963,482,Comas,-12.002132,-77.066258,False,False,58
+S0545,Lorena Gutiérrez,24,F,UPC,Psicología,1,846,423,Miraflores,-12.122948,-77.025167,False,False,24
+S0546,Jimena Chávez,23,F,UCS,Psicología,5,852,426,Miraflores,-12.130439,-77.021206,True,False,56
+S0547,Elsa Reyes,25,F,UL,Derecho,1,944,472,Magdalena,-12.090417,-77.074534,False,True,36
+S0548,Rocío Tello,24,F,UAP,Arquitectura,1,1272,636,Comas,-12.007068,-77.074838,True,True,52
+S0549,Sheltty Ibarra,23,F,UAP,Informática,1,1063,532,San Miguel,-12.054509,-77.080509,True,False,49
+S0550,Andrea Aguilar,18,F,PUCP,Informática,4,931,466,Surco,-12.142621,-76.995191,True,True,48
+S0551,Diego Ortega,21,M,UPC,Informática,1,1025,512,San Miguel,-12.057528,-77.083919,False,False,52
+S0552,Brenda Carrasco,24,F,UPC,Economía,2,876,438,Magdalena,-12.084148,-77.069381,False,False,54
+S0553,Melissa Tello,20,F,UNI,Medicina,1,1019,510,Surco,-12.157607,-76.998919,False,True,54
+S0554,Aler Carrasco,20,M,UNI,Diseño,2,1215,608,Miraflores,-12.119779,-77.033586,True,True,21
+S0555,Carmen Díaz,21,F,UNI,Ingeniería,5,819,410,Magdalena,-12.094852,-77.063315,True,False,60
+S0556,Sergio Cruz,21,M,UTP,Administración,4,989,494,Surco,-12.156111,-76.998512,True,True,47
+S0557,Andrés Gómez,23,M,UAP,Medicina,2,984,492,Comas,-11.995512,-77.063839,True,False,21
+S0558,Andrés Villegas,19,M,UAP,Arte,1,1333,666,Miraflores,-12.116537,-77.018027,True,False,40
+S0559,Gabriel Ibarra,23,M,UNMSM,Psicología,4,1221,610,La Molina,-12.068689,-76.916737,True,True,37
+S0560,Luis Reyes,19,M,PUCP,Diseño,3,968,484,Los Olivos,-11.96114,-77.075911,False,True,38
+S0561,Sebastián Ruiz,22,M,UL,Informática,2,1472,736,Surco,-12.156137,-76.991379,False,False,26
+S0562,Oscar Ruiz,22,M,UTP,Psicología,5,1112,556,La Molina,-12.064953,-76.936586,False,True,43
+S0563,Diego Salazar,20,M,UTP,Economía,5,827,414,Miraflores,-12.128663,-77.020282,False,True,46
+S0564,Gabriela Gómez,19,F,UPC,Arte,1,860,430,La Molina,-12.068918,-76.935052,True,True,42
+S0565,Julio Sánchez,23,M,UNMSM,Economía,5,981,490,Surco,-12.14147,-76.985302,False,False,35
+S0566,Patricia Delgado,19,F,UCS,Administración,4,824,412,San Isidro,-12.100113,-77.033807,True,True,59
+S0567,Elena Castillo,25,F,UCS,Ciencias,1,986,493,Comas,-12.003253,-77.069134,False,True,37
+S0568,Juliana Mejía,24,F,PUCP,Psicología,1,1197,598,Los Olivos,-11.978914,-77.062732,True,True,55
+S0569,Lucía Palomino,21,F,UL,Ingeniería,3,883,442,La Molina,-12.061966,-76.921105,True,False,31
+S0570,Brenda Flores,24,F,PUCP,Ciencias,3,1389,694,San Isidro,-12.100928,-77.038517,False,False,39
+S0571,Jessica Aguilar,21,F,UCS,Ciencias,4,912,456,Comas,-12.004186,-77.075402,True,True,31
+S0572,Rafael Ibarra,24,M,UAP,Derecho,2,851,426,Magdalena,-12.081292,-77.07764,True,False,47
+S0573,Lucía Montoya,20,F,UPC,Informática,2,820,410,Miraflores,-12.112187,-77.035606,False,False,43
+S0574,Pedro Romero,21,M,UCS,Diseño,4,1571,786,San Miguel,-12.054268,-77.09621,True,False,28
+S0575,Adriana Salazar,23,F,UNMSM,Arquitectura,4,1337,668,Los Olivos,-11.960688,-77.073728,False,True,59
+S0576,Lorena Sánchez,18,F,UNI,Ingeniería,4,817,408,Magdalena,-12.095091,-77.07072,False,True,29
+S0577,Jimena Gómez,20,F,UPC,Administración,5,1162,581,Miraflores,-12.118248,-77.035193,True,True,32
+S0578,Lucía Sánchez,20,F,UNMSM,Administración,2,1204,602,San Miguel,-12.049476,-77.085268,True,True,27
+S0579,Oscar Herrera,24,M,UPC,Informática,1,857,428,La Molina,-12.068185,-76.918004,True,False,30
+S0580,Oscar Paredes,23,M,UNMSM,Economía,2,1252,626,Surco,-12.148242,-76.980202,False,True,49
+S0581,Hernán Cabrera,21,M,UTP,Ciencias,5,1253,626,San Miguel,-12.052695,-77.085319,True,False,31
+S0582,Gabriel Ramos,20,M,UAP,Economía,5,946,473,Surco,-12.153207,-76.98339,False,True,26
+S0583,Lorena Paredes,24,F,PUCP,Derecho,3,807,404,San Miguel,-12.050168,-77.078331,True,True,23
+S0584,Sebastián Villegas,18,M,UL,Medicina,2,1399,700,Magdalena,-12.098407,-77.061526,True,False,30
+S0585,Claudia Luna,19,F,USIL,Arte,1,844,422,Surco,-12.150054,-76.986201,True,True,27
+S0586,Tatiana Peña,20,F,PUCP,Ciencias,3,1423,712,Los Olivos,-11.974899,-77.068805,True,True,38
+S0587,Renato Tello,18,M,UAP,Diseño,5,930,465,Los Olivos,-11.969233,-77.060528,False,True,25
+S0588,Carla Cabrera,24,F,UL,Economía,3,1232,616,La Molina,-12.061001,-76.930689,False,True,51
+S0589,Adriana Valdez,23,F,UNMSM,Derecho,4,1057,528,Comas,-11.993396,-77.061414,False,True,36
+S0590,Andrea Rojas,21,F,UCS,Medicina,1,1257,628,La Molina,-12.070514,-76.91818,True,True,39
+S0591,Eduardo Tello,23,M,UNMSM,Psicología,3,942,471,Miraflores,-12.128718,-77.023139,True,True,46
+S0592,Claudia Yáñez,22,F,UNI,Informática,5,1360,680,Magdalena,-12.097364,-77.06804,True,False,43
+S0593,Fernando Palomino,25,M,UNMSM,Psicología,1,1165,582,San Miguel,-12.063143,-77.092944,True,False,46
+S0594,Gabriela Alvarado,19,F,UNMSM,Economía,5,1086,543,La Molina,-12.0624,-76.920748,True,False,54
+S0595,Enrique Molina,20,M,PUCP,Economía,4,1155,578,Miraflores,-12.112759,-77.017168,True,True,21
+S0596,Julio Delgado,20,M,UNMSM,Derecho,2,917,458,La Molina,-12.058282,-76.93503,False,True,21
+S0597,Hernán Quispe,23,M,USIL,Psicología,2,893,446,San Isidro,-12.0886,-77.03635,False,False,32
+S0598,Jorge Huamán,25,M,UAP,Medicina,2,1482,741,Magdalena,-12.08962,-77.06253,False,True,40
+S0599,Melissa León,18,F,UTP,Diseño,1,1196,598,San Miguel,-12.062721,-77.087858,True,False,30
+S0600,Isabel Carrasco,19,F,UTP,Arquitectura,2,944,472,Comas,-12.002135,-77.078156,True,False,48
+S0601,Cristian León,25,M,PUCP,Ingeniería,1,1088,544,San Isidro,-12.090386,-77.037776,True,True,23
+S0602,Héctor Reyes,23,M,UAP,Arquitectura,2,1337,668,San Isidro,-12.092265,-77.028168,False,False,59
+S0603,Tatiana Huamán,21,F,UL,Ciencias,5,1567,784,San Miguel,-12.066342,-77.093517,True,True,39
+S0604,Carla Morales,22,F,UTP,Economía,3,1405,702,La Molina,-12.058797,-76.919228,False,True,39
+S0605,Sheltty Pérez,25,F,UNI,Administración,3,849,424,San Isidro,-12.093855,-77.026968,False,True,35
+S0606,Diego Montoya,20,M,UL,Arquitectura,5,1202,601,Comas,-12.006513,-77.077664,True,True,47
+S0607,Noelia Ortega,23,F,UAP,Derecho,4,904,452,San Isidro,-12.099738,-77.038658,True,True,23
+S0608,Patricia Yáñez,25,F,UL,Ciencias,4,1421,710,Miraflores,-12.131029,-77.033526,False,False,42
+S0609,Héctor Tello,23,M,UNI,Derecho,1,1462,731,Comas,-11.991953,-77.072598,False,False,27
+S0610,Mónica Cabrera,20,F,UL,Psicología,1,1522,761,Miraflores,-12.125747,-77.018613,True,True,25
+S0611,Gabriel Sánchez,22,M,UTP,Diseño,4,1236,618,Comas,-11.998219,-77.075017,True,True,45
+S0612,Nicolás Castillo,23,M,UNI,Psicología,3,1339,670,Miraflores,-12.120872,-77.022833,True,True,25
+S0613,Luis Carrasco,19,M,UNI,Ingeniería,1,918,459,San Isidro,-12.098104,-77.038605,False,True,50
+S0614,Ricardo Cabrera,22,M,UL,Administración,4,1128,564,Miraflores,-12.11886,-77.032818,False,False,57
+S0615,Araceli Espinoza,20,F,UCS,Arte,2,1204,602,La Molina,-12.073813,-76.926487,False,True,40
+S0616,Melissa Torres,18,F,UNI,Diseño,3,1081,540,Los Olivos,-11.961601,-77.06373,False,True,46
+S0617,Lucero Ramírez,18,F,UAP,Diseño,2,821,410,Magdalena,-12.099222,-77.069663,True,False,52
+S0618,Claudia Mendoza,24,F,UNMSM,Economía,2,850,425,Miraflores,-12.113122,-77.022322,True,False,60
+S0619,Elena Salazar,20,F,UNMSM,Ciencias,4,1023,512,La Molina,-12.066225,-76.923087,False,False,33
+S0620,Martín Peña,22,M,UL,Economía,4,1061,530,Surco,-12.149466,-76.980009,False,False,55
+S0621,Alejandro Bravo,22,M,UTP,Derecho,2,1147,574,Surco,-12.155767,-76.987793,True,True,52
+S0622,Juliana Lozano,19,F,UPC,Administración,4,1084,542,Los Olivos,-11.974585,-77.078956,False,False,37
+S0623,Sofía Alvarado,19,F,UL,Administración,2,1475,738,Los Olivos,-11.978181,-77.077672,True,False,54
+S0624,Carla Yáñez,19,F,UAP,Derecho,5,1332,666,Magdalena,-12.085728,-77.064704,True,False,47
+S0625,Manuel Silva,24,M,UPC,Derecho,3,987,494,Miraflores,-12.111404,-77.019115,True,False,43
+S0626,Eduardo Molina,20,M,UNMSM,Medicina,2,1517,758,Comas,-11.993085,-77.074941,False,True,37
+S0627,Gabriela Alvarado,21,F,UL,Ingeniería,1,1543,772,Comas,-11.995981,-77.060149,False,True,51
+S0628,Brenda Peña,21,F,UAP,Psicología,3,940,470,Surco,-12.142002,-76.999257,True,True,57
+S0629,Ana Ramírez,24,F,USIL,Informática,3,1196,598,San Miguel,-12.050569,-77.089207,False,False,37
+S0630,Rocío Alvarado,19,F,PUCP,Economía,5,1104,552,La Molina,-12.067588,-76.934037,False,True,54
+S0631,Luis Ruiz,20,M,UNMSM,Economía,1,932,466,Miraflores,-12.126789,-77.035269,True,True,27
+S0632,Manuel Cabrera,19,M,UTP,Medicina,3,840,420,San Isidro,-12.09891,-77.035097,False,True,31
+S0633,Andrés Arroyo,18,M,PUCP,Derecho,4,1377,688,San Miguel,-12.066702,-77.082685,False,True,45
+S0634,Antonio Torres,24,M,UNMSM,Diseño,4,1458,729,Magdalena,-12.082728,-77.061031,True,False,53
+S0635,Víctor Molina,18,M,PUCP,Arquitectura,5,1221,610,San Miguel,-12.052743,-77.078373,True,True,37
+S0636,Marco Silva,21,M,UAP,Ciencias,1,1366,683,San Isidro,-12.088845,-77.038374,True,True,32
+S0637,Oscar Tello,25,M,UPC,Administración,3,1106,553,Los Olivos,-11.966004,-77.069048,False,False,34
+S0638,Miguel Lozano,23,M,UNMSM,Medicina,4,815,408,Comas,-11.999271,-77.075383,True,False,43
+S0639,Noelia Silva,25,F,UCS,Medicina,5,893,446,San Miguel,-12.05692,-77.087042,False,False,31
+S0640,Patricia Ramos,19,F,UTP,Arte,4,1323,662,La Molina,-12.062392,-76.922032,True,True,56
+S0641,Lucero Ramírez,19,F,UL,Medicina,5,1114,557,Magdalena,-12.098193,-77.07523,True,False,21
+S0642,Sofía Ortega,22,F,UNMSM,Arquitectura,3,1442,721,Surco,-12.142456,-76.994506,False,True,27
+S0643,Sebastián Zamora,25,M,UL,Psicología,3,1265,632,Los Olivos,-11.969727,-77.076546,True,True,59
+S0644,Manuel Gómez,22,M,UAP,Economía,5,1264,632,Magdalena,-12.088523,-77.079079,True,False,59
+S0645,Araceli Cabrera,19,F,UTP,Derecho,4,1074,537,Miraflores,-12.114575,-77.020483,False,True,26
+S0646,Luis Morales,22,M,UL,Ciencias,3,1247,624,San Miguel,-12.064267,-77.08078,False,True,60
+S0647,Víctor Ortega,24,M,UPC,Psicología,1,1037,518,Miraflores,-12.125499,-77.019165,True,False,45
+S0648,Diego Ramos,19,M,UNI,Arquitectura,4,1447,724,Miraflores,-12.115928,-77.02607,False,True,21
+S0649,Miguel Tello,18,M,UNMSM,Administración,2,1101,550,Comas,-12.008781,-77.076025,False,False,23
+S0650,Hernán Cabrera,21,M,UCS,Administración,1,886,443,Magdalena,-12.086357,-77.068805,True,True,39
+S0651,Sergio Ruiz,20,M,UAP,Administración,4,938,469,San Miguel,-12.051958,-77.09074,False,False,44
+S0652,Diana Quispe,22,F,UPC,Diseño,4,1093,546,Surco,-12.158587,-76.980284,True,False,49
+S0653,Gabriel Sánchez,18,M,PUCP,Informática,2,944,472,Surco,-12.146816,-76.981145,False,True,27
+S0654,Elías Castillo,21,M,UAP,Psicología,4,1175,588,San Isidro,-12.093084,-77.046692,True,True,58
+S0655,Sebastián Montoya,25,M,UAP,Economía,4,1489,744,San Miguel,-12.047375,-77.087736,False,True,28
+S0656,Andrea Gómez,18,F,UTP,Diseño,5,1292,646,Magdalena,-12.087609,-77.068058,False,False,33
+S0657,Héctor Morales,22,M,UCS,Administración,1,1225,612,Magdalena,-12.093553,-77.064859,True,False,41
+S0658,Elsa Cabrera,24,F,UCS,Psicología,5,907,454,Comas,-11.997289,-77.06519,True,True,30
+S0659,Verónica Ramírez,24,F,UNI,Derecho,4,1185,592,San Miguel,-12.058163,-77.076913,True,False,29
+S0660,Víctor Montoya,24,M,UPC,Informática,2,1569,784,La Molina,-12.055904,-76.919582,False,False,58
+S0661,Nicolás Chávez,23,M,UL,Administración,2,1420,710,Miraflores,-12.130811,-77.031833,True,True,39
+S0662,Andrés Torres,21,M,UL,Informática,1,1446,723,Miraflores,-12.123182,-77.03241,True,False,30
+S0663,Bruno Lozano,20,M,PUCP,Derecho,3,1362,681,Surco,-12.148122,-76.996567,False,True,21
+S0664,Mónica Mejía,18,F,UAP,Informática,3,1143,572,Comas,-12.000304,-77.060306,True,True,30
+S0665,Mónica Vargas,21,F,UNMSM,Economía,4,977,488,La Molina,-12.069748,-76.931997,False,False,46
+S0666,Natalia Ortega,24,F,UL,Ingeniería,3,1004,502,La Molina,-12.062345,-76.916705,True,False,43
+S0667,Camila Montoya,25,F,PUCP,Economía,1,1293,646,Los Olivos,-11.976903,-77.078449,False,False,39
+S0668,Daniel Yáñez,19,M,UNMSM,Arquitectura,4,951,476,San Miguel,-12.060547,-77.09576,True,True,51
+S0669,Mónica Rojas,19,F,UAP,Psicología,3,1195,598,Magdalena,-12.092418,-77.061092,True,True,42
+S0670,Diego Ramírez,21,M,UNMSM,Diseño,3,1535,768,San Isidro,-12.087075,-77.036313,False,True,43
+S0671,Diego Ramírez,24,M,UAP,Derecho,5,1025,512,Comas,-12.001862,-77.077617,False,True,49
+S0672,Jessica Ramírez,23,F,UCS,Economía,1,1202,601,Los Olivos,-11.972294,-77.070798,True,False,35
+S0673,Miranda Carrasco,24,F,UNI,Diseño,1,1470,735,Surco,-12.144543,-76.996145,True,True,21
+S0674,Luz Torres,19,F,UL,Arte,4,1255,628,San Isidro,-12.105096,-77.036915,True,True,43
+S0675,Alejandro Lozano,23,M,UPC,Ingeniería,2,1232,616,Miraflores,-12.118152,-77.033376,True,False,39
+S0676,Carlos Mejía,24,M,UL,Informática,5,1354,677,Miraflores,-12.125063,-77.025054,True,False,39
+S0677,Víctor Herrera,23,M,USIL,Arquitectura,2,1378,689,Miraflores,-12.128212,-77.026877,True,False,49
+S0678,María Gómez,18,F,UNI,Ciencias,3,1085,542,Los Olivos,-11.97997,-77.075421,False,True,60
+S0679,Valeria Vargas,25,F,UNI,Ciencias,3,1233,616,Los Olivos,-11.972817,-77.078031,False,True,43
+S0680,Jimena Rojas,18,F,UTP,Arquitectura,5,1244,622,Comas,-12.001349,-77.075812,True,False,57
+S0681,Martín Villegas,25,M,USIL,Ingeniería,5,1322,661,Magdalena,-12.092258,-77.071798,False,False,57
+S0682,Carla Cabrera,22,F,UL,Informática,4,1355,678,Miraflores,-12.117393,-77.026499,True,False,44
+S0683,Alejandro Cabrera,23,M,UCS,Psicología,3,1051,526,Surco,-12.146421,-76.999487,True,False,20
+S0684,Mónica Campos,23,F,UNMSM,Administración,5,1040,520,Comas,-11.991489,-77.065872,True,False,32
+S0685,Diego Luna,23,M,USIL,Derecho,4,1573,786,Magdalena,-12.085227,-77.06183,False,True,28
+S0686,Rosa Gutiérrez,24,F,PUCP,Informática,4,986,493,La Molina,-12.073627,-76.936563,True,True,46
+S0687,Oscar Yáñez,25,M,UNI,Administración,2,1039,520,Comas,-11.991118,-77.071623,False,True,28
+S0688,Jorge Peña,23,M,USIL,Derecho,4,927,464,Miraflores,-12.115781,-77.018301,True,True,34
+S0689,Camila Mejía,21,F,UNMSM,Informática,2,811,406,Magdalena,-12.098299,-77.071067,False,False,52
+S0690,Pablo Gutiérrez,25,M,UPC,Arte,1,828,414,San Isidro,-12.096292,-77.032606,True,True,33
+S0691,Luis Reyes,21,M,UPC,Medicina,5,1574,787,San Isidro,-12.091237,-77.026793,False,False,21
+S0692,Miguel Molina,22,M,UNI,Informática,1,1284,642,La Molina,-12.055844,-76.921687,True,False,39
+S0693,Lucía Bravo,25,F,UNI,Economía,1,1589,794,San Isidro,-12.086854,-77.046658,False,False,57
+S0694,Melissa León,24,F,UL,Ciencias,5,1566,783,Magdalena,-12.094719,-77.071784,True,False,23
+S0695,Patricia Montoya,19,F,UL,Derecho,5,1147,574,San Isidro,-12.105731,-77.040512,True,True,42
+S0696,Diego Zamora,20,M,PUCP,Economía,2,1152,576,San Isidro,-12.102763,-77.045683,False,False,30
+S0697,Daniel Bravo,24,M,UPC,Ciencias,3,997,498,San Miguel,-12.060904,-77.095803,True,False,33
+S0698,Carmen Reyes,21,F,UNI,Administración,2,1139,570,Surco,-12.150537,-76.989588,True,False,48
+S0699,Martín Silva,24,M,USIL,Psicología,5,1371,686,Comas,-12.00894,-77.069633,False,False,42
+S0700,Miguel Rojas,20,M,PUCP,Ingeniería,3,1250,625,San Miguel,-12.058916,-77.089345,True,True,31
+S0701,Noelia León,22,F,UNMSM,Economía,1,1546,773,La Molina,-12.059403,-76.923788,True,False,27
+S0702,Diana Ramírez,18,F,UL,Derecho,4,1110,555,La Molina,-12.062522,-76.930669,True,True,55
+S0703,Raúl León,20,M,UNMSM,Informática,2,930,465,Magdalena,-12.091182,-77.078118,False,True,34
+S0704,Pamela Yáñez,18,F,USIL,Derecho,5,1463,732,San Miguel,-12.065021,-77.07787,False,True,22
+S0705,Raúl Gutiérrez,23,M,PUCP,Psicología,5,999,500,Surco,-12.155356,-76.994364,False,False,53
+S0706,Eduardo León,23,M,UTP,Administración,2,1365,682,Miraflores,-12.114052,-77.019347,True,True,21
+S0707,Claudia Flores,24,F,UAP,Derecho,2,1174,587,San Isidro,-12.094307,-77.032942,False,False,28
+S0708,Raúl Alvarado,19,M,UNMSM,Administración,3,938,469,Los Olivos,-11.963343,-77.077542,False,True,40
+S0709,Eduardo Espinoza,25,M,PUCP,Psicología,3,1252,626,La Molina,-12.074682,-76.92382,True,False,36
+S0710,Lucía Peña,23,F,UTP,Informática,2,1275,638,San Miguel,-12.064708,-77.091832,True,True,28
+S0711,Pamela Carrasco,24,F,UTP,Administración,5,999,500,Miraflores,-12.116741,-77.034743,False,True,56
+S0712,Tatiana Chávez,24,F,USIL,Economía,4,1383,692,La Molina,-12.063389,-76.919508,False,True,23
+S0713,Nicolás Paredes,21,M,UAP,Administración,5,909,454,Comas,-12.007029,-77.064418,True,True,60
+S0714,Patricia Lozano,23,F,PUCP,Diseño,5,1003,502,San Isidro,-12.100879,-77.03762,False,True,53
+S0715,Nicolás Ibarra,22,M,UL,Psicología,1,1149,574,Miraflores,-12.124601,-77.033834,True,True,41
+S0716,Elena Sánchez,23,F,UCS,Arquitectura,4,1463,732,Magdalena,-12.092796,-77.076662,True,True,39
+S0717,Ana Morales,25,F,UNI,Ciencias,1,1567,784,La Molina,-12.064258,-76.929962,False,False,31
+S0718,Aler Díaz,24,M,UNI,Arquitectura,2,840,420,Los Olivos,-11.971077,-77.065921,False,True,47
+S0719,Ricardo Silva,23,M,UTP,Ingeniería,2,1317,658,San Miguel,-12.066263,-77.079934,False,False,50
+S0720,José Chávez,18,M,UCS,Diseño,5,880,440,Comas,-12.00293,-77.076216,True,True,23
+S0721,Rodrigo Ramos,25,M,UPC,Economía,4,1333,666,Comas,-11.996389,-77.072097,False,False,40
+S0722,Carlos Montoya,23,M,UL,Arte,1,1348,674,San Miguel,-12.061702,-77.087704,True,True,20
+S0723,Andrea Fernández,20,F,USIL,Arquitectura,1,1529,764,Surco,-12.151016,-76.998253,True,True,57
+S0724,Rosa Chávez,25,F,UTP,Diseño,3,1328,664,Los Olivos,-11.969693,-77.078282,True,False,35
+S0725,Rosa Ruiz,25,F,UCS,Psicología,5,859,430,Los Olivos,-11.96313,-77.071599,False,False,49
+S0726,Oscar Palomino,20,M,UL,Derecho,3,840,420,Los Olivos,-11.969129,-77.060552,True,False,34
+S0727,Adrián Mendoza,23,M,USIL,Psicología,4,1574,787,Surco,-12.158067,-76.981959,True,False,54
+S0728,Ana Gómez,24,F,UCS,Medicina,1,1444,722,Magdalena,-12.089902,-77.077151,True,True,60
+S0729,Vanessa Herrera,18,F,UNI,Derecho,5,1446,723,Magdalena,-12.082162,-77.074303,False,True,37
+S0730,Alberto Quispe,20,M,UTP,Psicología,2,1436,718,San Miguel,-12.050092,-77.088538,True,True,24
+S0731,Rosa Díaz,23,F,UL,Economía,3,1276,638,Comas,-12.00179,-77.07286,True,True,22
+S0732,Renato Salazar,19,M,UPC,Arte,2,1095,548,San Miguel,-12.049515,-77.08035,True,False,35
+S0733,María Sánchez,18,F,UNMSM,Psicología,3,1446,723,San Miguel,-12.052083,-77.09117,True,False,27
+S0734,Antonio Luna,20,M,UNMSM,Economía,1,1038,519,La Molina,-12.070268,-76.935205,True,False,54
+S0735,Flor Castillo,25,F,UPC,Psicología,5,1500,750,San Isidro,-12.090608,-77.030726,False,False,26
+S0736,Gustavo Espinoza,22,M,UTP,Economía,4,1260,630,San Miguel,-12.047494,-77.095016,True,False,27
+S0737,Juan Mendoza,18,M,UL,Psicología,4,1030,515,La Molina,-12.068838,-76.933339,False,False,38
+S0738,Mónica Chávez,20,F,UTP,Medicina,5,1276,638,Comas,-11.996543,-77.075277,True,True,37
+S0739,Paola Vargas,19,F,UPC,Ciencias,5,915,458,Surco,-12.152232,-76.981785,False,False,22
+S0740,Carla Reyes,22,F,PUCP,Psicología,1,1009,504,Miraflores,-12.123711,-77.031612,False,True,45
+S0741,Flor Luna,19,F,UTP,Arquitectura,1,1338,669,Los Olivos,-11.965386,-77.077292,True,True,50
+S0742,Rodrigo Montoya,18,M,PUCP,Administración,3,1367,684,Surco,-12.151432,-76.983047,True,True,23
+S0743,Alejandro Rojas,19,M,UNMSM,Derecho,3,1516,758,Los Olivos,-11.967404,-77.079482,False,False,30
+S0744,Héctor Aguilar,24,M,UAP,Medicina,1,954,477,Comas,-11.997329,-77.067721,True,True,36
+S0745,María Morales,25,F,USIL,Arquitectura,2,1109,554,San Miguel,-12.056356,-77.083733,False,False,22
+S0746,Manuel Valdez,20,M,UPC,Administración,5,1405,702,Miraflores,-12.115934,-77.029584,True,False,30
+S0747,Tatiana Flores,21,F,USIL,Arte,1,816,408,Magdalena,-12.081296,-77.069774,True,False,41
+S0748,Andrés Torres,19,M,UL,Ingeniería,2,984,492,Magdalena,-12.091589,-77.070713,True,True,36
+S0749,Ana Campos,25,F,UTP,Economía,5,1326,663,San Isidro,-12.100323,-77.037467,True,True,48
+S0750,Marisol Paredes,22,F,UL,Medicina,5,1076,538,La Molina,-12.061706,-76.922344,True,True,22
+S0751,Adriana Flores,20,F,UTP,Arquitectura,5,1463,732,Los Olivos,-11.962468,-77.073396,True,False,25
+S0752,Paola Suárez,19,F,UNMSM,Economía,3,1463,732,La Molina,-12.067867,-76.935077,True,True,49
+S0753,Tatiana Lozano,19,F,UNI,Ciencias,4,942,471,Los Olivos,-11.978366,-77.063185,False,True,46
+S0754,Valeria Ruiz,18,F,PUCP,Economía,3,1350,675,Comas,-12.000541,-77.063711,False,False,51
+S0755,Rocío Molina,20,F,UAP,Derecho,2,1199,600,Los Olivos,-11.971456,-77.06266,False,True,41
+S0756,Pedro García,23,M,UTP,Ciencias,5,1090,545,Comas,-12.007443,-77.068503,True,False,55
+S0757,Brenda Gutiérrez,21,F,USIL,Informática,5,1293,646,La Molina,-12.061956,-76.929462,False,True,40
+S0758,Diana Morales,23,F,USIL,Administración,3,1031,516,Surco,-12.151352,-76.997136,True,True,55
+S0759,Flor Romero,24,F,UNI,Diseño,4,1142,571,San Isidro,-12.102515,-77.031194,True,True,34
+S0760,Sebastián Alvarado,19,M,USIL,Derecho,5,1504,752,Magdalena,-12.09203,-77.070298,True,False,51
+S0761,Camila Zamora,23,F,UL,Administración,1,1013,506,Comas,-12.003696,-77.071481,True,True,52
+S0762,Jessica Reyes,21,F,UCS,Ciencias,5,873,436,Surco,-12.156262,-76.983151,True,False,40
+S0763,Juliana Díaz,19,F,UCS,Ingeniería,2,1011,506,Los Olivos,-11.97991,-77.060002,True,True,53
+S0764,Ana Salazar,22,F,UTP,Administración,3,954,477,Los Olivos,-11.964638,-77.07071,True,False,38
+S0765,Héctor Alvarado,25,M,UCS,Ingeniería,5,1026,513,Magdalena,-12.092715,-77.079355,False,False,20
+S0766,Luz Gutiérrez,21,F,UNMSM,Ingeniería,4,1376,688,La Molina,-12.060236,-76.927533,False,True,53
+S0767,Andrea Gutiérrez,22,F,UTP,Ingeniería,1,844,422,San Isidro,-12.087715,-77.029894,True,True,59
+S0768,Adriana Peña,18,F,UAP,Arte,3,1270,635,Los Olivos,-11.971078,-77.066569,True,True,40
+S0769,Andrea Sánchez,21,F,UNMSM,Derecho,4,1048,524,Los Olivos,-11.973665,-77.077267,True,True,22
+S0770,Ricardo Reyes,20,M,UAP,Arte,4,1287,644,Los Olivos,-11.97204,-77.076205,True,True,41
+S0771,Pablo Montoya,18,M,UCS,Ciencias,5,1279,640,Comas,-12.00343,-77.070923,False,True,55
+S0772,Jessica Mejía,25,F,UTP,Informática,3,1150,575,San Miguel,-12.059089,-77.087961,True,True,37
+S0773,Juliana Huamán,21,F,UPC,Arte,5,1387,694,Los Olivos,-11.96402,-77.064579,True,True,54
+S0774,Gustavo Montoya,22,M,UTP,Derecho,3,1547,774,Comas,-12.00429,-77.070485,False,False,55
+S0775,Brenda Aguilar,24,F,UAP,Ciencias,1,893,446,Comas,-12.007203,-77.065102,False,False,40
+S0776,Marco Herrera,24,M,UAP,Arte,5,1485,742,San Isidro,-12.092478,-77.037778,False,False,21
+S0777,Gabriel Mendoza,19,M,UL,Informática,4,1592,796,Comas,-11.999919,-77.072165,True,False,22
+S0778,Bruno Huamán,21,M,USIL,Informática,2,1196,598,La Molina,-12.061866,-76.931347,True,True,55
+S0779,Rodrigo Carrasco,23,M,USIL,Arquitectura,4,1131,566,San Isidro,-12.089074,-77.029005,True,True,50
+S0780,Renato Mejía,21,M,UNI,Arquitectura,1,1072,536,Magdalena,-12.088223,-77.066299,False,False,49
+S0781,Nicolás León,21,M,UAP,Diseño,4,1057,528,Miraflores,-12.123287,-77.033113,True,True,24
+S0782,Cristian Pérez,25,M,UCS,Derecho,5,1122,561,Surco,-12.15472,-76.983253,False,False,51
+S0783,Flor Arroyo,19,F,UAP,Psicología,3,1377,688,Los Olivos,-11.971197,-77.076257,True,True,33
+S0784,Julio Bravo,18,M,UNMSM,Psicología,5,900,450,San Isidro,-12.092841,-77.033664,False,True,38
+S0785,Esteban Pérez,19,M,UL,Psicología,4,950,475,Los Olivos,-11.976066,-77.071284,False,False,28
+S0786,Jessica Ruiz,22,F,PUCP,Psicología,3,1505,752,San Miguel,-12.061942,-77.093756,False,False,40
+S0787,Jimena Carrasco,19,F,UL,Diseño,1,1519,760,Los Olivos,-11.963486,-77.075374,False,False,50
+S0788,Araceli Alvarado,19,F,UPC,Ingeniería,3,901,450,Surco,-12.158397,-76.985795,True,True,27
+S0789,Claudia Villegas,20,F,UNI,Derecho,4,852,426,Los Olivos,-11.978545,-77.079322,False,True,20
+S0790,José Suárez,24,M,UL,Diseño,3,906,453,San Isidro,-12.105963,-77.04619,True,True,38
+S0791,Tatiana Delgado,19,F,UNI,Diseño,5,1034,517,San Isidro,-12.092703,-77.030695,True,True,59
+S0792,Elsa Villegas,18,F,UNI,Ciencias,2,1127,564,Surco,-12.140278,-76.986685,False,True,21
+S0793,Vanessa Villegas,21,F,UL,Medicina,4,852,426,San Miguel,-12.050406,-77.092138,False,True,26
+S0794,Marco Díaz,21,M,USIL,Administración,3,980,490,Comas,-12.001458,-77.066069,False,True,41
+S0795,Eduardo Gutiérrez,25,M,UAP,Economía,2,951,476,La Molina,-12.056178,-76.925113,False,True,34
+S0796,Adrián Suárez,18,M,UL,Psicología,2,1573,786,Magdalena,-12.094065,-77.077361,True,True,31
+S0797,Sebastián Díaz,25,M,UNI,Arte,4,1274,637,Miraflores,-12.111368,-77.025177,False,True,37
+S0798,Diana Zamora,24,F,USIL,Ingeniería,5,1007,504,Magdalena,-12.091757,-77.074655,False,True,39
+S0799,Antonio León,18,M,UCS,Administración,4,1571,786,La Molina,-12.06355,-76.935248,True,False,42
+S0800,Eduardo García,24,M,UNI,Arquitectura,3,1231,616,Los Olivos,-11.976649,-77.072976,True,True,55
+S0801,Jessica Chávez,22,F,UAP,Administración,2,1117,558,Miraflores,-12.114393,-77.021469,False,False,32
+S0802,Sheltty Ibarra,18,F,UTP,Economía,1,947,474,La Molina,-12.072691,-76.922412,True,True,25
+S0803,Nicolás Zamora,19,M,UPC,Medicina,2,1477,738,Miraflores,-12.11227,-77.033576,True,True,20
+S0804,Esteban Castillo,18,M,USIL,Diseño,4,1182,591,La Molina,-12.061609,-76.932148,False,False,59
+S0805,Jessica Luna,20,F,UNMSM,Administración,2,1211,606,Los Olivos,-11.979448,-77.071846,False,False,55
+S0806,María Morales,24,F,UL,Ciencias,3,1503,752,La Molina,-12.067345,-76.920584,False,False,60
+S0807,Diana Montoya,19,F,PUCP,Medicina,1,1422,711,La Molina,-12.067849,-76.936049,True,False,44
+S0808,Rodrigo Alvarado,18,M,UTP,Arte,5,1512,756,Miraflores,-12.114221,-77.024561,True,True,29
+S0809,Mónica Salazar,21,F,USIL,Arte,1,1540,770,San Miguel,-12.05924,-77.084091,False,False,54
+S0810,Nicolás Bravo,20,M,UAP,Administración,2,1099,550,Los Olivos,-11.960233,-77.066122,False,True,40
+S0811,Pablo Zamora,20,M,USIL,Arquitectura,2,1551,776,Magdalena,-12.094095,-77.075437,True,True,24
+S0812,Araceli Torres,18,F,UNI,Psicología,3,1003,502,San Isidro,-12.096946,-77.042682,False,True,20
+S0813,Vanessa Suárez,20,F,UNI,Psicología,2,1361,680,Comas,-11.997218,-77.077125,False,False,29
+S0814,Melissa Díaz,23,F,UAP,Psicología,1,1177,588,San Miguel,-12.055197,-77.085443,True,False,49
+S0815,Sergio Salazar,24,M,UNMSM,Ciencias,1,1336,668,Comas,-11.997874,-77.06457,False,True,21
+S0816,Sofía Molina,18,F,UTP,Diseño,1,1207,604,La Molina,-12.059315,-76.91801,True,True,33
+S0817,Elena Gómez,19,F,UNI,Economía,3,1051,526,La Molina,-12.066798,-76.933845,True,True,32
+S0818,Araceli García,18,F,UCS,Arte,2,1441,720,Magdalena,-12.087853,-77.069911,True,False,20
+S0819,Andrea Delgado,25,F,UNMSM,Ciencias,5,1078,539,Los Olivos,-11.975056,-77.068492,True,False,27
+S0820,Adriana Molina,19,F,USIL,Ingeniería,3,1578,789,Magdalena,-12.097368,-77.07643,False,True,47
+S0821,Sofía León,19,F,UNI,Arquitectura,3,976,488,La Molina,-12.056762,-76.921815,False,True,36
+S0822,Héctor Huamán,23,M,PUCP,Ingeniería,5,1138,569,Miraflores,-12.121781,-77.02517,False,True,59
+S0823,Andrea Mejía,18,F,UNI,Ingeniería,1,1185,592,San Isidro,-12.097142,-77.040254,True,False,32
+S0824,Paola Fernández,19,F,UCS,Ingeniería,3,1589,794,La Molina,-12.055386,-76.935341,False,False,30
+S0825,Rafael Silva,24,M,UTP,Economía,3,1186,593,Magdalena,-12.088107,-77.073381,False,True,29
+S0826,Enrique Chávez,18,M,UTP,Administración,5,1306,653,San Isidro,-12.09938,-77.032382,True,True,28
+S0827,María Torres,20,F,UPC,Administración,2,1540,770,San Miguel,-12.057271,-77.088631,True,False,47
+S0828,Ana Villegas,22,F,UAP,Diseño,1,1101,550,Miraflores,-12.116547,-77.025755,True,True,30
+S0829,Elena Zamora,25,F,UPC,Diseño,4,1598,799,San Isidro,-12.091244,-77.04074,False,True,26
+S0830,Aler Huamán,25,M,UPC,Derecho,4,913,456,Magdalena,-12.096651,-77.061164,True,False,54
+S0831,Camila Carrasco,20,F,UPC,Ciencias,3,1335,668,Surco,-12.143568,-76.98032,True,True,48
+S0832,Lucía Arroyo,24,F,UPC,Ingeniería,5,1423,712,Miraflores,-12.122861,-77.021033,False,True,22
+S0833,Juan Salazar,23,M,UPC,Psicología,5,1483,742,Comas,-11.99282,-77.061066,False,True,29
+S0834,Juan Alvarado,24,M,PUCP,Diseño,3,1029,514,Comas,-11.992397,-77.060811,True,False,49
+S0835,Diego García,24,M,UCS,Medicina,5,1335,668,San Miguel,-12.046887,-77.079672,True,True,41
+S0836,Martín Morales,24,M,UNI,Administración,5,1505,752,Miraflores,-12.11311,-77.019762,False,True,35
+S0837,Rafael Suárez,21,M,PUCP,Economía,5,1038,519,San Isidro,-12.106159,-77.033712,False,False,38
+S0838,Lucía Alvarado,21,F,UL,Arte,4,1347,674,Magdalena,-12.085769,-77.0657,False,True,46
+S0839,Daniel Campos,20,M,UNI,Administración,4,884,442,Los Olivos,-11.97773,-77.064574,True,True,32
+S0840,Elsa Torres,24,F,UPC,Medicina,5,1344,672,Magdalena,-12.091778,-77.072303,True,True,58
+S0841,Araceli Flores,22,F,UPC,Arquitectura,2,937,468,Los Olivos,-11.971531,-77.067779,True,True,44
+S0842,Rosa Pérez,20,F,UTP,Psicología,3,1191,596,Comas,-11.991959,-77.074427,False,False,33
+S0843,Melissa Salazar,23,F,UCS,Arte,3,1164,582,San Miguel,-12.061389,-77.092025,True,False,34
+S0844,Adrián Quispe,20,M,UAP,Medicina,5,1491,746,Magdalena,-12.092061,-77.079277,False,True,38
+S0845,Sergio Huamán,20,M,UNI,Medicina,2,1520,760,San Miguel,-12.051414,-77.092892,False,True,45
+S0846,Jessica Morales,18,F,UL,Ingeniería,1,1180,590,Comas,-11.990403,-77.069791,True,True,51
+S0847,Mario Campos,20,M,UTP,Administración,4,905,452,Surco,-12.144988,-76.984824,False,False,40
+S0848,Oscar Delgado,22,M,UPC,Ciencias,3,1029,514,Los Olivos,-11.976802,-77.068419,True,True,49
+S0849,María Carrasco,25,F,UAP,Arte,5,1498,749,San Isidro,-12.088639,-77.035059,False,True,56
+S0850,Luz Morales,23,F,USIL,Arquitectura,4,1287,644,La Molina,-12.05898,-76.928227,True,True,42
+S0851,Manuel Ramos,19,M,UNMSM,Psicología,5,1237,618,Comas,-12.002537,-77.062691,True,True,53
+S0852,Isabel Torres,21,F,UPC,Ingeniería,2,989,494,Surco,-12.15229,-76.997481,True,True,47
+S0853,Mario Chávez,18,M,UTP,Derecho,4,1208,604,Comas,-11.996999,-77.071651,False,True,33
+S0854,Rocío Ramos,21,F,UCS,Arte,1,970,485,Surco,-12.153054,-76.992348,False,False,48
+S0855,Sheltty Fernández,23,F,USIL,Administración,3,1437,718,Surco,-12.141678,-76.992723,False,False,28
+S0856,Araceli Campos,25,F,USIL,Ingeniería,4,1003,502,San Miguel,-12.055113,-77.07867,True,True,50
+S0857,Melissa Peña,21,F,UL,Ciencias,5,834,417,Magdalena,-12.09618,-77.066808,True,True,40
+S0858,Patricia Lozano,22,F,UPC,Psicología,2,881,440,Surco,-12.14766,-76.992819,True,True,60
+S0859,Andrés Paredes,21,M,UPC,Ingeniería,5,876,438,Magdalena,-12.089843,-77.073244,True,False,33
+S0860,Sebastián Vargas,21,M,UNI,Psicología,1,1362,681,Miraflores,-12.111485,-77.023408,True,False,52
+S0861,Pedro Alvarado,18,M,UNMSM,Medicina,2,1119,560,La Molina,-12.072006,-76.930781,True,False,52
+S0862,Sebastián Paredes,20,M,UPC,Ciencias,5,976,488,Los Olivos,-11.96406,-77.069992,True,False,31
+S0863,Manuel Reyes,24,M,UPC,Ingeniería,4,896,448,Comas,-12.005001,-77.077056,False,True,48
+S0864,Nicolás Rojas,21,M,UAP,Administración,3,1432,716,La Molina,-12.069929,-76.935794,False,True,43
+S0865,Natalia Torres,24,F,UNMSM,Ingeniería,2,1103,552,La Molina,-12.056906,-76.917061,True,True,38
+S0866,Paola Ramos,24,F,UL,Informática,1,855,428,Magdalena,-12.097718,-77.065271,True,False,31
+S0867,Flor Luna,25,F,UL,Arte,4,1590,795,Surco,-12.145849,-76.994873,False,False,54
+S0868,Isabel Ortega,19,F,UL,Medicina,4,1591,796,San Miguel,-12.060088,-77.082831,False,True,31
+S0869,Vanessa Campos,24,F,UNI,Ingeniería,5,859,430,La Molina,-12.066362,-76.931264,False,False,45
+S0870,Carmen Ortega,21,F,UAP,Derecho,3,1535,768,Comas,-12.000575,-77.075617,False,True,44
+S0871,Daniel Flores,24,M,UL,Ingeniería,3,1059,530,Miraflores,-12.115449,-77.02701,True,True,47
+S0872,Miranda Carrasco,23,F,UPC,Informática,3,1559,780,Comas,-12.005584,-77.061753,True,False,25
+S0873,Luis Zamora,23,M,UPC,Ingeniería,3,1343,672,Comas,-12.006455,-77.075667,False,False,40
+S0874,María Torres,25,F,UCS,Derecho,5,1282,641,Los Olivos,-11.972874,-77.074109,False,True,50
+S0875,Marco Salazar,22,M,UPC,Derecho,5,1420,710,San Isidro,-12.092984,-77.033719,True,True,26
+S0876,Sebastián Ruiz,21,M,UNI,Arquitectura,1,1033,516,Miraflores,-12.120946,-77.036367,False,True,33
+S0877,Oscar Pérez,25,M,UCS,Ingeniería,4,1098,549,San Miguel,-12.059077,-77.080812,False,False,60
+S0878,Juan Cabrera,25,M,UPC,Psicología,3,1580,790,Los Olivos,-11.973399,-77.072824,False,True,39
+S0879,Alejandro Arroyo,20,M,UNMSM,Ciencias,3,1254,627,San Isidro,-12.105565,-77.032412,True,True,49
+S0880,Ricardo Torres,20,M,UAP,Arquitectura,5,1175,588,La Molina,-12.074639,-76.930294,True,False,40
+S0881,Oscar Alvarado,25,M,UNMSM,Ciencias,1,1436,718,Magdalena,-12.094192,-77.07412,False,True,33
+S0882,Marisol Cabrera,19,F,UNI,Economía,2,1165,582,La Molina,-12.062743,-76.931098,False,False,25
+S0883,Carla Lozano,19,F,UL,Diseño,5,1537,768,Los Olivos,-11.968394,-77.06257,True,True,46
+S0884,Hernán Ramírez,21,M,USIL,Diseño,5,1085,542,Miraflores,-12.115985,-77.036378,True,False,59
+S0885,Carlos Delgado,22,M,UPC,Arte,1,930,465,Comas,-12.005518,-77.071842,True,True,55
+S0886,Antonio Cruz,21,M,UCS,Economía,2,1535,768,Magdalena,-12.094694,-77.061726,True,True,60
+S0887,Nicolás Delgado,22,M,UAP,Informática,2,948,474,San Miguel,-12.052289,-77.092424,False,True,56
+S0888,Julio Ruiz,21,M,UNMSM,Diseño,5,832,416,Surco,-12.154105,-76.988411,True,True,33
+S0889,Lucía Rojas,20,F,UCS,Derecho,1,1464,732,Los Olivos,-11.96401,-77.061894,False,True,59
+S0890,Sebastián Paredes,21,M,UAP,Diseño,4,827,414,San Isidro,-12.10044,-77.028624,False,True,21
+S0891,Araceli Pérez,21,F,USIL,Arquitectura,1,863,432,Comas,-12.005786,-77.072214,True,True,35
+S0892,Noelia Silva,21,F,PUCP,Ciencias,5,1144,572,Surco,-12.157789,-76.9873,False,True,28
+S0893,Sebastián Zamora,24,M,UL,Derecho,1,1374,687,Magdalena,-12.099025,-77.073074,True,True,20
+S0894,Rafael Lozano,21,M,PUCP,Psicología,2,1034,517,San Miguel,-12.065829,-77.085586,False,False,41
+S0895,Adriana Fernández,22,F,UPC,Administración,5,878,439,Comas,-11.997555,-77.07014,True,False,24
+S0896,Daniel Gutiérrez,20,M,USIL,Arte,4,1374,687,Los Olivos,-11.978527,-77.062786,False,True,25
+S0897,Elías Rojas,20,M,PUCP,Arte,5,872,436,Miraflores,-12.116241,-77.026914,False,True,45
+S0898,Rafael Huamán,20,M,UL,Informática,3,1011,506,Comas,-12.00216,-77.066881,True,True,60
+S0899,Camila Ruiz,18,F,USIL,Diseño,4,1042,521,San Isidro,-12.086495,-77.02945,False,True,34
+S0900,Cristian León,24,M,UCS,Psicología,4,1000,500,Surco,-12.149841,-76.999053,True,False,42
+S0901,Diana Ruiz,24,F,UTP,Diseño,2,1520,760,La Molina,-12.058172,-76.928416,False,True,51
+S0902,Héctor Gutiérrez,24,M,UCS,Ingeniería,1,1506,753,San Isidro,-12.100173,-77.044003,True,True,34
+S0903,Jorge Sánchez,19,M,UCS,Informática,4,1582,791,La Molina,-12.069475,-76.933339,False,True,59
+S0904,Juan Castillo,25,M,UTP,Informática,5,1513,756,San Isidro,-12.087811,-77.044064,False,True,57
+S0905,Fernando Paredes,23,M,USIL,Psicología,5,1527,764,Comas,-12.005848,-77.060165,False,True,20
+S0906,Sheltty Fernández,21,F,UPC,Diseño,5,1477,738,Los Olivos,-11.964168,-77.074128,True,True,24
+S0907,Valeria Sánchez,21,F,UPC,Ingeniería,4,1052,526,San Isidro,-12.091338,-77.043558,False,True,37
+S0908,Cristian Villegas,22,M,UL,Economía,2,1369,684,San Miguel,-12.055611,-77.081707,False,True,33
+S0909,Pamela Palomino,20,F,UCS,Ingeniería,1,1597,798,Surco,-12.151647,-76.980949,False,False,38
+S0910,Juliana Sánchez,25,F,UL,Ingeniería,2,1046,523,Los Olivos,-11.970171,-77.062322,False,False,35
+S0911,María Díaz,23,F,UNMSM,Diseño,2,1588,794,Surco,-12.145703,-76.997642,True,True,36
+S0912,Alejandro Montoya,19,M,PUCP,Economía,4,1065,532,Miraflores,-12.114282,-77.024917,True,True,59
+S0913,Elsa Pérez,24,F,UTP,Medicina,3,1503,752,Los Olivos,-11.963316,-77.076169,False,False,32
+S0914,Luis Huamán,24,M,PUCP,Informática,3,1499,750,Los Olivos,-11.975525,-77.077595,True,False,34
+S0915,Sergio Huamán,20,M,UPC,Arquitectura,4,1018,509,San Miguel,-12.053238,-77.095216,True,True,34
+S0916,Esteban Aguilar,23,M,UPC,Economía,5,836,418,Surco,-12.140724,-76.98495,False,False,57
+S0917,Lucero Valdez,20,F,UNI,Administración,4,893,446,Surco,-12.149662,-76.99456,False,True,32
+S0918,Gustavo Vargas,24,M,UTP,Arquitectura,4,1466,733,Magdalena,-12.089791,-77.061179,True,True,30
+S0919,Noelia Zamora,25,F,UL,Arte,2,1204,602,Magdalena,-12.081159,-77.068031,True,True,31
+S0920,Sofía Gutiérrez,18,F,UL,Administración,4,1276,638,San Isidro,-12.096866,-77.042539,False,True,53
+S0921,Daniel Ibarra,18,M,UTP,Economía,3,1400,700,Los Olivos,-11.978753,-77.062265,True,True,28
+S0922,Natalia Chávez,24,F,UAP,Ingeniería,3,1010,505,San Isidro,-12.089327,-77.041544,True,False,35
+S0923,Héctor Espinoza,22,M,UCS,Derecho,5,1138,569,Surco,-12.140674,-76.994674,True,True,56
+S0924,Carlos Mejía,23,M,UTP,Economía,3,990,495,Miraflores,-12.121443,-77.019025,False,True,35
+S0925,Natalia Cruz,25,F,PUCP,Ciencias,4,1085,542,Miraflores,-12.117921,-77.024728,False,True,31
+S0926,Melissa Peña,23,F,UL,Ingeniería,3,1275,638,La Molina,-12.0735,-76.921688,True,True,55
+S0927,Adriana Campos,23,F,USIL,Economía,1,1248,624,San Isidro,-12.10373,-77.036431,True,True,46
+S0928,Mónica Rojas,22,F,UCS,Economía,1,874,437,Magdalena,-12.098791,-77.068483,False,False,60
+S0929,Sofía Tello,18,F,PUCP,Derecho,3,1550,775,San Isidro,-12.102091,-77.033725,True,True,48
+S0930,Marco Fernández,19,M,UNI,Derecho,1,1203,602,Los Olivos,-11.978888,-77.061632,True,False,42
+S0931,José Sánchez,20,M,UCS,Ingeniería,1,840,420,Magdalena,-12.09382,-77.072914,False,True,27
+S0932,Miranda Morales,20,F,UCS,Ciencias,2,1433,716,Los Olivos,-11.967588,-77.066328,False,False,35
+S0933,Manuel Villegas,21,M,UNI,Ingeniería,3,1203,602,Miraflores,-12.124636,-77.019198,True,True,44
+S0934,Pedro Cabrera,20,M,USIL,Economía,4,806,403,Miraflores,-12.114508,-77.033381,True,True,29
+S0935,Natalia Alvarado,20,F,PUCP,Economía,5,1079,540,Los Olivos,-11.969363,-77.07455,False,True,39
+S0936,Sebastián Romero,21,M,UTP,Administración,3,810,405,Los Olivos,-11.973827,-77.071574,False,True,26
+S0937,Paola Valdez,18,F,UCS,Economía,5,988,494,Miraflores,-12.112216,-77.036874,True,True,44
+S0938,Diana Salazar,24,F,USIL,Derecho,1,1170,585,Los Olivos,-11.968378,-77.066498,True,False,51
+S0939,Nicolás Rojas,18,M,UTP,Medicina,2,1230,615,Comas,-12.006703,-77.078549,True,True,44
+S0940,Rosa Delgado,18,F,UTP,Administración,4,1394,697,Los Olivos,-11.961319,-77.060921,False,True,59
+S0941,Luz Alvarado,19,F,UAP,Arte,5,1474,737,Magdalena,-12.097206,-77.068927,True,True,53
+S0942,Carla Alvarado,20,F,UL,Psicología,3,1011,506,Magdalena,-12.086759,-77.078938,False,False,51
+S0943,Renato Espinoza,22,M,UNMSM,Derecho,5,1395,698,Miraflores,-12.121661,-77.019301,True,False,24
+S0944,Tatiana Ruiz,18,F,UTP,Economía,1,1091,546,Magdalena,-12.095706,-77.069934,False,True,60
+S0945,Adriana Silva,24,F,UNMSM,Derecho,2,1019,510,San Isidro,-12.091076,-77.032355,True,False,41
+S0946,Víctor Valdez,24,M,UTP,Medicina,5,1540,770,Miraflores,-12.127269,-77.029912,True,True,23
+S0947,Melissa Carrasco,22,F,PUCP,Diseño,1,1535,768,Los Olivos,-11.971941,-77.06732,False,False,35
+S0948,Pablo León,20,M,UTP,Informática,1,1266,633,Miraflores,-12.125534,-77.034654,True,True,29
+S0949,Fernando Zamora,21,M,PUCP,Medicina,3,1029,514,La Molina,-12.071599,-76.927102,True,True,39
+S0950,Elías Tello,24,M,UCS,Administración,1,897,448,Miraflores,-12.118638,-77.032886,False,True,38
+S0951,Elías Espinoza,23,M,UAP,Psicología,5,1571,786,Los Olivos,-11.974334,-77.076034,False,False,55
+S0952,Vanessa Ibarra,25,F,UTP,Arte,5,1297,648,Miraflores,-12.128688,-77.03341,True,True,32
+S0953,Vanessa Villegas,18,F,UPC,Administración,3,1088,544,Los Olivos,-11.966791,-77.078239,False,True,54
+S0954,Flor Carrasco,20,F,UPC,Medicina,2,1543,772,Los Olivos,-11.964334,-77.07289,True,False,40
+S0955,Cristian Paredes,23,M,UPC,Arte,5,1384,692,La Molina,-12.074295,-76.921365,False,False,40
+S0956,Martín Yáñez,25,M,UCS,Ingeniería,1,1594,797,La Molina,-12.066158,-76.916929,False,False,33
+S0957,Miguel Cabrera,20,M,PUCP,Ingeniería,2,1160,580,San Isidro,-12.102784,-77.044774,True,True,20
+S0958,Adriana Suárez,18,F,UCS,Ingeniería,1,1149,574,Surco,-12.150551,-76.997033,False,True,41
+S0959,Héctor Peña,25,M,UNMSM,Ingeniería,4,1270,635,Los Olivos,-11.97899,-77.071932,False,False,30
+S0960,Jorge Campos,22,M,UL,Arte,1,1434,717,San Isidro,-12.102531,-77.039668,True,True,20
+S0961,Gabriel Torres,18,M,UPC,Psicología,4,1480,740,San Miguel,-12.056476,-77.088157,False,False,37
+S0962,Rocío Valdez,23,F,UNMSM,Diseño,1,1564,782,Surco,-12.151156,-76.997115,False,False,31
+S0963,Brenda Alvarado,18,F,USIL,Ciencias,3,1502,751,Magdalena,-12.092184,-77.066151,False,True,25
+S0964,Luz Rojas,21,F,USIL,Diseño,1,1464,732,Los Olivos,-11.97262,-77.074733,True,True,44
+S0965,Daniela Campos,18,F,PUCP,Ciencias,1,1120,560,San Miguel,-12.050936,-77.085548,True,True,34
+S0966,Luz Montoya,21,F,UAP,Psicología,4,837,418,San Isidro,-12.087142,-77.035344,True,False,58
+S0967,Martín Quispe,18,M,USIL,Arquitectura,3,1096,548,Surco,-12.145799,-76.993646,True,True,46
+S0968,Rafael Espinoza,18,M,UCS,Derecho,5,1066,533,Los Olivos,-11.979736,-77.076527,True,False,29
+S0969,Jorge Romero,24,M,UNI,Derecho,5,1089,544,Miraflores,-12.117697,-77.029853,False,False,49
+S0970,Jimena Herrera,22,F,UL,Ingeniería,1,1046,523,San Isidro,-12.095809,-77.030695,False,True,20
+S0971,Vanessa Aguilar,24,F,UNMSM,Arte,1,1358,679,Surco,-12.150837,-76.987939,False,True,54
+S0972,Daniel Peña,18,M,UCS,Administración,5,1441,720,San Miguel,-12.062706,-77.081337,True,True,44
+S0973,Pamela Molina,22,F,UTP,Diseño,4,1249,624,La Molina,-12.072422,-76.928622,False,False,56
+S0974,Antonio León,22,M,UNI,Psicología,1,858,429,Miraflores,-12.127895,-77.030777,True,False,35
+S0975,Enrique Valdez,21,M,UTP,Ciencias,3,1259,630,Miraflores,-12.114504,-77.031779,True,True,41
+S0976,Manuel Gómez,19,M,UNI,Arquitectura,3,1341,670,Comas,-11.996109,-77.072193,True,False,36
+S0977,Jimena Yáñez,24,F,PUCP,Arte,4,845,422,San Isidro,-12.104382,-77.035791,True,True,40
+S0978,Pamela Torres,25,F,UPC,Medicina,1,973,486,San Miguel,-12.046846,-77.078006,True,False,50
+S0979,Manuel Castillo,25,M,UNMSM,Ciencias,2,1191,596,La Molina,-12.059321,-76.930377,True,True,26
+S0980,Gabriela García,23,F,UTP,Arte,3,1471,736,Magdalena,-12.082536,-77.062131,True,False,29
+S0981,Araceli Bravo,23,F,UNI,Diseño,5,1536,768,La Molina,-12.060987,-76.932173,False,True,33
+S0982,Lucía Vargas,18,F,UNI,Informática,2,825,412,La Molina,-12.067631,-76.918382,False,False,35
+S0983,Claudia Castillo,24,F,UAP,Arquitectura,4,1135,568,La Molina,-12.070078,-76.920938,False,True,56
+S0984,Cristian Torres,21,M,UTP,Arte,5,985,492,Comas,-12.004682,-77.064745,False,False,27
+S0985,Juliana Huamán,23,F,PUCP,Ciencias,3,1535,768,San Isidro,-12.095799,-77.028551,False,True,53
+S0986,Sheltty Torres,24,F,PUCP,Ingeniería,5,1050,525,Surco,-12.155295,-76.993563,False,False,21
+S0987,Daniel Gómez,24,M,UL,Informática,2,1384,692,Comas,-12.006203,-77.064295,True,False,40
+S0988,Natalia Valdez,25,F,UPC,Ingeniería,4,1566,783,Magdalena,-12.095927,-77.069368,False,False,32
+S0989,Renato Romero,24,M,UTP,Ciencias,3,917,458,Miraflores,-12.121745,-77.036755,False,True,24
+S0990,Héctor Quispe,18,M,UNMSM,Arquitectura,3,831,416,San Isidro,-12.106025,-77.030589,False,True,20
+S0991,Juan Díaz,24,M,UL,Economía,2,827,414,Los Olivos,-11.971102,-77.07917,False,False,56
+S0992,Adrián Lozano,22,M,UTP,Ciencias,4,902,451,San Isidro,-12.092183,-77.028227,True,True,43
+S0993,Claudia Torres,21,F,UCS,Derecho,2,1479,740,Surco,-12.150013,-76.981564,True,True,40
+S0994,Claudia Gómez,20,F,UNI,Informática,5,1321,660,Magdalena,-12.085071,-77.070631,True,False,39
+S0995,Alberto García,25,M,UL,Arte,1,1360,680,Los Olivos,-11.976229,-77.062371,False,True,45
+S0996,Tania León,24,F,UCS,Informática,3,1374,687,La Molina,-12.057297,-76.922108,False,True,59
+S0997,Andrea Huamán,21,F,UTP,Derecho,5,1504,752,Magdalena,-12.095339,-77.070597,True,False,56
+S0998,Tania Cruz,25,F,UCS,Psicología,4,1165,582,Los Olivos,-11.972274,-77.064403,False,True,57
+S0999,Alejandro Espinoza,23,M,UNMSM,Arte,5,1286,643,Miraflores,-12.120892,-77.023231,True,True,29
+S1000,Ricardo Valdez,18,M,UNMSM,Arquitectura,3,895,448,Magdalena,-12.094867,-77.077323,True,True,50
+S1001,José Chávez,25,M,UCS,Ingeniería,2,816,408,Surco,-12.140523,-76.986992,False,False,55
+S1002,José Tello,22,M,USIL,Diseño,4,885,442,Miraflores,-12.124779,-77.027394,True,True,35
+S1003,Alberto Sánchez,18,M,UCS,Arquitectura,1,1344,672,Surco,-12.157228,-76.998631,True,True,21
+S1004,Adriana Tello,23,F,UNI,Arte,4,1073,536,Los Olivos,-11.974989,-77.063294,False,False,42
+S1005,Carlos Paredes,23,M,UCS,Arquitectura,4,1427,714,Miraflores,-12.126638,-77.019983,False,True,21
+S1006,Sebastián Rojas,22,M,USIL,Derecho,3,917,458,Miraflores,-12.1229,-77.021729,False,False,21
+S1007,María Reyes,24,F,UAP,Informática,3,884,442,Miraflores,-12.120908,-77.032342,False,True,38
+S1008,Gabriela Ramos,22,F,UTP,Derecho,3,1430,715,San Miguel,-12.065727,-77.080591,True,True,52
+S1009,Flor Gómez,22,F,USIL,Administración,1,1390,695,Magdalena,-12.083924,-77.064273,True,True,60
+S1010,Tatiana Campos,21,F,PUCP,Informática,2,890,445,Los Olivos,-11.963869,-77.060166,False,True,34
+S1011,Pablo Ibarra,23,M,UCS,Ciencias,4,1273,636,San Isidro,-12.103039,-77.031201,False,True,46
+S1012,Marco Espinoza,18,M,UNMSM,Arte,1,1383,692,Surco,-12.14415,-76.986521,False,False,55
+S1013,Luz Torres,24,F,UTP,Informática,3,802,401,San Miguel,-12.060562,-77.084912,False,True,42
+S1014,Adriana Zamora,19,F,USIL,Administración,5,1110,555,Magdalena,-12.086509,-77.063348,False,False,53
+S1015,Andrea Ibarra,22,F,UL,Derecho,4,1188,594,San Miguel,-12.051676,-77.086511,False,True,41
+S1016,Pablo Herrera,21,M,USIL,Derecho,4,877,438,Magdalena,-12.091912,-77.075282,True,True,54
+S1017,Juliana Rojas,20,F,USIL,Arquitectura,5,1199,600,Comas,-11.989191,-77.065984,True,False,35
+S1018,Luz Rojas,19,F,UL,Administración,5,1441,720,Comas,-11.989126,-77.068267,True,False,29
+S1019,Lucero Cruz,21,F,PUCP,Psicología,5,1588,794,Miraflores,-12.12797,-77.036272,True,True,43
+S1020,Manuel Espinoza,24,M,UL,Medicina,2,1276,638,Surco,-12.144412,-76.983104,False,False,24
+S1021,Melissa Flores,21,F,UL,Arquitectura,1,1260,630,Magdalena,-12.09859,-77.071256,False,False,31
+S1022,Oscar Peña,18,M,UNMSM,Medicina,3,1155,578,Los Olivos,-11.961482,-77.072206,True,False,56
+S1023,Martín Villegas,24,M,UPC,Arte,5,898,449,Los Olivos,-11.969373,-77.072697,True,False,50
+S1024,Sofía Flores,19,F,UL,Arquitectura,5,816,408,San Miguel,-12.053794,-77.083454,True,True,45
+S1025,Carmen Alvarado,21,F,PUCP,Derecho,4,1455,728,Comas,-11.998433,-77.064127,True,True,45
+S1026,Martín Salazar,23,M,PUCP,Psicología,1,1417,708,Los Olivos,-11.961171,-77.076291,False,True,50
+S1027,Noelia Mendoza,19,F,UL,Ingeniería,3,1568,784,Miraflores,-12.116978,-77.036638,True,True,31
+S1028,Gustavo Ruiz,21,M,USIL,Economía,5,1239,620,Miraflores,-12.114276,-77.035126,True,False,52
+S1029,Alberto Huamán,24,M,UL,Medicina,5,1148,574,Miraflores,-12.128646,-77.027634,True,True,55
+S1030,Luis Ruiz,19,M,UNI,Arte,5,934,467,Surco,-12.150641,-76.984302,False,True,31
+S1031,Tania Peña,20,F,UNI,Arquitectura,3,1437,718,La Molina,-12.057757,-76.935921,False,False,46
+S1032,Julio Palomino,25,M,UL,Arte,4,1409,704,San Isidro,-12.091229,-77.03261,False,True,41
+S1033,Sheltty Tello,22,F,UCS,Psicología,2,1332,666,Los Olivos,-11.978156,-77.061008,False,False,22
+S1034,Rafael Chávez,22,M,UL,Informática,3,1548,774,Comas,-12.005787,-77.068423,False,True,40
+S1035,Luis Gómez,19,M,UTP,Derecho,4,1429,714,Comas,-11.99515,-77.065905,True,False,39
+S1036,Fernando León,20,M,UAP,Administración,3,1593,796,San Miguel,-12.049498,-77.092444,True,False,47
+S1037,Julio Carrasco,21,M,UNI,Arquitectura,2,896,448,La Molina,-12.057299,-76.922339,False,True,51
+S1038,Camila García,21,F,UNI,Informática,3,1573,786,La Molina,-12.062939,-76.924783,False,False,42
+S1039,Andrea Ramírez,23,F,USIL,Diseño,2,971,486,Magdalena,-12.098103,-77.061677,False,True,26
+S1040,Renato Delgado,20,M,UAP,Diseño,1,1584,792,San Miguel,-12.052015,-77.087817,True,False,22
+S1041,Sofía Morales,21,F,UTP,Economía,4,957,478,Magdalena,-12.082405,-77.060118,True,True,35
+S1042,Fernando Silva,22,M,USIL,Administración,4,1029,514,San Miguel,-12.047351,-77.080634,False,False,57
+S1043,Rafael Aguilar,24,M,UPC,Ingeniería,2,843,422,Comas,-11.999805,-77.072796,True,False,41
+S1044,Rosa Flores,24,F,UAP,Diseño,3,885,442,San Isidro,-12.098788,-77.039394,False,False,44
+S1045,Sofía Sánchez,22,F,USIL,Administración,5,1090,545,Los Olivos,-11.965497,-77.079844,True,False,29
+S1046,Héctor García,19,M,UNMSM,Administración,5,1165,582,Comas,-12.004404,-77.075164,True,True,47
+S1047,Alberto Delgado,20,M,UNMSM,Diseño,5,1059,530,San Miguel,-12.051663,-77.082079,False,False,53
+S1048,Adrián Luna,24,M,UCS,Economía,5,1242,621,La Molina,-12.059823,-76.931486,False,True,20
+S1049,Sofía Rojas,20,F,UNMSM,Ciencias,5,1156,578,San Isidro,-12.098793,-77.039594,False,True,23
+S1050,Araceli Paredes,25,F,UPC,Medicina,2,935,468,Los Olivos,-11.963622,-77.066317,True,True,47
+S1051,Lucía Herrera,24,F,UL,Informática,3,1235,618,Los Olivos,-11.970012,-77.066424,False,True,51
+S1052,Renato Salazar,22,M,UNI,Administración,4,944,472,Miraflores,-12.129288,-77.029819,False,True,59
+S1053,Rocío Huamán,19,F,UPC,Informática,3,1003,502,San Miguel,-12.056244,-77.079378,True,True,44
+S1054,Patricia Lozano,24,F,UTP,Derecho,5,1090,545,Miraflores,-12.120532,-77.02084,True,True,36
+S1055,Flor Molina,21,F,UAP,Arquitectura,3,985,492,Surco,-12.146699,-76.986594,True,False,38
+S1056,Oscar Fernández,25,M,PUCP,Psicología,1,1386,693,San Isidro,-12.097708,-77.027942,False,True,23
+S1057,Elsa Zamora,22,F,UL,Informática,3,1477,738,San Miguel,-12.062081,-77.095542,True,False,50
+S1058,Marco Torres,23,M,PUCP,Informática,2,1014,507,San Miguel,-12.059144,-77.078446,False,True,36
+S1059,Juan Ibarra,19,M,PUCP,Arquitectura,2,1318,659,Magdalena,-12.084344,-77.078503,False,False,21
+S1060,Héctor Huamán,18,M,UCS,Ciencias,5,1182,591,San Miguel,-12.059565,-77.094734,False,True,41
+S1061,Lucero Paredes,24,F,PUCP,Economía,2,946,473,Surco,-12.150653,-76.981268,False,False,33
+S1062,Manuel Valdez,22,M,UAP,Derecho,4,943,472,San Miguel,-12.054842,-77.090218,False,True,47
+S1063,Elena Luna,21,F,PUCP,Diseño,1,940,470,Miraflores,-12.122308,-77.026358,False,False,42
+S1064,Brenda Zamora,25,F,PUCP,Arte,1,1506,753,Comas,-12.006446,-77.06245,False,True,60
+S1065,Jorge Paredes,19,M,PUCP,Administración,1,850,425,San Miguel,-12.053906,-77.08024,False,True,52
+S1066,Miranda Molina,20,F,UNMSM,Economía,2,874,437,La Molina,-12.063653,-76.917895,True,True,42
+S1067,Aler Lozano,18,M,UTP,Ciencias,3,894,447,San Miguel,-12.054071,-77.092912,False,False,60
+S1068,Carmen Ibarra,20,F,UNI,Ciencias,4,1055,528,San Miguel,-12.060777,-77.096566,False,False,23
+S1069,Rafael Arroyo,25,M,USIL,Economía,2,1449,724,Magdalena,-12.080624,-77.0619,False,True,60
+S1070,Manuel Quispe,24,M,UL,Administración,4,1369,684,San Miguel,-12.063884,-77.089232,False,True,44
+S1071,Rocío Aguilar,23,F,UCS,Arquitectura,1,1365,682,Los Olivos,-11.971776,-77.069685,True,False,51
+S1072,Verónica Paredes,25,F,UPC,Medicina,4,984,492,La Molina,-12.073861,-76.932576,False,True,50
+S1073,Bruno Torres,25,M,UTP,Psicología,3,1167,584,Comas,-11.991714,-77.065397,True,False,31
+S1074,Víctor Ruiz,24,M,UCS,Psicología,4,1107,554,Surco,-12.153317,-76.982174,False,False,27
+S1075,Hernán Ibarra,22,M,UNI,Ingeniería,4,1137,568,Surco,-12.147625,-76.994141,True,True,47
+S1076,Vanessa Molina,18,F,UCS,Ingeniería,4,1035,518,Surco,-12.140868,-76.983778,True,True,27
+S1077,Antonio Cabrera,21,M,PUCP,Informática,3,1255,628,Comas,-11.996291,-77.07828,True,True,36
+S1078,Luz Flores,21,F,UAP,Economía,1,972,486,Comas,-11.990887,-77.075694,False,True,38
+S1079,Eduardo Palomino,20,M,UNMSM,Psicología,2,1236,618,Los Olivos,-11.971194,-77.078875,False,False,22
+S1080,Raúl Lozano,20,M,UPC,Medicina,3,946,473,Surco,-12.142165,-76.982735,False,False,44
+S1081,Brenda Chávez,20,F,UAP,Psicología,4,899,450,Surco,-12.158452,-76.980389,True,False,38
+S1082,Cristian Tello,18,M,UTP,Economía,4,1247,624,San Isidro,-12.08913,-77.030201,False,False,56
+S1083,Carlos Molina,25,M,UNMSM,Informática,4,1442,721,Surco,-12.141438,-76.998938,False,False,32
+S1084,Renato Tello,19,M,PUCP,Psicología,1,962,481,Surco,-12.1422,-76.988626,False,False,22
+S1085,Jorge Bravo,21,M,PUCP,Economía,4,936,468,La Molina,-12.072151,-76.934151,False,True,51
+S1086,Eduardo Huamán,19,M,UAP,Psicología,3,824,412,La Molina,-12.073869,-76.921465,True,True,28
+S1087,Elena Valdez,19,F,UNMSM,Psicología,1,1490,745,Comas,-11.991502,-77.076593,True,False,34
+S1088,Ana Paredes,24,F,UAP,Informática,5,1284,642,Miraflores,-12.117609,-77.027665,False,True,31
+S1089,Patricia Campos,19,F,PUCP,Arte,4,1295,648,Los Olivos,-11.970582,-77.072536,True,False,32
+S1090,Raúl Morales,21,M,UNMSM,Administración,2,849,424,La Molina,-12.054914,-76.929956,False,False,58
+S1091,Brenda León,18,F,UL,Ciencias,3,1019,510,Los Olivos,-11.962289,-77.066771,False,True,29
+S1092,Gustavo Montoya,23,M,UL,Derecho,3,1595,798,Magdalena,-12.090382,-77.070107,False,False,52
+S1093,Noelia Bravo,23,F,UNI,Arquitectura,4,1536,768,La Molina,-12.071738,-76.929582,False,False,55
+S1094,Hernán Peña,18,M,USIL,Medicina,1,1374,687,San Miguel,-12.054131,-77.077931,False,False,39
+S1095,Esteban Espinoza,24,M,UL,Medicina,4,1081,540,Miraflores,-12.119087,-77.024935,True,False,46
+S1096,Alejandro Cabrera,20,M,UL,Economía,4,1183,592,Miraflores,-12.12291,-77.024407,True,False,53
+S1097,María Carrasco,20,F,UCS,Ciencias,3,1477,738,La Molina,-12.068464,-76.928101,True,True,34
+S1098,Melissa Gómez,22,F,UCS,Derecho,4,1514,757,Surco,-12.151073,-76.986459,False,False,40
+S1099,Verónica Gutiérrez,19,F,UTP,Economía,1,984,492,La Molina,-12.056824,-76.929881,False,True,57
+S1100,Marisol Montoya,18,F,UNMSM,Diseño,2,1134,567,Los Olivos,-11.96387,-77.066355,True,True,24
+S1101,Héctor Montoya,25,M,UAP,Informática,5,1122,561,Los Olivos,-11.967458,-77.078463,True,False,33
+S1102,Luz Bravo,23,F,UPC,Arquitectura,2,1498,749,Surco,-12.157014,-76.99841,False,False,58
+S1103,Pamela Bravo,23,F,UAP,Ingeniería,3,815,408,Magdalena,-12.085671,-77.078191,True,True,20
+S1104,Carla Aguilar,24,F,UAP,Ciencias,2,1144,572,Surco,-12.143121,-76.983597,True,True,53
+S1105,Julio Pérez,18,M,UL,Medicina,3,1596,798,Magdalena,-12.087193,-77.061126,False,True,48
+S1106,Renato Fernández,21,M,UNI,Administración,4,1465,732,Comas,-11.997725,-77.062987,True,True,53
+S1107,Juan Zamora,23,M,UPC,Economía,1,1559,780,La Molina,-12.07469,-76.934174,True,True,29
+S1108,Raúl Palomino,20,M,USIL,Economía,5,1373,686,San Miguel,-12.057661,-77.095789,True,True,29
+S1109,Enrique Molina,24,M,UCS,Informática,4,895,448,San Miguel,-12.053037,-77.078728,True,True,51
+S1110,Héctor Salazar,19,M,UPC,Psicología,2,902,451,Comas,-12.006695,-77.076928,False,True,44
+S1111,Mario Arroyo,24,M,UNMSM,Arquitectura,5,876,438,La Molina,-12.06612,-76.923713,True,True,25
+S1112,Esteban Mejía,21,M,UNI,Arquitectura,5,829,414,La Molina,-12.066623,-76.924565,False,True,47
+S1113,Carlos Bravo,19,M,UNI,Arte,2,1494,747,La Molina,-12.058949,-76.927743,True,False,25
+S1114,Adriana Morales,21,F,UCS,Administración,2,919,460,Los Olivos,-11.960363,-77.062493,False,True,20
+S1115,Rosa Chávez,25,F,UCS,Medicina,1,853,426,Comas,-11.990433,-77.06056,True,False,48
+S1116,Víctor Herrera,18,M,UL,Arte,3,1118,559,San Isidro,-12.100447,-77.030711,False,False,60
+S1117,Oscar Herrera,18,M,UAP,Economía,4,852,426,Magdalena,-12.094329,-77.07121,True,False,40
+S1118,Gabriel Cruz,23,M,UAP,Economía,2,1282,641,Magdalena,-12.099221,-77.074648,True,False,56
+S1119,Tatiana Valdez,24,F,UL,Administración,1,1520,760,Comas,-12.007388,-77.069079,True,False,40
+S1120,Melissa Palomino,23,F,UNMSM,Economía,1,1509,754,San Miguel,-12.048284,-77.095094,True,True,32
+S1121,Flor Pérez,23,F,UNI,Arquitectura,1,1307,654,Miraflores,-12.114073,-77.024143,True,True,56
+S1122,Vanessa Cruz,24,F,UCS,Informática,5,1221,610,Los Olivos,-11.971498,-77.067664,True,True,29
+S1123,Fernando Delgado,25,M,UAP,Derecho,3,1471,736,La Molina,-12.058745,-76.921885,True,True,59
+S1124,Pedro Tello,24,M,UTP,Informática,1,1297,648,San Miguel,-12.060876,-77.095555,False,True,56
+S1125,Bruno Castillo,25,M,UAP,Diseño,4,1034,517,Magdalena,-12.083859,-77.073248,False,False,43
+S1126,Nicolás Villegas,20,M,UL,Arte,1,1485,742,Miraflores,-12.11561,-77.026716,False,True,45
+S1127,Gustavo Ramírez,25,M,UNMSM,Administración,5,1389,694,La Molina,-12.057744,-76.926204,True,True,36
+S1128,Carla Vargas,24,F,UL,Psicología,5,1182,591,Magdalena,-12.089865,-77.066575,True,True,42
+S1129,Hernán Montoya,22,M,PUCP,Arquitectura,4,868,434,San Isidro,-12.089179,-77.043523,False,True,22
+S1130,Verónica Lozano,18,F,UCS,Ingeniería,4,1419,710,San Miguel,-12.057847,-77.089548,False,True,38
+S1131,Melissa Torres,23,F,PUCP,Arquitectura,4,856,428,Miraflores,-12.118569,-77.026151,True,True,59
+S1132,Araceli Paredes,20,F,UAP,Diseño,5,1421,710,San Isidro,-12.103058,-77.03764,True,True,33
+S1133,Fernando Sánchez,19,M,UCS,Administración,1,1221,610,San Miguel,-12.052971,-77.096287,True,True,53
+S1134,Víctor Mejía,21,M,UL,Arte,2,1384,692,San Isidro,-12.094494,-77.028734,False,False,42
+S1135,Martín Montoya,25,M,PUCP,Economía,3,1231,616,Surco,-12.142289,-76.995529,True,False,49
+S1136,Pablo Ramos,21,M,USIL,Arquitectura,2,1473,736,San Miguel,-12.059205,-77.093075,False,False,30
+S1137,Sheltty Rojas,25,F,UTP,Psicología,3,1297,648,Magdalena,-12.087815,-77.077498,False,False,25
+S1138,Mario Lozano,25,M,USIL,Ciencias,3,1164,582,Magdalena,-12.083905,-77.066749,True,False,41
+S1139,Carmen Ramírez,24,F,UPC,Administración,5,992,496,Comas,-11.99753,-77.067103,False,False,59
+S1140,Rocío Campos,18,F,UCS,Medicina,4,1480,740,San Isidro,-12.086329,-77.041211,True,True,55
+S1141,Tatiana Tello,23,F,UAP,Administración,3,803,402,Comas,-12.001539,-77.079174,True,True,44
+S1142,Lorena Ramírez,22,F,UNI,Economía,3,978,489,Surco,-12.153478,-76.980184,True,False,22
+S1143,Alberto Palomino,25,M,UNMSM,Diseño,1,913,456,Miraflores,-12.128059,-77.01715,True,False,45
+S1144,Lorena Pérez,22,F,UNI,Derecho,5,1121,560,Miraflores,-12.120565,-77.01891,False,False,42
+S1145,Gabriel Gutiérrez,20,M,UL,Administración,1,1195,598,Comas,-11.99703,-77.062705,False,True,31
+S1146,Jimena Mendoza,19,F,UNMSM,Diseño,4,1288,644,La Molina,-12.073112,-76.933278,True,True,42
+S1147,María Mendoza,23,F,UNMSM,Diseño,5,1498,749,Surco,-12.14647,-76.996239,False,True,30
+S1148,Luis Salazar,19,M,UCS,Informática,3,1275,638,La Molina,-12.072431,-76.921766,True,True,43
+S1149,Rafael Villegas,23,M,UNMSM,Derecho,3,1248,624,La Molina,-12.062235,-76.922559,False,False,50
+S1150,Lucero Huamán,19,F,UL,Derecho,2,1321,660,Los Olivos,-11.966143,-77.067847,True,True,27
+S1151,Alejandro Ramírez,18,M,UNMSM,Diseño,4,1170,585,Surco,-12.154174,-76.980054,True,False,32
+S1152,Hernán Valdez,19,M,PUCP,Derecho,4,1447,724,Los Olivos,-11.972636,-77.078132,True,True,30
+S1153,Pablo Suárez,25,M,UNI,Ciencias,1,1454,727,San Miguel,-12.046941,-77.089264,True,False,47
+S1154,Carla Díaz,23,F,UAP,Medicina,5,1114,557,Comas,-11.997885,-77.079935,True,False,32
+S1155,Marco Herrera,19,M,PUCP,Economía,5,1090,545,Los Olivos,-11.972401,-77.067896,True,False,45
+S1156,Bruno Herrera,20,M,UTP,Derecho,1,1095,548,Los Olivos,-11.960102,-77.061696,True,False,50
+S1157,Raúl Cabrera,23,M,UNMSM,Economía,1,1493,746,Surco,-12.146005,-76.998327,True,True,39
+S1158,Isabel Paredes,23,F,UPC,Informática,2,819,410,Magdalena,-12.089229,-77.077983,True,False,30
+S1159,Elena Carrasco,23,F,UAP,Derecho,3,1073,536,San Miguel,-12.064384,-77.08145,True,False,38
+S1160,Miguel García,22,M,UNMSM,Medicina,2,904,452,Miraflores,-12.127892,-77.027982,False,False,36
+S1161,José León,22,M,UTP,Psicología,2,1347,674,La Molina,-12.066734,-76.928607,True,True,36
+S1162,Rosa Cabrera,21,F,UCS,Medicina,3,1331,666,Comas,-11.999743,-77.06186,True,False,35
+S1163,Renato Villegas,24,M,UPC,Medicina,3,1258,629,La Molina,-12.065623,-76.927004,True,True,47
+S1164,José Villegas,22,M,UCS,Economía,2,995,498,Los Olivos,-11.962236,-77.063311,True,True,22
+S1165,Vanessa Mendoza,19,F,UCS,Diseño,2,1246,623,La Molina,-12.0655,-76.923253,False,True,49
+S1166,Fernando Espinoza,21,M,USIL,Psicología,2,1296,648,Surco,-12.153828,-76.989381,False,False,28
+S1167,Carlos Delgado,20,M,UAP,Ciencias,4,1569,784,Comas,-12.006322,-77.078797,True,False,37
+S1168,Adrián Vargas,20,M,UTP,Medicina,1,1481,740,Los Olivos,-11.962178,-77.070744,True,False,25
+S1169,Antonio Pérez,21,M,UTP,Ciencias,1,852,426,San Isidro,-12.089774,-77.033146,False,False,50
+S1170,Marco Suárez,22,M,UAP,Economía,2,1366,683,Magdalena,-12.097002,-77.064728,False,False,48
+S1171,Tania Palomino,18,F,UNMSM,Ingeniería,5,1375,688,Los Olivos,-11.976159,-77.074961,True,False,53
+S1172,Lorena Aguilar,19,F,UL,Ciencias,4,1010,505,Magdalena,-12.084747,-77.062493,True,True,24
+S1173,Juan Lozano,21,M,UNMSM,Ingeniería,3,1105,552,Surco,-12.140403,-76.986873,False,False,48
+S1174,Martín Aguilar,19,M,UNI,Psicología,1,1540,770,Magdalena,-12.093411,-77.07845,True,True,20
+S1175,Fernando Molina,20,M,USIL,Arte,2,1487,744,Comas,-11.999569,-77.073567,False,False,40
+S1176,Rocío Quispe,18,F,UPC,Ciencias,5,866,433,Comas,-11.998305,-77.067114,False,False,45
+S1177,Alejandro Pérez,20,M,UPC,Administración,2,1305,652,Los Olivos,-11.962004,-77.069068,True,False,38
+S1178,Elsa Valdez,19,F,UNMSM,Arte,5,1420,710,San Isidro,-12.105138,-77.031976,False,False,20
+S1179,Rosa Suárez,21,F,UTP,Ciencias,1,834,417,San Miguel,-12.060495,-77.085282,False,True,30
+S1180,Alberto Luna,22,M,UTP,Administración,2,1467,734,San Miguel,-12.055064,-77.086047,True,False,42
+S1181,Elena Herrera,21,F,UPC,Ciencias,3,1100,550,Comas,-12.004807,-77.060327,False,False,50
+S1182,Marco Molina,22,M,UCS,Ciencias,1,1567,784,Miraflores,-12.116151,-77.029075,False,False,37
+S1183,Esteban Villegas,22,M,UL,Arte,1,832,416,Magdalena,-12.087865,-77.066009,False,True,37
+S1184,Luz Luna,21,F,UNI,Derecho,4,1370,685,San Miguel,-12.051469,-77.08372,False,True,44
+S1185,Sebastián Reyes,25,M,PUCP,Administración,5,884,442,Los Olivos,-11.975456,-77.077323,True,False,22
+S1186,Rodrigo Ibarra,22,M,UNMSM,Diseño,3,1307,654,Comas,-11.999016,-77.078471,False,True,33
+S1187,Lorena Fernández,18,F,UPC,Diseño,1,968,484,La Molina,-12.064224,-76.917491,False,False,55
+S1188,Hernán Carrasco,23,M,PUCP,Ingeniería,4,1041,520,Comas,-12.003247,-77.072569,True,False,33
+S1189,Víctor Cabrera,24,M,UCS,Arquitectura,2,1041,520,Los Olivos,-11.977908,-77.069782,False,True,45
+S1190,Flor Paredes,18,F,UPC,Arquitectura,4,1068,534,Miraflores,-12.121909,-77.029392,True,False,55
+S1191,Aler Reyes,24,M,PUCP,Ingeniería,5,1193,596,La Molina,-12.062276,-76.933368,False,True,29
+S1192,Sofía Paredes,18,F,UCS,Ciencias,3,1095,548,La Molina,-12.067455,-76.921935,False,False,39
+S1193,Gustavo Ibarra,19,M,UCS,Derecho,5,1274,637,San Miguel,-12.062871,-77.082619,True,True,45
+S1194,Gabriel Morales,18,M,UCS,Arquitectura,2,1427,714,San Miguel,-12.057757,-77.093114,False,True,51
+S1195,Gabriel Aguilar,19,M,UNMSM,Psicología,1,1150,575,San Isidro,-12.098336,-77.04458,False,False,43
+S1196,Claudia Morales,18,F,UNI,Diseño,1,1076,538,Miraflores,-12.126925,-77.032579,True,False,54
+S1197,Adrián Herrera,23,M,USIL,Arquitectura,5,1018,509,Miraflores,-12.130861,-77.019156,False,True,31
+S1198,Héctor Palomino,23,M,UL,Ingeniería,3,933,466,La Molina,-12.060623,-76.923144,True,False,30
+S1199,Mario Sánchez,18,M,UAP,Ingeniería,3,1579,790,Los Olivos,-11.968734,-77.079806,False,False,43
+S1200,Diana Tello,23,F,UPC,Psicología,5,1171,586,San Isidro,-12.10086,-77.035228,False,False,43
+S1201,Brenda Peña,21,F,UNMSM,Arte,3,1530,765,Magdalena,-12.097921,-77.075737,False,True,25
+S1202,Flor Mejía,21,F,UCS,Psicología,5,1099,550,La Molina,-12.073702,-76.931714,True,False,58
+S1203,Fernando Sánchez,22,M,UNMSM,Economía,5,1361,680,La Molina,-12.073161,-76.923659,False,True,54
+S1204,Diego Espinoza,18,M,PUCP,Arte,4,1419,710,San Miguel,-12.054158,-77.085237,False,False,23
+S1205,Alejandro Morales,18,M,UTP,Derecho,2,1381,690,San Isidro,-12.102692,-77.036454,False,True,36
+S1206,Héctor Mendoza,21,M,UL,Arquitectura,1,1061,530,Miraflores,-12.125026,-77.030224,False,True,50
+S1207,Gabriela Flores,22,F,PUCP,Derecho,1,1502,751,San Isidro,-12.090158,-77.02806,True,True,25
+S1208,Elena Cruz,24,F,UPC,Diseño,5,1315,658,La Molina,-12.073325,-76.931887,True,False,41
+S1209,Nicolás Aguilar,21,M,UL,Arquitectura,1,1456,728,San Isidro,-12.096355,-77.031581,False,True,36
+S1210,Verónica Fernández,24,F,UL,Medicina,4,806,403,Miraflores,-12.124672,-77.034399,False,True,57
+S1211,Héctor Salazar,22,M,UCS,Arquitectura,1,1282,641,La Molina,-12.066142,-76.919746,True,False,47
+S1212,Rodrigo Torres,20,M,UNI,Economía,2,1579,790,Los Olivos,-11.962698,-77.062128,True,True,35
+S1213,Juan Zamora,25,M,UPC,Medicina,4,1160,580,Los Olivos,-11.967702,-77.063965,False,True,37
+S1214,Adriana Salazar,24,F,UCS,Economía,2,832,416,Surco,-12.158205,-76.99343,False,True,46
+S1215,Raúl Paredes,25,M,UAP,Ciencias,2,1424,712,Miraflores,-12.121729,-77.029707,True,False,57
+S1216,Claudia Sánchez,24,F,UL,Arquitectura,3,1323,662,Miraflores,-12.111569,-77.029128,False,True,35
+S1217,Adriana Fernández,19,F,UTP,Psicología,3,1113,556,La Molina,-12.068743,-76.935816,False,True,57
+S1218,Tatiana Rojas,20,F,PUCP,Psicología,4,1042,521,Comas,-12.008831,-77.074463,True,False,60
+S1219,Araceli Quispe,22,F,PUCP,Psicología,4,938,469,Magdalena,-12.083181,-77.071112,False,False,23
+S1220,Elena Lozano,19,F,UAP,Derecho,3,1417,708,Los Olivos,-11.967687,-77.062451,False,True,31
+S1221,Pamela Zamora,24,F,UL,Psicología,5,1074,537,Miraflores,-12.123125,-77.034977,False,False,51
+S1222,Pedro Morales,24,M,UCS,Derecho,5,1447,724,Miraflores,-12.115318,-77.029129,True,False,53
+S1223,Miranda Gómez,20,F,UCS,Ciencias,1,1538,769,Miraflores,-12.114083,-77.033495,False,False,26
+S1224,Martín Huamán,25,M,UPC,Arquitectura,1,1258,629,La Molina,-12.072682,-76.930098,True,False,26
+S1225,Juliana Bravo,23,F,UTP,Administración,2,1475,738,Surco,-12.152995,-76.987268,False,True,54
+S1226,Alejandro Díaz,23,M,UCS,Medicina,1,981,490,Comas,-11.998669,-77.070757,False,True,20
+S1227,Lucero Rojas,18,F,UL,Medicina,1,1025,512,San Miguel,-12.066394,-77.077233,False,False,23
+S1228,Enrique Villegas,19,M,UPC,Arte,3,931,466,San Miguel,-12.065374,-77.082493,True,False,56
+S1229,Noelia Ibarra,20,F,USIL,Administración,5,906,453,Los Olivos,-11.978548,-77.064076,True,True,25
+S1230,Tania Huamán,24,F,UTP,Arte,2,910,455,Surco,-12.152353,-76.993806,True,True,47
+S1231,Ana Valdez,25,F,UPC,Economía,4,1083,542,Magdalena,-12.080606,-77.07595,False,False,45
+S1232,Antonio Díaz,18,M,UCS,Medicina,1,1283,642,Magdalena,-12.083985,-77.070676,False,False,22
+S1233,Carmen Alvarado,21,F,UAP,Arte,3,1035,518,San Isidro,-12.101987,-77.028771,False,True,28
+S1234,Luz Peña,22,F,UPC,Administración,2,1489,744,Surco,-12.157103,-76.986484,False,True,54
+S1235,Diana Díaz,23,F,UCS,Ciencias,5,821,410,La Molina,-12.064523,-76.932582,False,False,50
+S1236,Víctor Paredes,24,M,PUCP,Derecho,4,991,496,Surco,-12.143999,-76.992068,False,True,50
+S1237,Eduardo Tello,21,M,USIL,Arte,2,1337,668,La Molina,-12.07259,-76.917489,False,True,39
+S1238,Miranda Campos,20,F,UPC,Ciencias,3,1104,552,Comas,-12.008842,-77.07204,False,False,38
+S1239,Gustavo Morales,22,M,PUCP,Informática,2,1420,710,Los Olivos,-11.970333,-77.060577,True,False,21
+S1240,Enrique Gómez,25,M,USIL,Arte,1,1587,794,Miraflores,-12.119913,-77.028444,False,False,28
+S1241,Sergio Alvarado,20,M,UTP,Derecho,4,1211,606,San Isidro,-12.096079,-77.040982,False,True,33
+S1242,Carlos Valdez,22,M,UTP,Diseño,5,1316,658,La Molina,-12.074359,-76.923435,True,False,42
+S1243,Jessica Ruiz,18,F,USIL,Ingeniería,1,1135,568,Miraflores,-12.130771,-77.033829,False,True,28
+S1244,Rosa Rojas,24,F,PUCP,Arquitectura,5,1253,626,Los Olivos,-11.966427,-77.062638,True,True,56
+S1245,Elías Romero,21,M,UL,Ingeniería,3,1096,548,Los Olivos,-11.970669,-77.073931,True,True,39
+S1246,Carla Cabrera,18,F,UNMSM,Psicología,1,965,482,Magdalena,-12.083504,-77.078344,False,False,52
+S1247,Gabriel Molina,20,M,UNMSM,Diseño,4,1187,594,San Miguel,-12.049451,-77.07705,False,False,40
+S1248,Carla Sánchez,19,F,UPC,Medicina,5,879,440,La Molina,-12.063355,-76.924943,True,False,47
+S1249,Cristian Torres,25,M,UTP,Informática,4,1487,744,Magdalena,-12.098086,-77.074907,False,False,32
+S1250,Luz Carrasco,18,F,USIL,Arte,5,1118,559,San Isidro,-12.101503,-77.04568,False,False,28
+S1251,Rocío Peña,20,F,USIL,Medicina,5,818,409,San Isidro,-12.098717,-77.040976,True,True,60
+S1252,Renato Espinoza,21,M,UPC,Diseño,5,1015,508,San Isidro,-12.086778,-77.040687,True,True,21
+S1253,Elsa Huamán,19,F,UL,Medicina,1,962,481,Miraflores,-12.11859,-77.017805,True,False,42
+S1254,Araceli Montoya,19,F,PUCP,Ciencias,5,833,416,San Miguel,-12.062356,-77.080218,False,False,48
+S1255,Elsa Cruz,22,F,UCS,Ingeniería,5,1487,744,San Miguel,-12.064209,-77.095084,True,True,23
+S1256,Mario Díaz,19,M,UCS,Arte,4,1236,618,Surco,-12.14659,-76.995532,True,True,31
+S1257,Brenda Herrera,20,F,PUCP,Medicina,4,1102,551,La Molina,-12.070307,-76.919834,False,False,58
+S1258,Carlos Ortega,25,M,UTP,Diseño,4,1094,547,San Miguel,-12.055917,-77.076854,True,False,49
+S1259,Carlos Ramos,25,M,UNMSM,Diseño,3,858,429,Surco,-12.142668,-76.999118,True,False,25
+S1260,Pablo Chávez,23,M,UPC,Psicología,3,1425,712,San Miguel,-12.054909,-77.095859,False,False,52
+S1261,Ricardo Zamora,20,M,UAP,Medicina,5,893,446,Miraflores,-12.11896,-77.018999,True,True,26
+S1262,Antonio Salazar,25,M,UNMSM,Psicología,2,1396,698,Los Olivos,-11.970853,-77.075451,True,False,60
+S1263,Claudia Arroyo,22,F,UNMSM,Psicología,4,936,468,San Miguel,-12.05576,-77.094332,True,True,51
+S1264,Marco Valdez,18,M,UPC,Arquitectura,5,869,434,Miraflores,-12.122005,-77.032602,True,True,22
+S1265,Gabriela Pérez,18,F,USIL,Ingeniería,2,1410,705,San Miguel,-12.050291,-77.078528,True,False,59
+S1266,Adrián Zamora,20,M,UCS,Ingeniería,3,1077,538,Los Olivos,-11.969764,-77.067091,False,False,37
+S1267,Mónica Romero,22,F,PUCP,Administración,4,1174,587,Magdalena,-12.082382,-77.062575,True,False,42
+S1268,Miguel Lozano,25,M,UL,Ciencias,3,1417,708,Los Olivos,-11.978938,-77.062996,False,False,29
+S1269,Héctor Mendoza,22,M,UNI,Medicina,5,1125,562,Surco,-12.145565,-76.9861,False,True,35
+S1270,José Chávez,19,M,UTP,Arquitectura,1,1511,756,Los Olivos,-11.966461,-77.067388,False,False,49
+S1271,Renato Zamora,25,M,UNMSM,Arquitectura,1,965,482,Surco,-12.144832,-76.995385,False,True,34
+S1272,Jorge Espinoza,18,M,UCS,Administración,1,1517,758,Magdalena,-12.087441,-77.063451,False,False,27
+S1273,Eduardo Salazar,25,M,UCS,Arte,3,1226,613,San Miguel,-12.049434,-77.089838,False,True,21
+S1274,Víctor Alvarado,24,M,UNI,Economía,3,1231,616,Comas,-12.004155,-77.074066,True,False,48
+S1275,Diego Romero,22,M,UCS,Economía,1,838,419,Miraflores,-12.126478,-77.036726,True,True,38
+S1276,Raúl Ramírez,23,M,UTP,Administración,5,1509,754,Surco,-12.143935,-76.99084,False,False,43
+S1277,Jorge Luna,20,M,PUCP,Diseño,2,1109,554,Magdalena,-12.093999,-77.066855,False,True,24
+S1278,Patricia Rojas,25,F,UNI,Psicología,3,1177,588,San Miguel,-12.047028,-77.081287,True,False,34
+S1279,Araceli Rojas,23,F,UL,Diseño,4,1146,573,San Isidro,-12.092334,-77.031766,True,True,47
+S1280,Héctor Molina,18,M,USIL,Ingeniería,1,1028,514,Los Olivos,-11.961937,-77.066314,False,False,26
+S1281,Tatiana Huamán,19,F,UL,Arquitectura,2,1189,594,Miraflores,-12.129166,-77.028711,False,True,59
+S1282,Miranda Herrera,19,F,UTP,Diseño,4,1295,648,Magdalena,-12.087229,-77.067112,True,True,34
+S1283,Lorena Sánchez,23,F,UCS,Derecho,3,1217,608,Comas,-11.990895,-77.067033,True,True,25
+S1284,Natalia Bravo,18,F,PUCP,Informática,4,1390,695,Magdalena,-12.087366,-77.068872,True,True,42
+S1285,Valeria Bravo,18,F,UL,Informática,3,1157,578,San Isidro,-12.094186,-77.040024,False,False,58
+S1286,Sergio Ruiz,19,M,UCS,Administración,4,1269,634,Magdalena,-12.094544,-77.077929,True,True,24
+S1287,Diego Chávez,22,M,UL,Medicina,4,1582,791,Los Olivos,-11.979724,-77.077662,False,False,44
+S1288,Oscar Silva,19,M,UNMSM,Psicología,5,916,458,Los Olivos,-11.962154,-77.069527,False,True,23
+S1289,Gustavo Díaz,18,M,UCS,Ciencias,5,1120,560,Miraflores,-12.123816,-77.028591,False,False,58
+S1290,Fernando Carrasco,22,M,PUCP,Psicología,1,1493,746,San Isidro,-12.092479,-77.031854,False,False,47
+S1291,Noelia Lozano,22,F,UNMSM,Ingeniería,5,832,416,San Isidro,-12.08887,-77.02753,False,False,51
+S1292,Raúl Ramírez,25,M,UL,Diseño,2,1107,554,Comas,-11.99677,-77.065967,False,False,32
+S1293,Adrián Ramos,20,M,PUCP,Arquitectura,5,801,400,Surco,-12.153678,-76.999553,False,False,26
+S1294,Fernando Pérez,23,M,UL,Derecho,5,1490,745,San Miguel,-12.057489,-77.09259,False,True,23
+S1295,Sheltty Pérez,19,F,UNI,Administración,3,947,474,Surco,-12.154335,-76.989564,False,True,23
+S1296,Jorge Ruiz,22,M,UNI,Diseño,5,1561,780,Surco,-12.156909,-76.982949,True,False,33
+S1297,Rocío Ramos,18,F,PUCP,Diseño,3,1100,550,Comas,-11.998416,-77.060291,True,False,57
+S1298,Rocío Zamora,23,F,UL,Administración,2,1354,677,Los Olivos,-11.961914,-77.079358,True,True,59
+S1299,Jimena Morales,21,F,PUCP,Arquitectura,3,1105,552,San Miguel,-12.047825,-77.090915,True,True,20
+S1300,Marisol Rojas,23,F,PUCP,Informática,1,1456,728,La Molina,-12.074487,-76.919078,True,True,48
+S1301,Flor Ruiz,18,F,UNI,Ciencias,5,1510,755,Miraflores,-12.12598,-77.035409,False,False,35
+S1302,Pamela Tello,24,F,UTP,Medicina,5,1446,723,Comas,-11.996778,-77.061638,False,True,28
+S1303,Elsa Morales,23,F,UTP,Arquitectura,1,1600,800,Magdalena,-12.09829,-77.068421,True,True,54
+S1304,Vanessa Yáñez,24,F,UTP,Medicina,4,1223,612,Los Olivos,-11.975414,-77.07449,True,False,36
+S1305,Gabriel Valdez,23,M,PUCP,Informática,4,1195,598,Surco,-12.148328,-76.991792,False,True,43
+S1306,Araceli Quispe,25,F,UAP,Ingeniería,3,1558,779,San Isidro,-12.096177,-77.035495,False,True,37
+S1307,Elsa Espinoza,19,F,UL,Ingeniería,3,1401,700,San Isidro,-12.104146,-77.036573,False,True,31
+S1308,Alejandro Aguilar,20,M,UNMSM,Informática,1,1175,588,Magdalena,-12.093728,-77.079274,True,False,42
+S1309,Luz Gómez,24,F,UNMSM,Medicina,1,934,467,San Isidro,-12.096402,-77.039165,False,False,31
+S1310,Araceli Herrera,23,F,UL,Derecho,1,1142,571,Comas,-12.006861,-77.070321,True,False,26
+S1311,Adrián Quispe,25,M,UTP,Arte,4,1409,704,San Miguel,-12.050461,-77.092952,True,True,31
+S1312,Víctor Gómez,23,M,USIL,Administración,5,1578,789,San Isidro,-12.103503,-77.030804,True,False,28
+S1313,Adrián Fernández,20,M,USIL,Administración,4,900,450,Magdalena,-12.088919,-77.067989,True,False,27
+S1314,Sofía Ibarra,19,F,UPC,Medicina,2,1460,730,Miraflores,-12.128093,-77.030673,True,True,20
+S1315,Fernando Paredes,19,M,UNMSM,Arquitectura,2,1225,612,Surco,-12.148817,-76.983834,False,False,58
+S1316,Paola Montoya,24,F,UNI,Economía,4,835,418,Miraflores,-12.125553,-77.034599,False,True,40
+S1317,Héctor Herrera,25,M,USIL,Ciencias,3,1323,662,San Miguel,-12.050777,-77.083718,False,False,40
+S1318,Diana Fernández,22,F,UTP,Derecho,4,1248,624,La Molina,-12.072725,-76.931235,False,True,56
+S1319,Carlos Mendoza,19,M,USIL,Economía,2,1225,612,La Molina,-12.05894,-76.925563,False,True,55
+S1320,Manuel Mendoza,24,M,UCS,Arte,4,1105,552,Magdalena,-12.080412,-77.076815,True,False,35
+S1321,Brenda Flores,18,F,UTP,Economía,2,950,475,San Isidro,-12.093936,-77.026712,True,True,47
+S1322,Manuel Pérez,23,M,PUCP,Informática,3,1052,526,Surco,-12.150055,-76.999326,False,False,54
+S1323,Enrique Cabrera,22,M,UNI,Diseño,1,814,407,Miraflores,-12.128702,-77.028719,True,False,56
+S1324,Adrián Herrera,20,M,UCS,Diseño,3,893,446,Magdalena,-12.081777,-77.061312,False,True,48
+S1325,Valeria Montoya,19,F,UNI,Ingeniería,1,1207,604,Magdalena,-12.090342,-77.074124,False,True,42
+S1326,Rocío Díaz,18,F,UNI,Derecho,4,944,472,La Molina,-12.061808,-76.920905,True,True,34
+S1327,Adriana Ibarra,24,F,UPC,Ciencias,4,1034,517,San Isidro,-12.101517,-77.043167,False,True,24
+S1328,Sergio Mendoza,21,M,UPC,Economía,2,1460,730,Los Olivos,-11.974702,-77.060788,True,False,24
+S1329,Cristian Reyes,24,M,UAP,Administración,2,1514,757,San Miguel,-12.064894,-77.084369,True,True,38
+S1330,Nicolás Rojas,18,M,UL,Ciencias,5,1058,529,La Molina,-12.057791,-76.934795,True,False,35
+S1331,Martín Yáñez,18,M,UNMSM,Administración,5,1481,740,La Molina,-12.056123,-76.927709,True,True,41
+S1332,Rodrigo Campos,18,M,UTP,Informática,5,863,432,Surco,-12.156831,-76.997976,False,False,28
+S1333,Jorge Delgado,21,M,UPC,Medicina,5,829,414,San Isidro,-12.088344,-77.039683,False,True,25
+S1334,Verónica Silva,23,F,UNI,Medicina,2,1147,574,Comas,-11.997649,-77.070261,True,True,45
+S1335,Carmen Vargas,25,F,UTP,Diseño,4,1075,538,Surco,-12.15474,-76.986879,True,False,36
+S1336,Gabriel Gómez,18,M,USIL,Derecho,3,1169,584,Comas,-11.989682,-77.071319,False,False,39
+S1337,Tania León,20,F,UPC,Diseño,3,1528,764,Los Olivos,-11.972903,-77.07126,False,True,30
+S1338,Pablo Cruz,20,M,UPC,Psicología,1,1362,681,Comas,-12.005964,-77.065938,True,True,26
+S1339,Jessica Mejía,25,F,UPC,Ingeniería,4,1429,714,San Isidro,-12.08757,-77.033392,True,True,45
+S1340,Raúl Ruiz,24,M,UL,Arte,2,1598,799,La Molina,-12.062663,-76.924231,False,False,27
+S1341,Rocío Díaz,22,F,UNMSM,Arquitectura,4,1212,606,Los Olivos,-11.97446,-77.063231,False,True,33
+S1342,Martín Campos,22,M,PUCP,Economía,5,1574,787,La Molina,-12.066262,-76.926683,False,False,40
+S1343,Pablo Carrasco,19,M,UL,Diseño,1,1413,706,Los Olivos,-11.979432,-77.066503,False,False,36
+S1344,Paola Valdez,23,F,USIL,Arquitectura,2,1417,708,Comas,-11.999864,-77.071082,False,False,21
+S1345,Julio Fernández,25,M,UPC,Arte,3,1045,522,Los Olivos,-11.97909,-77.077262,True,True,39
+S1346,Pamela Díaz,19,F,UAP,Arte,4,818,409,San Isidro,-12.101908,-77.037825,False,False,27
+S1347,Juan Paredes,19,M,UNI,Ciencias,1,1005,502,Surco,-12.14811,-76.989996,True,False,20
+S1348,Sofía Chávez,19,F,UNI,Arquitectura,4,1048,524,San Miguel,-12.05753,-77.094859,False,False,33
+S1349,José Peña,20,M,UAP,Medicina,1,1224,612,Magdalena,-12.088054,-77.068726,False,True,42
+S1350,Julio Lozano,24,M,UTP,Informática,5,963,482,Miraflores,-12.129574,-77.02252,False,True,31
+S1351,Mónica Cruz,24,F,UNMSM,Arquitectura,5,1104,552,Magdalena,-12.087828,-77.061336,False,False,44
+S1352,Marco García,19,M,UL,Economía,4,1316,658,Magdalena,-12.089225,-77.068521,False,False,52
+S1353,Flor Chávez,21,F,PUCP,Medicina,5,1459,730,San Miguel,-12.061992,-77.082663,False,True,23
+S1354,Carla Morales,18,F,PUCP,Arquitectura,5,807,404,Comas,-12.008594,-77.079168,False,False,36
+S1355,Oscar Ramírez,20,M,UL,Arquitectura,4,919,460,Comas,-11.994493,-77.078354,True,False,44
+S1356,Miranda Silva,23,F,USIL,Economía,4,822,411,Comas,-12.003729,-77.078536,False,True,23
+S1357,Oscar Sánchez,22,M,UNI,Informática,4,1390,695,Comas,-11.992145,-77.063622,True,False,60
+S1358,Mario Ramírez,22,M,UPC,Psicología,1,970,485,Surco,-12.1423,-76.999118,True,True,55
+S1359,Martín Castillo,20,M,UL,Administración,5,814,407,San Miguel,-12.064055,-77.086765,False,True,33
+S1360,Daniel Molina,22,M,UAP,Administración,4,1059,530,San Isidro,-12.088909,-77.027291,False,False,43
+S1361,Elías Ramos,20,M,PUCP,Informática,2,1189,594,La Molina,-12.059325,-76.926074,False,True,56
+S1362,Luz Ramos,23,F,USIL,Ciencias,2,912,456,La Molina,-12.061026,-76.916782,True,False,59
+S1363,Cristian Silva,21,M,USIL,Ciencias,4,903,452,Magdalena,-12.083506,-77.070153,False,True,56
+S1364,Elsa Flores,23,F,UNMSM,Arte,4,1059,530,Surco,-12.145572,-76.980871,True,False,34
+S1365,Marco Luna,24,M,UPC,Medicina,3,1443,722,Miraflores,-12.127841,-77.030007,False,False,50
+S1366,Renato Ruiz,25,M,UAP,Arquitectura,1,1507,754,San Miguel,-12.060084,-77.083555,False,True,24
+S1367,Marisol Tello,23,F,UAP,Arte,1,1099,550,Surco,-12.159456,-76.993754,True,True,33
+S1368,Aler Bravo,18,M,UNI,Economía,4,1186,593,San Isidro,-12.097941,-77.027239,True,True,60
+S1369,Jessica Fernández,25,F,UNI,Administración,1,1372,686,Los Olivos,-11.977709,-77.064918,False,False,36
+S1370,Claudia Montoya,24,F,UL,Derecho,4,1130,565,La Molina,-12.06351,-76.928115,False,False,49
+S1371,Carla Chávez,22,F,UL,Ingeniería,2,1593,796,San Miguel,-12.050798,-77.092854,True,False,21
+S1372,Araceli Díaz,24,F,UPC,Economía,3,1312,656,Magdalena,-12.095471,-77.072884,False,False,23
+S1373,Sheltty Ramos,24,F,UCS,Ciencias,5,1397,698,La Molina,-12.070091,-76.931374,True,True,56
+S1374,Verónica Reyes,20,F,PUCP,Economía,4,1096,548,San Isidro,-12.099558,-77.032042,True,True,34
+S1375,Luz Montoya,21,F,UNI,Ciencias,5,1345,672,Surco,-12.154355,-76.986252,True,False,43
+S1376,Jimena Torres,24,F,UL,Derecho,4,875,438,Los Olivos,-11.969224,-77.062195,True,False,38
+S1377,Julio Quispe,22,M,UPC,Administración,5,1270,635,Magdalena,-12.097687,-77.073843,False,True,33
+S1378,Raúl Carrasco,22,M,UL,Ingeniería,3,1107,554,Los Olivos,-11.97585,-77.071897,True,False,35
+S1379,Gustavo Fernández,20,M,UNI,Derecho,3,1010,505,Miraflores,-12.129909,-77.036808,False,True,55
+S1380,Oscar Zamora,22,M,USIL,Derecho,4,1036,518,Magdalena,-12.082191,-77.063209,False,True,59
+S1381,Alberto Yáñez,22,M,UL,Psicología,1,931,466,Magdalena,-12.094707,-77.062961,True,True,50
+S1382,Luz Fernández,20,F,UCS,Ciencias,4,1104,552,Surco,-12.14818,-76.982628,False,False,43
+S1383,Patricia Yáñez,25,F,UPC,Psicología,3,1373,686,Magdalena,-12.087323,-77.064075,False,True,49
+S1384,Adriana Bravo,23,F,PUCP,Informática,1,1356,678,Miraflores,-12.126954,-77.021974,False,False,31
+S1385,Héctor Luna,23,M,UAP,Psicología,5,1343,672,Miraflores,-12.118053,-77.022482,False,True,50
+S1386,Araceli Pérez,25,F,UNI,Ciencias,1,871,436,San Isidro,-12.101862,-77.027915,False,True,39
+S1387,Valeria Chávez,24,F,UL,Derecho,4,1454,727,San Miguel,-12.048299,-77.092268,False,True,50
+S1388,Elsa Díaz,25,F,UAP,Derecho,5,1442,721,Los Olivos,-11.979203,-77.07119,False,False,45
+S1389,Víctor Silva,22,M,UNI,Administración,4,864,432,Comas,-11.992301,-77.063489,False,False,31
+S1390,Ana Bravo,25,F,USIL,Arte,2,952,476,Magdalena,-12.090071,-77.079001,False,False,52
+S1391,Brenda Ramos,20,F,UTP,Arquitectura,3,1406,703,Magdalena,-12.09509,-77.077416,True,True,44
+S1392,Jessica Peña,21,F,UNI,Ciencias,2,818,409,Surco,-12.147635,-76.996124,False,True,43
+S1393,Adrián Paredes,23,M,UTP,Ciencias,5,1396,698,Magdalena,-12.089511,-77.078227,False,False,42
+S1394,Elsa Cabrera,19,F,UAP,Ingeniería,4,1307,654,Los Olivos,-11.971237,-77.076542,False,False,55
+S1395,Aler Salazar,24,M,UCS,Psicología,3,1350,675,Magdalena,-12.085822,-77.066071,False,True,28
+S1396,Cristian Mejía,25,M,UCS,Arquitectura,2,1080,540,Surco,-12.15687,-76.996774,True,True,53
+S1397,Melissa Zamora,18,F,UPC,Derecho,2,1590,795,La Molina,-12.055958,-76.919836,True,True,27
+S1398,Esteban Paredes,23,M,PUCP,Ingeniería,2,1100,550,Magdalena,-12.081249,-77.078588,True,True,27
+S1399,Eduardo Cruz,25,M,UAP,Diseño,1,1067,534,Surco,-12.143487,-76.983061,True,False,54
+S1400,Adrián Ramos,24,M,UNMSM,Arte,5,1459,730,San Miguel,-12.048359,-77.096239,True,False,47
+S1401,Natalia Mendoza,23,F,UPC,Arte,2,1082,541,Comas,-11.998034,-77.074857,True,True,29
+S1402,Gabriel Palomino,21,M,UAP,Arquitectura,4,1046,523,Los Olivos,-11.970516,-77.067719,False,True,44
+S1403,Mario Zamora,19,M,UPC,Ciencias,5,975,488,San Miguel,-12.062357,-77.093476,False,True,40
+S1404,Camila Delgado,21,F,UL,Administración,5,1154,577,Magdalena,-12.081812,-77.076191,False,True,59
+S1405,Cristian Ramírez,23,M,USIL,Ingeniería,4,950,475,Los Olivos,-11.960844,-77.065091,True,False,21
+S1406,Elena Pérez,18,F,UTP,Ciencias,2,1038,519,San Isidro,-12.100916,-77.046116,False,True,46
+S1407,Sheltty Aguilar,24,F,UAP,Arte,4,911,456,La Molina,-12.073699,-76.923249,False,True,34
+S1408,Daniela Chávez,19,F,UNI,Medicina,3,1154,577,Miraflores,-12.129958,-77.031422,False,True,27
+S1409,Rodrigo Romero,20,M,UNI,Medicina,5,1117,558,San Miguel,-12.063691,-77.083637,False,True,34
+S1410,Rocío Lozano,24,F,UTP,Economía,4,1193,596,Miraflores,-12.127532,-77.029958,True,True,36
+S1411,Carlos Torres,25,M,UAP,Derecho,2,943,472,La Molina,-12.068665,-76.926295,False,True,45
+S1412,Víctor Tello,18,M,UNMSM,Ingeniería,4,800,400,La Molina,-12.070258,-76.920563,False,True,48
+S1413,Sebastián Castillo,21,M,UPC,Psicología,5,1105,552,Miraflores,-12.123241,-77.017536,False,False,50
+S1414,Andrea García,18,F,USIL,Diseño,4,1153,576,Miraflores,-12.127292,-77.03223,False,True,39
+S1415,Sofía Cruz,25,F,UAP,Ingeniería,3,1398,699,San Miguel,-12.060895,-77.096515,True,True,30
+S1416,Verónica Tello,23,F,PUCP,Psicología,5,1362,681,Surco,-12.157758,-76.996409,False,True,27
+S1417,Daniel Bravo,24,M,USIL,Derecho,3,1354,677,Magdalena,-12.086229,-77.077736,False,True,56
+S1418,Antonio Bravo,22,M,PUCP,Arquitectura,5,1589,794,San Isidro,-12.088216,-77.043495,True,False,31
+S1419,Jimena Gómez,22,F,UCS,Arquitectura,3,1109,554,San Isidro,-12.106193,-77.029869,True,False,27
+S1420,Lucero Paredes,21,F,UNMSM,Arte,5,879,440,La Molina,-12.073195,-76.921479,False,True,31
+S1421,Jessica Reyes,21,F,UAP,Diseño,5,1527,764,Los Olivos,-11.965702,-77.073909,True,True,56
+S1422,Sheltty Chávez,25,F,UNMSM,Administración,4,1554,777,San Isidro,-12.086446,-77.033423,False,False,27
+S1423,Noelia Ibarra,22,F,UAP,Arquitectura,1,1552,776,Magdalena,-12.09274,-77.073617,True,False,37
+S1424,Víctor Montoya,25,M,UNMSM,Informática,4,1056,528,La Molina,-12.068889,-76.919583,True,False,35
+S1425,Patricia Palomino,22,F,UPC,Psicología,2,1196,598,San Isidro,-12.098881,-77.04234,True,True,36
+S1426,Renato Salazar,18,M,USIL,Informática,3,879,440,San Miguel,-12.061898,-77.08546,True,True,27
+S1427,Elena Torres,24,F,UAP,Ingeniería,3,803,402,Magdalena,-12.098301,-77.061217,True,False,38
+S1428,Camila Suárez,20,F,PUCP,Ingeniería,4,1029,514,La Molina,-12.064558,-76.916974,False,False,52
+S1429,Rafael Aguilar,18,M,UNI,Informática,4,1599,800,San Miguel,-12.054586,-77.08287,True,True,53
+S1430,Juan Pérez,18,M,UPC,Arquitectura,1,1129,564,Comas,-11.992801,-77.076449,True,True,31
+S1431,Marisol Delgado,24,F,UTP,Diseño,5,1273,636,Miraflores,-12.116106,-77.01984,True,True,32
+S1432,Andrea Ibarra,21,F,UAP,Ingeniería,5,908,454,Miraflores,-12.112402,-77.019995,True,True,23
+S1433,Vanessa Huamán,23,F,UNMSM,Administración,1,1109,554,Comas,-11.990117,-77.078418,False,True,50
+S1434,Tania Ruiz,18,F,PUCP,Medicina,3,978,489,Surco,-12.153485,-76.981296,True,True,45
+S1435,Julio Morales,22,M,PUCP,Arquitectura,1,1172,586,Miraflores,-12.122448,-77.035818,False,False,27
+S1436,Gustavo Montoya,20,M,UPC,Psicología,1,1513,756,Miraflores,-12.12251,-77.035314,False,True,25
+S1437,Sergio Reyes,21,M,UL,Derecho,4,1090,545,Los Olivos,-11.976892,-77.068473,False,True,56
+S1438,Elsa Delgado,20,F,USIL,Administración,2,804,402,Miraflores,-12.116116,-77.036879,True,False,42
+S1439,Alejandro Salazar,21,M,UNI,Economía,1,1414,707,La Molina,-12.059137,-76.921979,False,True,41
+S1440,Miguel Montoya,20,M,UNI,Administración,3,1042,521,Comas,-11.990372,-77.079098,True,True,29
+S1441,Martín Campos,19,M,UTP,Psicología,2,945,472,San Isidro,-12.10142,-77.035169,True,False,35
+S1442,Ricardo Díaz,25,M,UCS,Economía,5,1440,720,Miraflores,-12.119232,-77.029631,False,True,52
+S1443,Melissa Torres,18,F,UTP,Psicología,1,1243,622,Magdalena,-12.089817,-77.073693,False,True,47
+S1444,Diego Fernández,24,M,UTP,Derecho,5,1269,634,San Miguel,-12.063196,-77.07791,True,False,30
+S1445,Enrique Peña,19,M,UTP,Diseño,2,1521,760,San Isidro,-12.095513,-77.043499,True,True,53
+S1446,Carlos Fernández,23,M,USIL,Medicina,4,1337,668,Los Olivos,-11.973801,-77.077999,False,False,23
+S1447,Carmen Reyes,19,F,UNI,Medicina,1,1039,520,Surco,-12.157678,-76.982515,True,True,48
+S1448,Noelia Flores,20,F,UAP,Economía,3,1096,548,Surco,-12.153625,-76.982654,True,True,26
+S1449,Vanessa Suárez,19,F,UL,Economía,3,1031,516,Surco,-12.147887,-76.980885,False,False,32
+S1450,María Valdez,19,F,UCS,Informática,5,1250,625,La Molina,-12.074147,-76.917353,False,False,60
+S1451,Adriana Torres,18,F,UNMSM,Diseño,2,1525,762,Surco,-12.145483,-76.986681,False,True,52
+S1452,Miranda Campos,18,F,UCS,Arte,1,846,423,Surco,-12.142201,-76.989618,True,False,40
+S1453,Luis Ibarra,20,M,UPC,Ingeniería,1,1043,522,San Miguel,-12.053758,-77.093979,True,False,57
+S1454,Isabel Ramírez,25,F,UNI,Psicología,5,1265,632,Magdalena,-12.086334,-77.060566,False,False,34
+S1455,Adrián Pérez,19,M,UTP,Administración,2,1434,717,Los Olivos,-11.975542,-77.069346,False,True,26
+S1456,Jorge Molina,23,M,UCS,Derecho,5,910,455,Los Olivos,-11.967945,-77.062514,False,False,26
+S1457,Melissa Ramos,25,F,PUCP,Informática,4,942,471,Magdalena,-12.094473,-77.066972,False,True,26
+S1458,Ana Torres,25,F,UTP,Medicina,2,1576,788,San Miguel,-12.053915,-77.087492,False,True,29
+S1459,Andrés Delgado,24,M,UL,Psicología,1,1389,694,Miraflores,-12.130195,-77.018287,True,True,54
+S1460,Martín Torres,25,M,UL,Derecho,2,1327,664,Magdalena,-12.098467,-77.071717,False,False,42
+S1461,Flor Díaz,18,F,UAP,Arte,1,1275,638,San Isidro,-12.08888,-77.042547,False,True,33
+S1462,Daniela Molina,25,F,USIL,Informática,5,1025,512,Comas,-11.999481,-77.065596,False,False,30
+S1463,Carla Pérez,23,F,UCS,Ingeniería,3,1069,534,Surco,-12.144687,-76.984958,True,True,41
+S1464,Bruno Salazar,18,M,UL,Administración,4,1121,560,La Molina,-12.06492,-76.93545,False,True,42
+S1465,Rodrigo Espinoza,20,M,UNI,Arquitectura,2,1219,610,Los Olivos,-11.970978,-77.077912,False,True,38
+S1466,Natalia Molina,21,F,UNMSM,Administración,1,1528,764,San Isidro,-12.095781,-77.035394,False,False,56
+S1467,Gustavo Lozano,18,M,PUCP,Derecho,2,1299,650,Magdalena,-12.093084,-77.065791,True,False,38
+S1468,Antonio Molina,18,M,UCS,Ciencias,4,1251,626,Surco,-12.155954,-76.99039,True,True,39
+S1469,Diana Zamora,25,F,UCS,Ingeniería,4,1311,656,La Molina,-12.065175,-76.934677,True,False,53
+S1470,Juliana Herrera,23,F,UL,Informática,5,1463,732,Comas,-12.006047,-77.060764,False,False,34
+S1471,Araceli Herrera,19,F,USIL,Ciencias,1,1260,630,San Miguel,-12.048472,-77.081947,True,False,52
+S1472,Rosa Quispe,20,F,UNI,Administración,4,1150,575,Miraflores,-12.111925,-77.027267,False,True,60
+S1473,Tatiana Reyes,21,F,UPC,Psicología,2,1058,529,Los Olivos,-11.979287,-77.066198,True,True,40
+S1474,Sebastián Espinoza,18,M,UTP,Informática,1,904,452,Surco,-12.141341,-76.984307,True,False,27
+S1475,Mónica Montoya,23,F,UTP,Administración,3,1170,585,Los Olivos,-11.965116,-77.067083,True,True,53
+S1476,Luz Quispe,25,F,USIL,Arquitectura,3,888,444,Magdalena,-12.089069,-77.077891,True,False,27
+S1477,Rafael Alvarado,21,M,UTP,Arte,3,1321,660,La Molina,-12.062058,-76.92255,True,False,24
+S1478,Juan Espinoza,23,M,UL,Medicina,4,1244,622,San Miguel,-12.055832,-77.083585,False,False,22
+S1479,Natalia Cabrera,19,F,UAP,Administración,2,1089,544,San Isidro,-12.103696,-77.034693,True,False,43
+S1480,Oscar Silva,21,M,UTP,Diseño,3,947,474,Comas,-12.007893,-77.066027,False,False,48
+S1481,Gabriela Silva,20,F,USIL,Arte,1,1482,741,Comas,-12.003738,-77.066811,True,False,55
+S1482,Lucía Ramírez,22,F,UPC,Ciencias,3,1595,798,Surco,-12.159811,-76.988116,False,True,47
+S1483,Enrique Silva,18,M,UPC,Administración,2,1128,564,San Isidro,-12.102798,-77.043262,False,True,26
+S1484,Tatiana León,20,F,UAP,Economía,2,1144,572,Comas,-11.998554,-77.06586,False,False,37
+S1485,Miguel Rojas,18,M,UNI,Psicología,3,1598,799,Magdalena,-12.085639,-77.06444,False,False,21
+S1486,Jimena Mejía,21,F,USIL,Diseño,3,1318,659,Miraflores,-12.124285,-77.031341,False,True,53
+S1487,Araceli León,22,F,USIL,Derecho,2,1079,540,La Molina,-12.054889,-76.919626,False,True,40
+S1488,Bruno Villegas,25,M,USIL,Arte,2,1317,658,Miraflores,-12.126241,-77.025695,False,False,32
+S1489,Noelia Zamora,18,F,PUCP,Diseño,1,1416,708,Surco,-12.149444,-76.987814,False,True,54
+S1490,Sheltty Huamán,22,F,UNI,Psicología,4,1496,748,Comas,-12.003253,-77.072393,True,False,44
+S1491,Diana Mendoza,19,F,UAP,Economía,2,1019,510,La Molina,-12.060848,-76.921008,True,False,41
+S1492,Julio García,19,M,UPC,Arte,1,1264,632,Comas,-12.008438,-77.064761,True,False,27
+S1493,Sebastián Peña,22,M,UTP,Informática,2,834,417,San Miguel,-12.051743,-77.08236,False,True,42
+S1494,Camila Alvarado,21,F,UNI,Derecho,1,1330,665,Magdalena,-12.087439,-77.066934,False,True,58
+S1495,Sebastián Huamán,22,M,UAP,Administración,3,1096,548,Miraflores,-12.12124,-77.030613,False,True,29
+S1496,Verónica Romero,21,F,USIL,Medicina,5,1449,724,La Molina,-12.062081,-76.91796,True,False,20
+S1497,Julio Romero,21,M,UNI,Arquitectura,2,1264,632,Magdalena,-12.089493,-77.063754,False,False,54
+S1498,Rocío Cabrera,25,F,UTP,Economía,2,1117,558,Magdalena,-12.087418,-77.07421,True,False,48
+S1499,Bruno Herrera,24,M,UNMSM,Derecho,2,930,465,Los Olivos,-11.979737,-77.069531,False,False,33
+S1500,Aler Yáñez,24,M,UAP,Economía,4,1215,608,Magdalena,-12.093177,-77.075612,False,True,60
