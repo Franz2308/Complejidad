@@ -23,22 +23,20 @@
         </tr>
 
         {% for estudiante, score, color_class, minutos in resultados %}
-        <tr>
-            <td>{{ estudiante.name }}</td>
-            <td>{{ estudiante.age }}</td>
-            <td>{{ estudiante.university }}</td>
-            <td>{{ estudiante.district }}</td>
-            <td>
-                <div class="bar-container">
-                    <div class="fill {{ color_class }}" style="--w: {{ score|floatformat:0 }}%;">
-                        {{ score|floatformat:0 }}%
-                    </div>
-                </div>
-            </td>
-            <td>
-                {{ minutos|floatformat:1 }} min  <!-- NUEVO -->
-            </td>
-        </tr>
+<tr>
+    <td>{{ estudiante.name }}</td>
+    <td>{{ estudiante.age }}</td>
+    <td>{{ estudiante.university }}</td>
+    <td>{{ estudiante.district }}</td>
+    <td>
+        <div class="bar-container">
+            <div class="fill {{ color_class }}" style="--w: {{ score|floatformat:0 }}%;">
+                {{ score|floatformat:0 }}%
+            </div>
+        </div>
+    </td>
+    <td>{{ minutos }} min</td>
+</tr>
         {% endfor %}
 
     </table>

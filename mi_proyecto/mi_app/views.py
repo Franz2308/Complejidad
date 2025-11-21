@@ -47,7 +47,7 @@ def ver_compatibles(request, student_id=None):
             minutos = minutos_entre_distritos(distritos, tu_estudiante.district, e.district)
 
             # 2) calcular compatibilidad (no modificamos la fórmula)
-            score = compatibilidad(tu_estudiante, e, commute_min=minutos)
+            score = compatibilidad(tu_estudiante, e)
 
             # 3) asignar color_class para la barra (mantener la lógica visual)
             if score > 0.8:
@@ -58,7 +58,7 @@ def ver_compatibles(request, student_id=None):
                 color_class = "rojo"
 
             # 4) añadir tuple: (estudiante, score_percent, color_class, minutos)
-            resultados.append((e, score*100, color_class, minutos))
+            resultados.append((e, score*100, color_class, round(minutos, 1)))
 
         # 5) ordenar resultados por minutos asc (sitúa inf/no disponible al final)
         resultados = sorted(resultados, key=lambda x: (float('inf') if x[3] is None else x[3]))

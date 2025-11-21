@@ -7,5 +7,5 @@ urlpatterns = [
     path('', hola),  # raíz apunta a la vista hola
     path('hola/', hola),
     path('registrar/', registrar_estudiante),
-    path('ver_compatibles/<str:student_id>/', ver_compatibles, name='ver_compatibles'),  # <-- aquí cambiamos
+    path('ver_compatibles/', ver_compatibles, name='ver_compatibles'),  # <--- quitar el <str:student_id>
 ]
