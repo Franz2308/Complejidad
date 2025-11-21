@@ -19,8 +19,10 @@
             <th>Universidad</th>
             <th>Distrito</th>
             <th>Compatibilidad</th>
+            <th>Tiempo de viaje</th> <!-- NUEVO -->
         </tr>
-        {% for estudiante, score, color_class in resultados %}
+
+        {% for estudiante, score, color_class, minutos in resultados %}
         <tr>
             <td>{{ estudiante.name }}</td>
             <td>{{ estudiante.age }}</td>
@@ -33,9 +35,14 @@
                     </div>
                 </div>
             </td>
+            <td>
+                {{ minutos|floatformat:1 }} min  <!-- NUEVO -->
+            </td>
         </tr>
         {% endfor %}
+
     </table>
+
 {% else %}
     <form method="post">
         {% csrf_token %}

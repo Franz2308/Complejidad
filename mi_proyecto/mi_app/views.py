@@ -4,6 +4,7 @@ from .algoritmo import compatibilidad
 from mi_app.graph_utils import minutos_entre_distritos
 from mi_app.utils import distritos  # tu diccionario de distritos
 
+
 # Vista que muestra la página principal
 def hola(request):
     return render(request, "RoomFrom/index.html")
@@ -42,10 +43,13 @@ def ver_compatibles(request, student_id=None):
         otros = estudiantes.exclude(student_id=student_id)
 
         for e in otros:
-            # Calculamos compatibilidad considerando todos los factores, incluido el tiempo al campus
-            score = compatibilidad(tu_estudiante, e)
+            # 1) calcular minutos entre distritos (Dijkstra ya encapsulado)
+            minutos = minutos_entre_distritos(distritos, tu_estudiante.district, e.district)
 
-            # Asignamos color para la barra
+            # 2) calcular compatibilidad (no modificamos la fórmula)
+            score = compatibilidad(tu_estudiante, e, commute_min=minutos)
+
+            # 3) asignar color_class para la barra (mantener la lógica visual)
             if score > 0.8:
                 color_class = "verde"
             elif score > 0.5:
@@ -53,7 +57,11 @@ def ver_compatibles(request, student_id=None):
             else:
                 color_class = "rojo"
 
-            resultados.append((e, score*100, color_class))
+            # 4) añadir tuple: (estudiante, score_percent, color_class, minutos)
+            resultados.append((e, score*100, color_class, minutos))
+
+        # 5) ordenar resultados por minutos asc (sitúa inf/no disponible al final)
+        resultados = sorted(resultados, key=lambda x: (float('inf') if x[3] is None else x[3]))
 
     return render(request, 'RoomFrom/resultados.html', {
         'tu_estudiante': tu_estudiante,
