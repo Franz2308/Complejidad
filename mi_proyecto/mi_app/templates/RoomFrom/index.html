@@ -1,13 +1,56 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de prueba</title>
+    <title>Hola Django</title>
+    <link rel="stylesheet" href="{% static 'RoomFrom/style.css' %}">
 </head>
 <body>
-    <h1>Hola Django con HTML!</h1>
-    <p>Bienvenido a tu primer frontend con Django.</p>
-    <a href="ver_compatibles/<str:student_id>">form</a>
+
+<h1>Hola Django con HTML!</h1>
+<p>Bienvenido a tu primer frontend con Django.</p>
+
+<!-- Botones principales -->
+<button onclick="document.getElementById('mst-section').style.display='block'">Explorar MST</button>
+<a href="{% url 'ver_compatibles' %}"><button>Buscar compatibilidad de estudiantes</button></a>
+
+<hr>
+
+<!-- Sección MST oculta inicialmente -->
+<div id="mst-section" style="display:none">
+    <h2>Explora la Conexión Mínima entre Distritos (MST)</h2>
+
+    <form method="get">
+        <label for="origen">Selecciona tu distrito:</label>
+        <select name="origen" onchange="this.form.submit()">
+            <option value="">-- Elige un distrito --</option>
+            {% for d in distritos %}
+            <option value="{{ d }}" {% if d == origen %}selected{% endif %}>{{ d }}</option>
+            {% endfor %}
+        </select>
+    </form>
+
+    {% if origen %}
+    <h3>Desde {{ origen }} se puede llegar a:</h3>
+    <table border="1">
+        <tr>
+            <th>Distrito Destino</th>
+            <th>Distancia (km)</th>
+        </tr>
+        {% for dest, peso in destinos %}
+        <tr>
+            <td>{{ dest }}</td>
+            <td>{{ peso }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+
+    <!-- Imagen del MST -->
+    <h3>Mapa MST</h3>
+    <img src="{% static mst_image %}" alt="MST de distritos" width="600">
+</div>
+
 </body>
-</html> 
+</html>
