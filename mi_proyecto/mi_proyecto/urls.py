@@ -4,8 +4,16 @@ from mi_app.views import hola, registrar_estudiante, ver_compatibles
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', hola),  # raíz apunta a la vista hola
+
+    # Página principal
+    path('', hola, name='index'),
+
+    # Vista alternativa (opcional)
     path('hola/', hola),
-    path('registrar/', registrar_estudiante),
-    path('ver_compatibles/', ver_compatibles, name='ver_compatibles'),  # <--- quitar el <str:student_id>
+
+    # Registrar estudiantes
+    path('registrar/', registrar_estudiante, name='registrar_estudiante'),
+
+    # Compatibilidad de estudiantes
+    path('ver_compatibles/', ver_compatibles, name='ver_compatibles'),
 ]

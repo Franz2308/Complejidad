@@ -5,7 +5,26 @@ from .grafo import Grafo, DISTANCIAS_DISTRITOS
 
 # Página principal
 def hola(request):
-    return render(request, "RoomFrom/index.html")
+    grafo = Grafo(DISTANCIAS_DISTRITOS)
+    mst = grafo.kruskal()  # lista de aristas mínimas
+    distritos = sorted(list(grafo.nodos))
+
+    origen = request.GET.get("origen")  # distrito seleccionado
+    destinos = []
+
+    if origen:
+        for u, v, peso in mst:
+            if u == origen:
+                destinos.append((v, peso))
+            elif v == origen:
+                destinos.append((u, peso))
+
+    return render(request, "RoomFrom/index.html", {
+        "distritos": distritos,
+        "origen": origen,
+        "destinos": destinos,
+        "mst_image": "RoomFrom/mst.png"
+    })
 
 # Registrar estudiante
 def registrar_estudiante(request):
