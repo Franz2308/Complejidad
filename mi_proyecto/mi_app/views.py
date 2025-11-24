@@ -1,9 +1,8 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Estudiante
 from .algoritmo import compatibilidad
-from .mst_generator import generar_grafo_mst
-from .mst_generator import edges
 from .grafo import Grafo, DISTANCIAS_DISTRITOS
+from .dijkstra_graph import generar_grafo_dijkstra
 
 distritos = [
     "Miraflores", "San Miguel", "San Isidro", "La Molina",
@@ -12,6 +11,8 @@ distritos = [
 
 # Página principal
 def hola(request):
+    from .mst_generator import edges, generar_grafo_mst  # import aquí para evitar errores
+
     origen = request.GET.get('origen')  # viene del select del MST
     destinos = []
     mst_image = None  # inicialmente no hay imagen
@@ -30,6 +31,7 @@ def hola(request):
         "destinos": destinos,
         "mst_image": mst_image
     })
+
 
 # Registrar estudiante
 def registrar_estudiante(request):
@@ -53,12 +55,13 @@ def registrar_estudiante(request):
 
     return render(request, "RoomFrom/form.html", {"mensaje": mensaje})
 
-# Ver estudiantes compatibles
+
+# Ver estudiantes compatibles con grafo de Dijkstra
 def ver_compatibles(request, student_id=None):
     estudiantes = Estudiante.objects.all()
     tu_estudiante = None
     resultados = []
-    mst = None
+    dijkstra_image = None  # inicialmente no hay imagen
 
     grafo = Grafo(DISTANCIAS_DISTRITOS)
 
@@ -87,12 +90,12 @@ def ver_compatibles(request, student_id=None):
         # Ordenar por tiempo de viaje
         resultados = sorted(resultados, key=lambda x: float('inf') if x[3] is None else x[3])
 
-        # MST usando Kruskal
-        mst = grafo.kruskal()
+        # Generar imagen del grafo de Dijkstra desde el distrito del estudiante
+        dijkstra_image = generar_grafo_dijkstra(tu_estudiante.district)
 
     return render(request, 'RoomFrom/resultados.html', {
         'tu_estudiante': tu_estudiante,
         'resultados': resultados,
         'estudiantes': estudiantes,
-        'mst': mst
+        'dijkstra_image': dijkstra_image
     })

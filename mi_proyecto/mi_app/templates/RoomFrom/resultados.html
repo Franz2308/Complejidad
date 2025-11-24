@@ -5,77 +5,102 @@
     <meta charset="UTF-8">
     <title>Resultados de compatibilidad</title>
     <link rel="stylesheet" type="text/css" href="{% static 'RoomFrom/style.css' %}">
+    <style>
+        /* Contenedor flexible para tabla + grafo */
+        .flex-container {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 5px 10px;
+            text-align: center;
+        }
+        .grafo-img {
+            max-width: 600px;
+            height: auto;
+        }
+        .bar-container {
+            width: 100px;
+            background-color: #eee;
+        }
+        .fill.verde { background-color: #4CAF50; }
+        .fill.amarillo { background-color: #FFEB3B; }
+        .fill.rojo { background-color: #F44336; }
+        .fill {
+            height: 18px;
+            width: var(--w);
+            text-align: center;
+            color: black;
+        }
+    </style>
 </head>
 <body>
     {% if tu_estudiante %}
-    <a href="{% url 'ver_compatibles' %}" class="btn-volver">← Seleccionar otro estudiante</a>
-{% endif %}
-
-<h2>Resultados de compatibilidad</h2>
-
-{% if tu_estudiante %}
-    <p>Mostrando compatibilidad para: {{ tu_estudiante.name }}</p>
-
-    <!-- Tabla de compatibilidad -->
-    <table border="1">
-        <tr>
-            <th>Nombre</th>
-            <th>Edad</th>
-            <th>Universidad</th>
-            <th>Distrito</th>
-            <th>Compatibilidad</th>
-            <th>Tiempo de viaje</th>
-        </tr>
-
-        {% for estudiante, score, color_class, minutos in resultados %}
-        <tr>
-            <td>{{ estudiante.name }}</td>
-            <td>{{ estudiante.age }}</td>
-            <td>{{ estudiante.university }}</td>
-            <td>{{ estudiante.district }}</td>
-            <td>
-                <div class="bar-container">
-                    <div class="fill {{ color_class }}" style="--w: {{ score|floatformat:0 }}%;">
-                        {{ score|floatformat:0 }}%
-                    </div>
-                </div>
-            </td>
-            <td>{{ minutos }} min</td>
-        </tr>
-        {% endfor %}
-    </table>
-
-    <!-- Árbol de Conexión Mínima (MST) -->
-    {% if mst %}
-    <h3>Árbol de Conexión Mínima entre distritos (MST)</h3>
-    <table border="1">
-        <tr>
-            <th>Distrito Origen</th>
-            <th>Distrito Destino</th>
-            <th>Distancia (km)</th>
-        </tr>
-        {% for u, v, peso in mst %}
-        <tr>
-            <td>{{ u }}</td>
-            <td>{{ v }}</td>
-            <td>{{ peso }}</td>
-        </tr>
-        {% endfor %}
-    </table>
+        <a href="{% url 'ver_compatibles' %}" class="btn-volver">← Seleccionar otro estudiante</a>
     {% endif %}
 
-{% else %}
-    <form method="post">
-        {% csrf_token %}
-        <label for="student_id">Selecciona tu perfil:</label>
-        <select name="student_id">
-            {% for estudiante in estudiantes %}
-            <option value="{{ estudiante.student_id }}">{{ estudiante.name }}</option>
-            {% endfor %}
-        </select>
-        <button type="submit">Buscar roomies</button>
-    </form>
-{% endif %}
+    <h2>Resultados de compatibilidad</h2>
 
+    {% if tu_estudiante %}
+        <p>Mostrando compatibilidad para: {{ tu_estudiante.name }}</p>
+
+        <div class="flex-container">
+            <!-- Tabla de compatibilidad -->
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Universidad</th>
+                    <th>Distrito</th>
+                    <th>Compatibilidad</th>
+                    <th>Tiempo de viaje</th>
+                </tr>
+                {% for estudiante, score, color_class, minutos in resultados %}
+                <tr>
+                    <td>{{ estudiante.name }}</td>
+                    <td>{{ estudiante.age }}</td>
+                    <td>{{ estudiante.university }}</td>
+                    <td>{{ estudiante.district }}</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="fill {{ color_class }}" style="--w: {{ score|floatformat:0 }}%;">
+                                {{ score|floatformat:0 }}%
+                            </div>
+                        </div>
+                    </td>
+                    <td>{{ minutos }} min</td>
+                </tr>
+                {% endfor %}
+            </table>
+
+            <!-- Imagen del grafo de Dijkstra -->
+            {% if dijkstra_image %}
+                <div>
+                    <h3>Mapa de rutas desde {{ tu_estudiante.district }}</h3>
+                    <img src="{% static dijkstra_image %}" alt="Grafo de Dijkstra" class="grafo-img">
+                </div>
+            {% endif %}
+        </div>
+
+    {% else %}
+        <!-- Formulario de selección de estudiante -->
+        <form method="post">
+            {% csrf_token %}
+            <label for="student_id">Selecciona tu perfil:</label>
+            <select name="student_id">
+                {% for estudiante in estudiantes %}
+                <option value="{{ estudiante.student_id }}">{{ estudiante.name }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Buscar roomies</button>
+        </form>
+    {% endif %}
 </body>
 </html>
