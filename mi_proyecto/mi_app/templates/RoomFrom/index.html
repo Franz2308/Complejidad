@@ -21,9 +21,9 @@
 <div id="mst-section" style="display:none">
     <h2>Explora la Conexión Mínima entre Distritos (MST)</h2>
 
-    <form method="get">
+    <form method="get" id="mst-form">
         <label for="origen">Selecciona tu distrito:</label>
-        <select name="origen" onchange="this.form.submit()">
+        <select name="origen" onchange="document.getElementById('mst-form').submit()">
             <option value="">-- Elige un distrito --</option>
             {% for d in distritos %}
             <option value="{{ d }}" {% if d == origen %}selected{% endif %}>{{ d }}</option>
@@ -32,6 +32,11 @@
     </form>
 
     {% if origen %}
+    <script>
+        // Mantener visible la sección MST después de recargar la página
+        document.getElementById('mst-section').style.display = 'block';
+    </script>
+
     <h3>Desde {{ origen }} se puede llegar a:</h3>
     <table border="1">
         <tr>
@@ -45,11 +50,11 @@
         </tr>
         {% endfor %}
     </table>
-    {% endif %}
 
     <!-- Imagen del MST -->
     <h3>Mapa MST</h3>
     <img src="{% static mst_image %}" alt="MST de distritos" width="600">
+    {% endif %}
 </div>
 
 </body>

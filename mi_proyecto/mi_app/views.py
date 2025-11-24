@@ -1,29 +1,34 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Estudiante
 from .algoritmo import compatibilidad
+from .mst_generator import generar_grafo_mst
+from .mst_generator import edges
 from .grafo import Grafo, DISTANCIAS_DISTRITOS
+
+distritos = [
+    "Miraflores", "San Miguel", "San Isidro", "La Molina",
+    "Comas", "Surco", "Los Olivos", "Magdalena"
+]
 
 # Página principal
 def hola(request):
-    grafo = Grafo(DISTANCIAS_DISTRITOS)
-    mst = grafo.kruskal()  # lista de aristas mínimas
-    distritos = sorted(list(grafo.nodos))
-
-    origen = request.GET.get("origen")  # distrito seleccionado
+    origen = request.GET.get('origen')  # viene del select del MST
     destinos = []
+    mst_image = None  # inicialmente no hay imagen
 
     if origen:
-        for u, v, peso in mst:
-            if u == origen:
-                destinos.append((v, peso))
-            elif v == origen:
-                destinos.append((u, peso))
+        # Filtramos destinos desde el origen
+        destinos = [(v, w) for u, v, w in edges if u == origen] + \
+                   [(u, w) for u, v, w in edges if v == origen]
+
+        # Generamos la imagen del MST solo si hay un distrito seleccionado
+        mst_image = generar_grafo_mst()
 
     return render(request, "RoomFrom/index.html", {
         "distritos": distritos,
         "origen": origen,
         "destinos": destinos,
-        "mst_image": "RoomFrom/mst.png"
+        "mst_image": mst_image
     })
 
 # Registrar estudiante

@@ -99,3 +99,6 @@ button:hover {
 .btn-volver:hover {
     background-color: #ddd;
 }
+
+.hidden { display: none; }
+.visible { display: block; }
