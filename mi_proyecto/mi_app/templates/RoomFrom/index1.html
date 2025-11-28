@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hola Django</title>
+    <link rel="stylesheet" href="{% static 'RoomFrom/index.css' %}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<h1>Aplicación web para la búsqueda de inquilinos usando algoritmos complejos en estudiantes universitarios de Lima Metropolitana</h1>
+<p>Bienvenido a tu primer frontend con Django.</p>
+
+<!-- Botones principales -->
+<button onclick="document.getElementById('mst-section').style.display='block'">Explorar MST</button>
+<a href="{% url 'ver_compatibles' %}"><button>Buscar compatibilidad de estudiantes</button></a>
+
+<hr>
+
+<!-- Sección MST oculta inicialmente -->
+<div id="mst-section" style="display:none">
+    <h2>Explora la Conexión Mínima entre Distritos (MST)</h2>
+
+    <form method="get" id="mst-form">
+        <label for="origen">Selecciona tu distrito:</label>
+        <select name="origen" onchange="document.getElementById('mst-form').submit()">
+            <option value="">-- Elige un distrito --</option>
+            {% for d in distritos %}
+            <option value="{{ d }}" {% if d == origen %}selected{% endif %}>{{ d }}</option>
+            {% endfor %}
+        </select>
+    </form>
+
+    {% if origen %}
+    <script>
+        // Mantener visible la sección MST después de recargar la página
+        document.getElementById('mst-section').style.display = 'block';
+    </script>
+
+    <h3>Desde {{ origen }} se puede llegar a:</h3>
+    <table border="1">
+        <tr>
+            <th>Distrito Destino</th>
+            <th>Distancia (km)</th>
+        </tr>
+        {% for dest, peso in destinos %}
+        <tr>
+            <td>{{ dest }}</td>
+            <td>{{ peso }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <!-- Imagen del MST -->
+    <h3>Mapa MST</h3>
+    <img src="{% static mst_image %}" alt="MST de distritos" width="600">
+    {% endif %}
+</div>
+
+<!-- ======================
+     PIE DE PÁGINA
+====================== -->
+<footer class="pie-pagina">
+  <div class="pie-pagina__contenedor contenedor">
+    
+    <!-- INFO DEL LOGO Y DESCRIPCIÓN (Logo eliminado) -->
+    <div class="pie-pagina__info">
+      <span class="logo-texto">ROOMFROM</span>
+      <p class="pie-pagina__descripcion">
+        Mejora la gestión de tus reservas y sedes de manera rápida y confiable.
+      </p>
+      <div class="pie-pagina__redes">
+        <a href="https://www.facebook.com/" target="_blank" class="pie-pagina__red-social">
+          <i class="bx bxl-facebook-circle"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank" class="pie-pagina__red-social">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" class="pie-pagina__red-social">
+          <i class="bx bxl-instagram-alt"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- NAVEGACIÓN RÁPIDA -->
+    <div class="pie-pagina__navegacion">
+      <h4 class="pie-pagina__subtitulo">Enlaces Rápidos</h4>
+      <ul class="pie-pagina__lista-enlaces">
+        <li><a href="{% url 'ver_compatibles' %}">Compatibilidad</a></li>
+
+        <li>
+          <a href="/admin/">Admin</a><br>
+          <small>
+            <strong>Usuario:</strong> frank <br>
+            <strong>Contraseña:</strong> danpro19MC
+          </small>
+        </li>
+
+        <li><a href="#Contacto">Contáctanos</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="pie-pagina__contacto-info">
+      <h4 class="pie-pagina__subtitulo">Contacto</h4>
+      <p><i class="bx bx-map"></i> Av. Siempreviva 742, Lima, Perú</p>
+      <p><i class="bx bx-phone"></i> +51 987 654 321</p>
+      <p><i class="bx bx-envelope"></i> info@roomfrom.com</p>
+    </div>
+
+  </div>
+
+  <!-- DERECHOS Y ENLACES LEGALES -->
+  <div class="pie-pagina__derechos">
+    <div class="pie-pagina__enlaces-legales">
+      <a href="#" class="pie-pagina__enlace-legal">Política de Privacidad</a>
+      <span class="pie-pagina__separador">|</span>
+      <a href="#" class="pie-pagina__enlace-legal">Términos y Condiciones</a>
+    </div>
+    <p>&copy; 2025 RoomFrom. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
