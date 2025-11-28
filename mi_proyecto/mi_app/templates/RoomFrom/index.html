@@ -237,20 +237,31 @@
         </div>
     </footer>
 
-    <script>
-        function scrollToSection(sectionId) {
-            const section = document.getElementById(sectionId);
-            if (section) {
-                section.scrollIntoView({ behavior: 'smooth' });
-            }
+{% if origen %}
+<script>
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
         }
+    }
 
-        // Mantener visible la sección MST después de recargar la página
-        {% if origen %}
-        window.addEventListener('DOMContentLoaded', function() {
-            scrollToSection('mst-section');
-        });
-        {% endif %}
-    </script>
+    window.addEventListener('DOMContentLoaded', function() {
+        scrollToSection('mst-section');
+    });
+</script>
+{% endif %}
+
+{% if not origen %}
+<script>
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+</script>
+{% endif %}
+
 </body>
 </html>
