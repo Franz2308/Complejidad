@@ -1,6 +1,5 @@
 ## Aplicación web para la búsqueda de inquilinos usando algoritmos complejos en estudiantes universitarios de Lima Metropolitana
-
-
+---
 ## Como ejecutar el programa
   - Tienes que tener python 3 y django 5 instalado
   - Abrir run.bat
