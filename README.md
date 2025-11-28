@@ -9,6 +9,31 @@
     ejectuar el comando "python manage.py runserver"
     - cd
 
+## Otro metodo
+## Configuración del Entorno de Desarrollo
+
+Para ejecutar este proyecto en tu máquina local, sigue los pasos detallados a continuación.
+
+---
+
+## Crear un entorno virtual
+
+###  Windows
+```bash
+python -m venv venv
+venv\Scripts\activate
+##Instalar dependencias
+
+Asegúrate de que el entorno virtual esté activado y luego ejecuta:
+pip install -r requirements.txt
+
+#ejecutar 
+  python manage.py runserver
+
+## El proyecto se inicia en
+  http://127.0.0.1:8000/
+  
+
 ## Autores
   - Frank Anthony Huingo Tello
   - Daniel Stalin Palomino Murga
