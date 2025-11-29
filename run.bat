@@ -1,12 +1,14 @@
 @echo off
-venv\Scripts\activate
-echo entorno virtual activado
-pause
+
+
 cd /d "%~dp0"
+call venv\Scripts\activate.bat
+echo entorno virtual activado
 if exist "mi_proyecto\manage.py" (
     cd mi_proyecto
     echo ✓ Servidor Django iniciando...
-    venv\Scripts\activate
+
+
     python manage.py runserver
 ) else (
     echo ✗ Error: No se encuentra manage.py

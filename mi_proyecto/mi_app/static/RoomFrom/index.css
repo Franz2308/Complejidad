@@ -431,7 +431,7 @@ body {
 }
 
 .mst-table tr:hover {
-    background-color: var(--color-gray);
+    /*background-color: var(--color-gray);*/
 }
 
 .badge {
