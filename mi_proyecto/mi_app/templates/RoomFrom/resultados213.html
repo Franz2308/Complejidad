@@ -1,0 +1,371 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de Compatibilidad - RoomFrom</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'RoomFrom/resultados.css' %}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <span class="logo-texto">ROOMFROM</span>
+            </div>
+            {% if tu_estudiante %}
+            <a href="{% url 'ver_compatibles' %}" class="btn-volver">
+                <i class='bx bx-arrow-back'></i>
+                Cambiar Perfil
+            </a>
+            {% else %}
+            <a href="/" class="btn-volver">
+                <i class='bx bx-home'></i>
+                Inicio
+            </a>
+            {% endif %}
+        </div>
+    </header>
+
+    <main class="main-content">
+        {% if tu_estudiante %}
+            <!-- Perfil del Estudiante -->
+            <section class="student-profile">
+                <div class="student-profile__container">
+                    <div class="student-profile__avatar">
+                        <i class='bx bxs-user-circle'></i>
+                    </div>
+                    <div class="student-profile__info">
+                        <h1 class="student-profile__name">{{ tu_estudiante.name }}</h1>
+                        <div class="student-profile__details">
+                            <span class="detail-badge">
+                                <i class='bx bx-buildings'></i>
+                                {{ tu_estudiante.university }}
+                            </span>
+                            <span class="detail-badge">
+                                <i class='bx bx-map'></i>
+                                {{ tu_estudiante.district }}
+                            </span>
+                            <span class="detail-badge">
+                                <i class='bx bx-calendar'></i>
+                                {{ tu_estudiante.age }} años
+                            </span>
+                            <span class="detail-badge">
+                                <i class='bx bx-book'></i>
+                                {{ tu_estudiante.faculty }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stats Section -->
+            <section class="stats-section">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class='bx bx-group'></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number">{{ total_matches }}</span>
+                            <span class="stat-label">Matches Encontrados</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon stat-icon--success">
+                            <i class='bx bx-check-circle'></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number">{{ high_compatibility }}</span>
+                            <span class="stat-label">Alta Compatibilidad</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon stat-icon--info">
+                            <i class='bx bx-map-pin'></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number">{{ closest_time|floatformat:0 }}</span>
+                            <span class="stat-label">Min. más cercano</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contenido Principal -->
+            <section class="results-section">
+                <div class="results-container">
+                    
+                    <!-- Lista de Roommates -->
+                    <div class="roommates-list">
+                        <div class="section-header">
+                            <h2 class="section-title">
+                                <i class='bx bx-user-plus'></i>
+                                Roommates Compatibles
+                            </h2>
+                            <div class="filter-buttons">
+                                <button class="filter-btn active" data-filter="all">
+                                    Todos ({{ total_matches }})
+                                </button>
+                                <button class="filter-btn" data-filter="high">
+                                    <span class="filter-dot filter-dot--green"></span>
+                                    Alta
+                                </button>
+                                <button class="filter-btn" data-filter="medium">
+                                    <span class="filter-dot filter-dot--yellow"></span>
+                                    Media
+                                </button>
+                                <button class="filter-btn" data-filter="low">
+                                    <span class="filter-dot filter-dot--red"></span>
+                                    Baja
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="roommates-cards">
+                            {% for estudiante, score, color_class, minutos in resultados %}
+                            <div class="roommate-card" data-compatibility="{{ color_class }}">
+                                <div class="roommate-card__header">
+                                    <div class="roommate-avatar">
+                                        <i class='bx bxs-user'></i>
+                                    </div>
+                                    <div class="roommate-info">
+                                        <h3 class="roommate-name">{{ estudiante.name }}</h3>
+                                        <p class="roommate-university">{{ estudiante.university }}</p>
+                                    </div>
+                                    <div class="compatibility-badge compatibility-badge--{{ color_class }}">
+                                        {{ score|floatformat:0 }}%
+                                    </div>
+                                </div>
+
+                                <div class="roommate-card__details">
+                                    <div class="detail-row">
+                                        <span class="detail-label">
+                                            <i class='bx bx-calendar'></i>
+                                            Edad:
+                                        </span>
+                                        <span class="detail-value">{{ estudiante.age }} años</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="detail-label">
+                                            <i class='bx bx-book'></i>
+                                            Facultad:
+                                        </span>
+                                        <span class="detail-value">{{ estudiante.faculty }}</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="detail-label">
+                                            <i class='bx bx-map'></i>
+                                            Distrito:
+                                        </span>
+                                        <span class="detail-value">{{ estudiante.district }}</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="detail-label">
+                                            <i class='bx bx-time'></i>
+                                            Tiempo de viaje:
+                                        </span>
+                                        <span class="detail-value detail-value--highlight">{{ minutos }} min</span>
+                                    </div>
+                                </div>
+
+                                <div class="roommate-card__footer">
+                                    <div class="compatibility-bar">
+                                        <div class="compatibility-bar__fill compatibility-bar__fill--{{ color_class }}" 
+                                             style="width: {{ score }}%"></div>
+                                    </div>
+                                    <div class="roommate-preferences">
+                                        {% if estudiante.has_pets %}
+                                        <span class="preference-tag">
+                                            <i class='bx bxs-dog'></i>
+                                            Mascotas
+                                        </span>
+                                        {% endif %}
+                                        {% if estudiante.smoker %}
+                                        <span class="preference-tag preference-tag--warning">
+                                            <i class='bx bx-smoke'></i>
+                                            Fumador
+                                        </span>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                            {% empty %}
+                            <div class="empty-state">
+                                <i class='bx bx-info-circle'></i>
+                                <h3>No se encontraron roommates</h3>
+                                <p>Intenta ajustar tus preferencias o prueba con otro perfil</p>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <!-- Mapa de Rutas -->
+                    <div class="map-section">
+                        <div class="section-header">
+                            <h2 class="section-title">
+                                <i class='bx bx-map-alt'></i>
+                                Mapa de Rutas
+                            </h2>
+                        </div>
+                        
+                        <div class="map-container">
+                            {% if dijkstra_image %}
+                                <img src="{% static dijkstra_image %}" alt="Grafo de Dijkstra" class="map-image">
+                                <div class="map-legend">
+                                    <div class="legend-item">
+                                        <span class="legend-color legend-color--origin"></span>
+                                        <span class="legend-label">Tu ubicación</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <span class="legend-color legend-color--destination"></span>
+                                        <span class="legend-label">Otros distritos</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <span class="legend-color legend-color--route"></span>
+                                        <span class="legend-label">Ruta óptima</span>
+                                    </div>
+                                </div>
+                            {% else %}
+                                <div class="map-placeholder">
+                                    <i class='bx bx-error-circle'></i>
+                                    <h3>Mapa no disponible</h3>
+                                    <p>El mapa de rutas no pudo generarse en este momento</p>
+                                </div>
+                            {% endif %}
+                        </div>
+
+                        <!-- Información adicional -->
+                        <div class="info-card">
+                            <h4 class="info-card__title">
+                                <i class='bx bx-info-circle'></i>
+                                ¿Cómo funciona?
+                            </h4>
+                            <ul class="info-card__list">
+                                <li>
+                                    <i class='bx bx-check'></i>
+                                    Analizamos compatibilidad basada en edad, presupuesto y preferencias
+                                </li>
+                                <li>
+                                    <i class='bx bx-check'></i>
+                                    Calculamos rutas óptimas usando el algoritmo de Dijkstra
+                                </li>
+                                <li>
+                                    <i class='bx bx-check'></i>
+                                    Priorizamos matches con menor tiempo de desplazamiento
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        {% else %}
+            <!-- Formulario de Selección -->
+            <section class="selection-section">
+                <div class="selection-container">
+                    <div class="selection-header">
+                        <div class="selection-icon">
+                            <i class='bx bx-search-alt'></i>
+                        </div>
+                        <h1 class="selection-title">Encuentra tu Roommate Ideal</h1>
+                        <p class="selection-subtitle">
+                            Selecciona tu perfil para descubrir los estudiantes más compatibles contigo
+                        </p>
+                    </div>
+
+                    <form method="post" class="selection-form">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <label for="student_id" class="form-label">
+                                <i class='bx bx-user'></i>
+                                Selecciona tu perfil
+                            </label>
+                            <select name="student_id" id="student_id" class="form-select" required>
+                                <option value="">-- Elige tu perfil de estudiante --</option>
+                                {% for estudiante in estudiantes %}
+                                <option value="{{ estudiante.student_id }}">
+                                    {{ estudiante.name }} - {{ estudiante.university }} ({{ estudiante.district }})
+                                </option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <i class='bx bx-rocket'></i>
+                            Buscar Roommates Compatibles
+                        </button>
+                    </form>
+
+                    <div class="selection-features">
+                        <div class="feature-item">
+                            <i class='bx bx-brain'></i>
+                            <span>Algoritmo inteligente</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class='bx bx-map-pin'></i>
+                            <span>Rutas optimizadas</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class='bx bx-bar-chart-alt-2'></i>
+                            <span>Compatibilidad precisa</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        {% endif %}
+    </main>
+
+    <script>
+        // Filtrado de roommates
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const roommates = document.querySelectorAll('.roommate-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remover clase active de todos los botones
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Agregar clase active al botón clickeado
+                button.classList.add('active');
+
+                const filter = button.getAttribute('data-filter');
+
+                roommates.forEach(card => {
+                    const compatibility = card.getAttribute('data-compatibility');
+                    
+                    if (filter === 'all') {
+                        card.style.display = 'block';
+                    } else if (filter === 'high' && compatibility === 'verde') {
+                        card.style.display = 'block';
+                    } else if (filter === 'medium' && compatibility === 'amarillo') {
+                        card.style.display = 'block';
+                    } else if (filter === 'low' && compatibility === 'rojo') {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Animación de entrada para las tarjetas
+        window.addEventListener('DOMContentLoaded', () => {
+            const cards = document.querySelectorAll('.roommate-card');
+            cards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    card.style.transition = 'all 0.5s ease';
+                    
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 50);
+                }, index * 100);
+            });
+        });
+    </script>
+</body>
+</html>
