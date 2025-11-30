@@ -9,6 +9,10 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <div id="imageModal" style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.9);" onclick="closeImageModal()">
+        <span style="position: absolute; top: 20px; right: 40px; color: #fff; font-size: 40px; cursor: pointer;">&times;</span>
+        <img id="modalImage" style="margin: auto; display: block; max-width: 95%; max-height: 95%;">
+    </div>
     <!-- Header con navegación -->
     <header class="header">
         <div class="header__container">
@@ -158,7 +162,7 @@
                         Mapa de Conexiones MST
                     </h3>
                     <div class="graph-container">
-                        <img src="{% static mst_image %}" alt="MST de distritos" class="graph-image">
+                        <img src="{% static mst_image %}" alt="MST de distritos" class="graph-image"  onclick="openImageModal(this)" style="cursor: pointer;">
                     </div>
                 </div>
             </div>
@@ -262,6 +266,16 @@
     }
 </script>
 {% endif %}
+<script>
+    function openImageModal(img) {
+            document.getElementById("imageModal").style.display = "flex";
+            document.getElementById("imageModal").style.alignItems = "center";
+            document.getElementById("modalImage").src = img.src;
+        }
+        function closeImageModal() {
+            document.getElementById("imageModal").style.display = "none";
+        }
+</script>
 
 </body>
 </html>
