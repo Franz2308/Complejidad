@@ -4,9 +4,9 @@
   - Tienes que tener python 3 y django 5 instalado
   - Primero ejecutar setup.bat y esperar a que diga 
   ```
-  echo ====================================
-echo  Setup completado exitosamente!
-echo ====================================
+====================================
+Setup completado exitosamente!
+====================================
   ```
   - Abrir run.bat
   - si no funciona
