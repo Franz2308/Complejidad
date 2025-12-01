@@ -159,4 +159,4 @@ def benchmark_algoritmos(request):
             "bigO": "O(E log V)" if nombre == "Kruskal" else "O(V^2)"  # ejemplo BigO
         })
 
-    return render(request, "benchmark.html", {"resultados": resultados})
+    return render(request, "RoomFrom/benchmark.html", {"resultados": resultados})

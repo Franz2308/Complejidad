@@ -1,0 +1,224 @@
+/* ======================
+   VARIABLES Y RESET
+====================== */
+:root {
+    --color-primary: #0066ff;
+    --color-primary-dark: #0052cc;
+    --color-secondary: #00d4ff;
+    --color-dark: #1a1a2e;
+    --color-gray: #f5f7fa;
+    --color-text: #2d3748;
+    --color-text-light: #718096;
+    --color-white: #ffffff;
+    --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+    --shadow-lg: 0 10px 20px rgba(0,0,0,0.15);
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color-gray);
+    color: var(--color-text);
+}
+
+/* ======================
+   HEADER
+====================== */
+.header {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    box-shadow: var(--shadow-md);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo .logo-texto {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-white);
+    letter-spacing: 1px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.header__link {
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+    position: relative;
+}
+
+.header__link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-secondary);
+    transition: var(--transition);
+}
+
+.header__link:hover::after {
+    width: 100%;
+}
+
+/* ======================
+   FOOTER
+====================== */
+.pie-pagina {
+    background-color: #111;
+    color: var(--color-white);
+    padding: 4rem 2rem 1rem;
+}
+
+.pie-pagina__contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.pie-pagina__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.pie-pagina__info .logo-texto {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.pie-pagina__descripcion {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.8;
+}
+
+.pie-pagina__redes {
+    display: flex;
+    gap: 1rem;
+}
+
+.pie-pagina__red-social {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: var(--color-white);
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+.pie-pagina__red-social:hover {
+    background-color: var(--color-primary);
+    transform: translateY(-3px);
+}
+
+.pie-pagina__subtitulo {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.pie-pagina__lista-enlaces {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.pie-pagina__lista-enlaces a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.pie-pagina__lista-enlaces a:hover {
+    color: var(--color-primary);
+    padding-left: 5px;
+}
+
+.pie-pagina__contacto-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0.8rem;
+}
+
+.pie-pagina__contacto-info i {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+}
+
+.pie-pagina__derechos {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 2rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.pie-pagina__enlaces-legales {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.pie-pagina__enlace-legal {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.pie-pagina__enlace-legal:hover {
+    color: var(--color-primary);
+}
+
+.pie-pagina__separador {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* ======================
+   RESPONSIVE HEADER & FOOTER
+====================== */
+@media (max-width: 768px) {
+    .header__nav {
+        display: none;
+    }
+
+    .pie-pagina__contenedor {
+        grid-template-columns: 1fr;
+    }
+}

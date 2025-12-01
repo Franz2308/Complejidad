@@ -13,6 +13,7 @@
         <span style="position: absolute; top: 20px; right: 40px; color: #fff; font-size: 40px; cursor: pointer;">&times;</span>
         <img id="modalImage" style="margin: auto; display: block; max-width: 95%; max-height: 95%;">
     </div>
+
     <!-- Header con navegación -->
     <header class="header">
         <div class="header__container">
@@ -20,9 +21,10 @@
                 <span class="logo-texto">ROOMFROM</span>
             </div>
             <nav class="header__nav">
-                <a href="#inicio" class="header__link">Inicio</a>
-                <a href="#mst-section" class="header__link">Explorar MST</a>
+                <a href="/#inicio" class="header__link">Inicio</a>
+                <a href="/#mst-section" class="header__link">Explorar MST</a>
                 <a href="{% url 'ver_compatibles' %}" class="header__link">Compatibilidad</a>
+                <a href="{% url 'benchmark' %}" class="header__link">Benchmark</a>
                 <a href="#contacto" class="header__link">Contacto</a>
             </nav>
         </div>
@@ -215,9 +217,10 @@
             <div class="pie-pagina__navegacion">
                 <h4 class="pie-pagina__subtitulo">Enlaces Rápidos</h4>
                 <ul class="pie-pagina__lista-enlaces">
-                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="/#inicio">Inicio</a></li>
                     <li><a href="{% url 'ver_compatibles' %}">Compatibilidad</a></li>
-                    <li><a href="#mst-section">Explorar MST</a></li>
+                    <li><a href="/#mst-section">Explorar MST</a></li>
+                    <li><a href="{% url 'benchmark' %}">Benchmark</a></li>
                     <li><a href="/admin/">Panel Admin</a></li>
                 </ul>
             </div>

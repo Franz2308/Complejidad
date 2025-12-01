@@ -3,26 +3,133 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Benchmark de Algoritmos</title>
-    <link rel="stylesheet" href="{% static 'RoomFrom/style.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoomFrom Benchmark</title>
+    <link rel="stylesheet" href="{% static 'RoomFrom/index.css' %}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <h1>Benchmark de Algoritmos</h1>
-    <p>Se muestran los tiempos de ejecución y la complejidad teórica (Big-O) de cada algoritmo.</p>
+    <div id="imageModal" style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.9);" onclick="closeImageModal()">
+        <span style="position: absolute; top: 20px; right: 40px; color: #fff; font-size: 40px; cursor: pointer;">&times;</span>
+        <img id="modalImage" style="margin: auto; display: block; max-width: 95%; max-height: 95%;">
+    </div>
 
-    <table border="1">
-        <tr>
-            <th>Algoritmo</th>
-            <th>Tiempo de ejecución</th>
-            <th>Big-O estimado</th>
-        </tr>
-        {% for r in resultados %}
-        <tr>
-            <td>{{ r.nombre }}</td>
-            <td>{{ r.tiempo }}</td>
-            <td>{{ r.bigO }}</td>
-        </tr>
-        {% endfor %}
-    </table>
+    <!-- Header con navegación -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <span class="logo-texto">ROOMFROM</span>
+            </div>
+            <nav class="header__nav">
+                <a href="/#inicio" class="header__link">Inicio</a>
+                <a href="/#mst-section" class="header__link">Explorar MST</a>
+                <a href="{% url 'ver_compatibles' %}" class="header__link">Compatibilidad</a>
+                <a href="{% url 'benchmark' %}" class="header__link">Benchmark</a>
+                <a href="#contacto" class="header__link">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero / Introducción -->
+    <section class="hero" id="inicio" style="padding:4rem 2rem; text-align:center;">
+        <h1 class="hero__title" style="color:rgb(0, 0, 0);">
+            Benchmark - <span class="hero__highlight">RoomFrom</span>
+        </h1>
+        <p class="hero__subtitle" style="color:rgba(0, 0, 0, 0.9); font-size:1.2rem; max-width:600px; margin: 1rem auto;">
+            Esta página muestra el rendimiento de nuestro sistema de compatibilidad, incluyendo la gráfica y los datos del benchmark.
+        </p>
+    </section>
+
+    <!-- Sección de Gráfica Dijkstra -->
+    <section id="grafica" style="padding:4rem 2rem; text-align:center; background-color:var(--color-white);">
+        <h2 style="color: var(--color-dark); margin-bottom:2rem;">
+            Gráfica de Dijkstra
+        </h2>
+        <div class="graph-container" style="display:inline-block; padding:1rem; background-color:var(--color-gray); border-radius:var(--radius-md);">
+            <img src="{% static 'RoomFrom/dijkstra.png' %}" alt="Gráfica Dijkstra" class="graph-image" style="max-width:100%; height:auto; border-radius:var(--radius-sm);">
+        </div>
+    </section>
+
+    <!-- Tabla de Benchmark -->
+    <section id="tabla" style="padding:4rem 2rem; text-align:center; background-color:var(--color-gray);">
+        <h2 style="color: var(--color-dark); margin-bottom:2rem;">Resultados del Benchmark</h2>
+        <div style="overflow-x:auto;">
+            <table style="margin:0 auto; max-width:800px; width:100%; border-collapse: collapse; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);">
+                <thead style="background-color: var(--color-dark); color: var(--color-white);">
+                    <tr>
+                        <th style="padding:1rem; text-align:center; border:1px solid #111;">Algoritmo</th>
+                        <th style="padding:1rem; text-align:center; border:1px solid #111;">Tiempo</th>
+                        <th style="padding:1rem; text-align:center; border:1px solid #111;">Complejidad (BigO)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in resultados %}
+                    <tr style="background-color: var(--color-white);">
+                        <td style="padding:1rem; text-align:center; border:1px solid #111;">{{ r.nombre }}</td>
+                        <td style="padding:1rem; text-align:center; border:1px solid #111;">{{ r.tiempo }}</td>
+                        <td style="padding:1rem; text-align:center; border:1px solid #111;">{{ r.bigO }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pie-pagina" id="contacto">
+        <div class="pie-pagina__contenedor">
+            
+            <div class="pie-pagina__info">
+                <span class="logo-texto">ROOMFROM</span>
+                <p class="pie-pagina__descripcion">
+                    Conectando estudiantes universitarios de Lima Metropolitana con la tecnología más avanzada 
+                    en algoritmos de compatibilidad.
+                </p>
+                <div class="pie-pagina__redes">
+                    <a href="https://www.facebook.com/" target="_blank" class="pie-pagina__red-social">
+                        <i class="bx bxl-facebook-circle"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="pie-pagina__red-social">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="pie-pagina__red-social">
+                        <i class="bx bxl-instagram-alt"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="pie-pagina__red-social">
+                        <i class="bx bxl-linkedin-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="pie-pagina__navegacion">
+                <h4 class="pie-pagina__subtitulo">Enlaces Rápidos</h4>
+                <ul class="pie-pagina__lista-enlaces">
+                    <li><a href="/#inicio">Inicio</a></li>
+                    <li><a href="{% url 'ver_compatibles' %}">Compatibilidad</a></li>
+                    <li><a href="/#mst-section">Explorar MST</a></li>
+                    <li><a href="{% url 'benchmark' %}">Benchmark</a></li>
+                    <li><a href="/admin/">Panel Admin</a></li>
+                </ul>
+            </div>
+
+            <div class="pie-pagina__contacto-info">
+                <h4 class="pie-pagina__subtitulo">Contacto</h4>
+                <p><i class="bx bx-map"></i> Av. Universitaria 1801, Lima, Perú</p>
+                <p><i class="bx bx-phone"></i> +51 987 654 321</p>
+                <p><i class="bx bx-envelope"></i> info@roomfrom.com</p>
+            </div>
+
+        </div>
+
+        <div class="pie-pagina__derechos">
+            <div class="pie-pagina__enlaces-legales">
+                <a href="#" class="pie-pagina__enlace-legal">Política de Privacidad</a>
+                <span class="pie-pagina__separador">|</span>
+                <a href="#" class="pie-pagina__enlace-legal">Términos y Condiciones</a>
+            </div>
+            <p>&copy; 2025 RoomFrom. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
