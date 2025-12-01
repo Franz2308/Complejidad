@@ -2,15 +2,19 @@
 ---
 ## Como ejecutar el programa
   - Tienes que tener python 3 y django 5 instalado
+  - Primero ejecutar setup.bat y esperar a que diga 
+  ```
+  echo ====================================
+echo  Setup completado exitosamente!
+echo ====================================
+  ```
   - Abrir run.bat
   - si no funciona
   ,en la terminal:
     - ir al directorio .../mi_proyecto
     ejectuar el comando "python manage.py runserver"
-    - cd
+    
 
-## Otro metodo
-## Configuración del Entorno de Desarrollo
 
 Para ejecutar este proyecto en tu máquina local, sigue los pasos detallados a continuación.
 
@@ -32,7 +36,7 @@ pip install -r requirements.txt
 
 ## El proyecto se inicia en
   http://127.0.0.1:8000/
-  
+  ```
 
 ## Autores
   - Frank Anthony Huingo Tello
