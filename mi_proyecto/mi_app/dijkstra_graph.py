@@ -5,7 +5,7 @@ import networkx as nx
 from django.conf import settings
 from .grafo import Grafo, DISTANCIAS_DISTRITOS
 
-def generar_grafo_dijkstra(origen):
+def generar_grafo_dijkstra(origen="San Isidro"):
     """
     Genera un grafo que muestra los caminos más cortos desde 'origen' hacia todos los demás distritos.
     Devuelve la ruta relativa de la imagen.

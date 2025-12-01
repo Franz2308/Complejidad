@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Benchmark de Algoritmos</title>
+    <link rel="stylesheet" href="{% static 'RoomFrom/style.css' %}">
+</head>
+<body>
+    <h1>Benchmark de Algoritmos</h1>
+    <p>Se muestran los tiempos de ejecución y la complejidad teórica (Big-O) de cada algoritmo.</p>
+
+    <table border="1">
+        <tr>
+            <th>Algoritmo</th>
+            <th>Tiempo de ejecución</th>
+            <th>Big-O estimado</th>
+        </tr>
+        {% for r in resultados %}
+        <tr>
+            <td>{{ r.nombre }}</td>
+            <td>{{ r.tiempo }}</td>
+            <td>{{ r.bigO }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

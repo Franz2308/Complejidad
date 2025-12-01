@@ -1,4 +1,7 @@
+import time
 from django.shortcuts import render, get_object_or_404
+from .dijkstra_graph import generar_grafo_dijkstra  # tu implementación
+from .mst_generator import generar_grafo_mst
 from .models import Estudiante
 from .algoritmo import compatibilidad
 from .grafo import Grafo, DISTANCIAS_DISTRITOS
@@ -128,3 +131,32 @@ def ver_compatibles(request, student_id=None):
         'high_compatibility': high_compatibility,
         'closest_time': closest_time,
     })
+
+
+def benchmark_algoritmos(request):
+    resultados = []
+
+    # Lista de algoritmos que quieres medir
+    algoritmos = [
+        ("Dijkstra", generar_grafo_dijkstra),
+        ("Kruskal", generar_grafo_mst)
+    ]
+
+    for nombre, func in algoritmos:
+        start = time.perf_counter()
+
+        if nombre == "Dijkstra":
+            func()  # usa origen por defecto "San Isidro"
+        else:
+            func()  # Kruskal no requiere argumentos
+
+        end = time.perf_counter()
+        tiempo = end - start
+
+        resultados.append({
+            "nombre": nombre,
+            "tiempo": f"{tiempo:.6f} s",
+            "bigO": "O(E log V)" if nombre == "Kruskal" else "O(V^2)"  # ejemplo BigO
+        })
+
+    return render(request, "benchmark.html", {"resultados": resultados})
